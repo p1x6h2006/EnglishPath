@@ -43,6 +43,7 @@ summary{cursor:pointer;font-weight:600;font-size:1.05rem}
 ul{padding-left:1.2em}
 footer{margin-top:30px;color:var(--mut);font-size:.85rem}
 @media(max-width:560px){.step small{display:none}}
+@media(max-width:560px){.tp{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:6px;scrollbar-width:thin}.tp .c{flex:none;margin:0}}
 :root:root{--bg:#070b17;--sf:#0e1630;--ink:#e6edff;--mut:#8b9acb;--ac:#22d3ee;--on:#03121a;--hi:#b794ff;--ln:#22305a;--gl:rgba(34,211,238,.06);color-scheme:dark}
 body{background:radial-gradient(900px 500px at 85% -10%,rgba(124,92,255,.22),transparent 60%),radial-gradient(700px 450px at 0% 10%,rgba(34,211,238,.14),transparent 60%),linear-gradient(var(--gl) 1px,transparent 1px) 0 0/100% 28px,linear-gradient(90deg,var(--gl) 1px,transparent 1px) 0 0/28px 100%,var(--bg);background-attachment:fixed}
 body::after{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(420px circle at var(--gx,50%) var(--gy,15%),rgba(34,211,238,.1),transparent 65%)}
@@ -113,17 +114,17 @@ const Q=[["A1","She ___ a teacher.",["is","are","am"],0,"Chủ ngữ she đi v�
 const E=[["TOEIC Listening và Reading","200 câu trắc nghiệm, khoảng 2 giờ, thang điểm 10–990. Hợp để chứng minh tiếng Anh môi trường công sở.","Học từ vựng theo chủ đề công việc; luyện Part 5 và 6 (ngữ pháp, điền từ) để lấy điểm nhanh."],
 ["IELTS","Bốn kỹ năng Nghe, Đọc, Viết, Nói; thang band 0–9; tổng khoảng 2 giờ 45 phút. Có bản Academic và General Training.","Viết một bài Task 2 mỗi tuần; ghi âm phần nói của mình rồi nghe lại."],
 ["VSTEP","Chứng chỉ do Việt Nam tổ chức, đánh giá bốn kỹ năng, kết quả theo bậc 3–5 (B1–C1). Thường dùng làm chuẩn đầu ra ở các trường đại học trong nước.","Hỏi khoa xem trường yêu cầu bậc mấy và đơn vị thi nào được công nhận."]];
-let st={l:"all",tab:"lo-trinh",i:0,flip:false,qi:0,sc:0,ans:null},K={known:{}};
+let st={tp:"",l:"all",tab:"lo-trinh",i:0,flip:false,qi:0,sc:0,ans:null},K={known:{}};
 try{K=Object.assign(K,JSON.parse(localStorage.getItem("ep")||"{}"))}catch(e){}
 const save=()=>{try{localStorage.setItem("ep",JSON.stringify(K))}catch(e){}};
 const F=x=>st.l=="all"||st.l==x[0]||(st.l=="IT"&&st.tab!="tu-vung");
 const T=[["lo-trinh","Lộ trình"],["ngu-phap","Ngữ pháp"],["tu-vung","Từ vựng"],["luyen-tap","Luyện tập"],["ky-thi","Kỳ thi"]];
-const cur=()=>V.filter(F)[st.i];
+const FT=x=>F(x)&&(!st.tp||x[6]==st.tp),cur=()=>V.filter(FT)[st.i];
 const views={
 "lo-trinh":()=>`<div class="g">`+LV.filter(F).map(v=>`<article class="card"><h3>${v[0]} · ${v[1]}</h3><p>${v[2]}</p><p class="m">Thời gian gợi ý: ${v[3]}, khoảng 1 giờ mỗi ngày.<br>Tương đương: ${v[4]}.</p><button class="b" data-l="${v[0]}" data-t="ngu-phap">Ngữ pháp</button> <button class="b" data-l="${v[0]}" data-t="tu-vung">Từ vựng</button> <button class="b" data-l="${v[0]}" data-t="luyen-tap">Luyện tập</button></article>`).join("")+`</div>`,
 "ngu-phap":()=>G.filter(F).map(g=>`<details class="card"><summary><span class="tag">${g[0]}</span>${g[1]}</summary><p>${g[2]}</p><div class="exs">${g[3].split("|").map(x=>{const p=x.split("=");return`<p class="ex"><b>${p[0]}</b><br><span class="vi">${p[1]||""}</span></p>`}).join("")}</div></details>`).join(""),
-"tu-vung":()=>{const a=V.filter(F);if(!a.length)return"";if(st.i>=a.length)st.i=0;const w=a[st.i],n=a.filter(x=>K.known[x[1]]).length;
-return `<p class="m">Thẻ ${st.i+1}/${a.length}, đã nhớ ${n}</p><div class="card fc" data-f="1" tabindex="0"><p class="wd">${w[1]}</p>`+(st.flip?`<p>${w[2]} (${w[0]})</p><p><b>${w[3]}</b></p><p class="ex">${w[4]}${w[5]?`<br><span class="vi">${w[5]}</span>`:""}</p>`:`<p class="m">Chạm vào thẻ để xem nghĩa</p>`)+`</div><p><button class="b" data-s="1">Nghe phát âm</button> <button class="b" data-k="0">Chưa nhớ</button> <button class="b p" data-k="1">Đã nhớ</button></p><div>`+a.map((x,j)=>`<button class="c${j==st.i?" on":""}" data-j="${j}">${K.known[x[1]]?"✓ ":""}${x[1]}</button>`).join("")+`</div>`},
+"tu-vung":()=>{const all=V.filter(F),tps=[...new Set(all.map(x=>x[6]).filter(Boolean))];if(st.tp&&!tps.includes(st.tp))st.tp="";const a=V.filter(FT);if(!a.length)return"";if(st.i>=a.length)st.i=0;const w=a[st.i],n=a.filter(x=>K.known[x[1]]).length;
+return (tps.length?`<div class="chips tp"><button class="c${st.tp?"":" on"}" data-p="">Tất cả chủ đề</button>`+tps.map(t=>`<button class="c${st.tp==t?" on":""}" data-p="${t}">${t}</button>`).join("")+`</div>`:"")+`<p class="m">Thẻ ${st.i+1}/${a.length}, đã nhớ ${n}</p><div class="card fc" data-f="1" tabindex="0"><p class="wd">${w[1]}</p>`+(st.flip?`<p>${w[2]} (${w[0]})</p><p><b>${w[3]}</b></p><p class="ex">${w[4]}${w[5]?`<br><span class="vi">${w[5]}</span>`:""}</p>`:`<p class="m">Chạm vào thẻ để xem nghĩa</p>`)+`</div><p><button class="b" data-s="1">Nghe phát âm</button> <button class="b" data-k="0">Chưa nhớ</button> <button class="b p" data-k="1">Đã nhớ</button></p><div>`+a.map((x,j)=>`<button class="c${j==st.i?" on":""}" data-j="${j}">${K.known[x[1]]?"✓ ":""}${x[1]}</button>`).join("")+`</div>`},
 "luyen-tap":()=>{const a=Q.filter(F);if(!a.length)return"";
 if(st.qi>=a.length)return `<div class="card"><h3>Kết quả: ${st.sc}/${a.length}</h3><p>${st.sc==a.length?"Hoàn hảo! Hãy thử bậc cao hơn.":"Xem lại các câu sai ở mục Ngữ pháp rồi làm lại."}</p><button class="b p" data-r="1">Làm lại</button></div>`;
 const q=a[st.qi];
@@ -133,8 +134,9 @@ function R(){const h=location.hash.slice(1);if(views[h])st.tab=h;
 $("nav").innerHTML=T.map(t=>`<button class="${t[0]==st.tab?"on":""}" data-t="${t[0]}">${t[1]}</button>`).join("");
 $("#st").innerHTML=`<div class="stairs">`+LV.map((v,i)=>`<button class="step${st.l==v[0]?" on":""}" style="--h:${64+i*18}px" data-l="${v[0]}"><b>${v[0]}</b><small>${v[1]}</small></button>`).join("")+`</div><div class="chips"><button class="c${st.l=="all"?" on":""}" data-l="all">Tất cả cấp độ</button><button class="c${st.l=="IT"?" on":""}" data-l="IT" data-t="tu-vung">Từ vựng IT</button></div>`;
 $("#v").innerHTML=views[st.tab]()||`<p class="card">Mục này chưa có nội dung cho lựa chọn hiện tại.</p>`}
-document.addEventListener("click",e=>{const d=e.target.closest("[data-l],[data-t],[data-f],[data-s],[data-k],[data-j],[data-a],[data-n],[data-r]");if(!d)return;const s=d.dataset;
-if(s.l!=null){st.l=d.classList.contains("step")&&st.l==s.l?"all":s.l;st.i=st.qi=st.sc=0;st.ans=null;st.flip=false}
+document.addEventListener("click",e=>{const d=e.target.closest("[data-p],[data-l],[data-t],[data-f],[data-s],[data-k],[data-j],[data-a],[data-n],[data-r]");if(!d)return;const s=d.dataset;
+if(s.p!=null){st.tp=st.tp==s.p?"":s.p;st.i=0;st.flip=false}
+if(s.l!=null){st.tp="";st.l=d.classList.contains("step")&&st.l==s.l?"all":s.l;st.i=st.qi=st.sc=0;st.ans=null;st.flip=false}
 if(s.t){st.tab=s.t;location.hash=s.t}
 if(s.f!=null)st.flip=!st.flip;
 if(s.s!=null){const w=cur();if(w&&window.speechSynthesis){const u=new SpeechSynthesisUtterance(w[1]);u.lang="en-US";speechSynthesis.cancel();speechSynthesis.speak(u)}}
@@ -348,7 +350,7 @@ TD.filter(F).forEach(t=>o.push(mk(t[0],`Cách nói tự nhiên, đúng hơn cho 
 GT.filter(F).filter(t=>t.length<6).forEach(t=>o.push(mk(t[0],`Tình huống “${t[1]}”: cách nói nào phù hợp, lịch sự hơn?`,t[3],[t[2]],t[4])));
 TN.filter(F).forEach(t=>o.push(mk(t[0],`Thành ngữ “${t[1]}” nghĩa là gì?`,t[2],pk(TN.filter(x=>x[1]!=t[1]).map(x=>x[2]),2),`${t[1]} = ${t[2]}. Ví dụ: ${t[3]}`)));
 return o};
-fetch("tu-vung.txt").then(r=>{if(!r.ok)throw 0;return r.text()}).then(t=>{t.split("\n").forEach(l=>{if(!l.trim()||l[0]=="#")return;const p=l.split("|");if(p.length>=5)V.push([p[0],p[1],p[2],p[3],p[4],p[5]||""])})}).catch(()=>{const f=document.querySelector("footer");if(f)f.insertAdjacentHTML("afterbegin","<p><b>Không tải được tu-vung.txt.</b> Hãy để file này cùng thư mục với index.html và mở qua máy chủ web (không mở trực tiếp bằng file://).</p>")}).finally(R);
+fetch("tu-vung.txt").then(r=>{if(!r.ok)throw 0;return r.text()}).then(t=>{t.split("\n").forEach(l=>{if(!l.trim()||l[0]=="#")return;const p=l.split("|");if(p.length>=5)V.push([p[0],p[1],p[2],p[3],p[4],p[5]||"",(p[6]||"").trim()])})}).catch(()=>{const f=document.querySelector("footer");if(f)f.insertAdjacentHTML("afterbegin","<p><b>Không tải được tu-vung.txt.</b> Hãy để file này cùng thư mục với index.html và mở qua máy chủ web (không mở trực tiếp bằng file://).</p>")}).finally(R);
 })();
 </script>
 </body></html>
