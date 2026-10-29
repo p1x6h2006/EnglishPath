@@ -1,0 +1,920 @@
+# EnglishPath - từ vựng
+# Mỗi dòng: cấp độ | từ | phiên âm | nghĩa | ví dụ (EN) | ví dụ (VI)
+# Cấp độ: A1 A2 B1 B2 C1 C2 IT. Dòng bắt đầu bằng # bị bỏ qua.
+A1|friend|/frend/|bạn bè|She is my best friend.|Cô ấy là bạn thân nhất của tôi.
+A1|study|/ˈstʌdi/|học|I study English at night.|Tôi học tiếng Anh vào buổi tối.
+A1|usually|/ˈjuːʒuəli/|thường xuyên|I usually wake up early.|Tôi thường dậy sớm.
+A1|cheap|/tʃiːp/|rẻ|This phone is cheap.|Chiếc điện thoại này rẻ.
+A1|near|/nɪər/|gần|The bank is near here.|Ngân hàng ở gần đây.
+A1|busy|/ˈbɪzi/|bận|I’m busy today.|Hôm nay tôi bận.
+A2|borrow|/ˈbɒrəʊ/|mượn|Can I borrow your pen?|Cho tôi mượn cây bút của bạn được không?
+A2|arrive|/əˈraɪv/|đến nơi|We arrived at six.|Chúng tôi đến nơi lúc sáu giờ.
+A2|improve|/ɪmˈpruːv/|cải thiện|I want to improve my speaking.|Tôi muốn cải thiện kỹ năng nói.
+A2|expensive|/ɪkˈspensɪv/|đắt|The ticket was expensive.|Chiếc vé này đắt.
+A2|decide|/dɪˈsaɪd/|quyết định|She decided to stay.|Cô ấy quyết định ở lại.
+A2|prepare|/prɪˈpeər/|chuẩn bị|Prepare for the exam.|Hãy chuẩn bị cho kỳ thi.
+B1|achieve|/əˈtʃiːv/|đạt được|He achieved his goal.|Anh ấy đã đạt được mục tiêu.
+B1|opportunity|/ˌɒpəˈtjuːnəti/|cơ hội|A great opportunity.|Một cơ hội tuyệt vời.
+B1|experience|/ɪkˈspɪəriəns/|kinh nghiệm|I have work experience.|Tôi có kinh nghiệm làm việc.
+B1|suggest|/səˈdʒest/|đề xuất|I suggest a short break.|Tôi đề xuất nghỉ giải lao một lát.
+B1|environment|/ɪnˈvaɪrənmənt/|môi trường|Protect the environment.|Hãy bảo vệ môi trường.
+B1|deadline|/ˈdedlaɪn/|hạn chót|The deadline is Friday.|Hạn chót là thứ Sáu.
+B2|significant|/sɪɡˈnɪfɪkənt/|đáng kể|A significant increase.|Một mức tăng đáng kể.
+B2|reliable|/rɪˈlaɪəbl/|đáng tin cậy|A reliable source.|Một nguồn đáng tin cậy.
+B2|approach|/əˈprəʊtʃ/|cách tiếp cận|A new approach.|Một cách tiếp cận mới.
+B2|consequence|/ˈkɒnsɪkwəns/|hệ quả|Face the consequences.|Đối mặt với hệ quả.
+B2|sustainable|/səˈsteɪnəbl/|bền vững|Sustainable growth.|Sự tăng trưởng bền vững.
+B2|evaluate|/ɪˈvæljueɪt/|đánh giá|Evaluate the results.|Đánh giá kết quả.
+C1|ambiguous|/æmˈbɪɡjuəs/|mơ hồ|The wording is ambiguous.|Cách diễn đạt này mơ hồ.
+C1|mitigate|/ˈmɪtɪɡeɪt/|giảm nhẹ|Mitigate the risk.|Giảm nhẹ rủi ro.
+C1|coherent|/kəʊˈhɪərənt/|mạch lạc|A coherent argument.|Một lập luận mạch lạc.
+C1|substantiate|/səbˈstænʃieɪt/|chứng minh bằng dẫn chứng|Substantiate your claim.|Hãy chứng minh nhận định của bạn bằng dẫn chứng.
+C1|inherent|/ɪnˈhɪərənt/|vốn có|An inherent flaw.|Một lỗi vốn có.
+C1|scrutinize|/ˈskruːtənaɪz/|xem xét kỹ|Scrutinize the data.|Xem xét kỹ dữ liệu.
+C2|ubiquitous|/juːˈbɪkwɪtəs/|có mặt khắp nơi|Smartphones are ubiquitous.|Điện thoại thông minh có mặt khắp nơi.
+C2|ephemeral|/ɪˈfemərəl/|phù du, ngắn ngủi|Ephemeral fame.|Tiếng tăm chóng phai.
+C2|meticulous|/məˈtɪkjələs/|tỉ mỉ|A meticulous review.|Một bản rà soát tỉ mỉ.
+C2|pragmatic|/præɡˈmætɪk/|thực dụng|A pragmatic choice.|Một lựa chọn thực dụng.
+C2|exacerbate|/ɪɡˈzæsəbeɪt/|làm trầm trọng thêm|It exacerbated the problem.|Nó làm vấn đề trầm trọng thêm.
+C2|juxtapose|/ˈdʒʌkstəpəʊz/|đặt cạnh để đối chiếu|Juxtapose two designs.|Đặt hai thiết kế cạnh nhau để đối chiếu.
+IT|algorithm|/ˈælɡərɪðəm/|thuật toán|Sort with an efficient algorithm.|Sắp xếp bằng một thuật toán hiệu quả.
+IT|bandwidth|/ˈbændwɪdθ/|băng thông|We need more bandwidth.|Chúng tôi cần thêm băng thông.
+IT|deploy|/dɪˈplɔɪ/|triển khai|Deploy the app to production.|Triển khai ứng dụng lên môi trường chính thức.
+IT|debug|/diːˈbʌɡ/|gỡ lỗi|I debug code every day.|Ngày nào tôi cũng gỡ lỗi code.
+IT|encryption|/ɪnˈkrɪpʃn/|mã hóa|Use end-to-end encryption.|Hãy dùng mã hóa đầu cuối.
+IT|scalable|/ˈskeɪləbl/|có khả năng mở rộng|A scalable architecture.|Một kiến trúc có khả năng mở rộng.
+IT|repository|/rɪˈpɒzətri/|kho mã nguồn|Clone the repository.|Hãy sao chép kho mã nguồn về.
+IT|latency|/ˈleɪtənsi/|độ trễ|Reduce network latency.|Giảm độ trễ mạng.
+A1|teacher|/ˈtiːtʃər/|giáo viên|My teacher is kind.|Cô giáo của tôi rất tốt bụng.
+A1|happy|/ˈhæpi/|vui vẻ|I’m happy today.|Hôm nay tôi vui.
+A1|big|/bɪɡ/|to, lớn|A big city.|Một thành phố lớn.
+A1|often|/ˈɒfn/|thường|I often read books.|Tôi thường đọc sách.
+A1|buy|/baɪ/|mua|Buy a new mouse.|Mua một con chuột máy tính mới.
+A2|travel|/ˈtrævl/|du lịch|I love to travel.|Tôi thích đi du lịch.
+A2|comfortable|/ˈkʌmftəbl/|thoải mái|A comfortable chair.|Một chiếc ghế thoải mái.
+A2|invite|/ɪnˈvaɪt/|mời|She invited me.|Cô ấy đã mời tôi.
+A2|between|/bɪˈtwiːn/|giữa|Between two files.|Giữa hai tệp.
+A2|describe|/dɪˈskraɪb/|mô tả|Describe your day.|Hãy mô tả một ngày của bạn.
+B1|available|/əˈveɪləbl/|có sẵn|Is the room available?|Phòng này còn trống không?
+B1|responsible|/rɪˈspɒnsəbl/|chịu trách nhiệm|I’m responsible for testing.|Tôi chịu trách nhiệm về việc kiểm thử.
+B1|avoid|/əˈvɔɪd/|tránh|Avoid mistakes.|Tránh sai sót.
+B1|compare|/kəmˈpeər/|so sánh|Compare two options.|So sánh hai phương án.
+B1|benefit|/ˈbenɪfɪt/|lợi ích|A clear benefit.|Một lợi ích rõ ràng.
+B2|implement|/ˈɪmplɪment/|triển khai thực hiện|Implement the plan.|Triển khai kế hoạch.
+B2|concentrate|/ˈkɒnsntreɪt/|tập trung|Concentrate on the task.|Tập trung vào nhiệm vụ.
+B2|reluctant|/rɪˈlʌktənt/|miễn cưỡng|He was reluctant to agree.|Anh ấy miễn cưỡng đồng ý.
+B2|emphasize|/ˈemfəsaɪz/|nhấn mạnh|Emphasize key points.|Nhấn mạnh các ý chính.
+B2|controversial|/ˌkɒntrəˈvɜːʃl/|gây tranh cãi|A controversial idea.|Một ý tưởng gây tranh cãi.
+C1|comprehensive|/ˌkɒmprɪˈhensɪv/|toàn diện|A comprehensive guide.|Một hướng dẫn toàn diện.
+C1|undermine|/ˌʌndəˈmaɪn/|làm suy yếu|Doubt undermines trust.|Sự nghi ngờ làm suy yếu niềm tin.
+C1|viable|/ˈvaɪəbl/|khả thi|A viable solution.|Một giải pháp khả thi.
+C1|nuance|/ˈnjuːɑːns/|sắc thái|Catch every nuance.|Nắm bắt từng sắc thái.
+C1|reinforce|/ˌriːɪnˈfɔːs/|củng cố|Reinforce the argument.|Củng cố lập luận.
+C2|paradigm|/ˈpærədaɪm/|mô hình tư duy|A paradigm shift.|Một sự thay đổi mô hình tư duy.
+C2|ostensibly|/ɒˈstensɪbli/|bề ngoài là|Ostensibly a bug fix.|Bề ngoài là một bản sửa lỗi.
+C2|inexorable|/ɪnˈeksərəbl/|không thể ngăn cản|Inexorable progress.|Tiến bộ không thể ngăn cản.
+C2|tenuous|/ˈtenjuəs/|mong manh|A tenuous link.|Một mối liên hệ mong manh.
+C2|obsolete|/ˌɒbsəˈliːt/|lỗi thời|The format is obsolete.|Định dạng này đã lỗi thời.
+IT|compiler|/kəmˈpaɪlər/|trình biên dịch|The compiler found an error.|Trình biên dịch đã phát hiện một lỗi.
+IT|framework|/ˈfreɪmwɜːk/|khung phần mềm|Choose a web framework.|Hãy chọn một framework web.
+IT|database|/ˈdeɪtəbeɪs/|cơ sở dữ liệu|Query the database.|Truy vấn cơ sở dữ liệu.
+IT|firewall|/ˈfaɪəwɔːl/|tường lửa|The firewall blocks attacks.|Tường lửa chặn các cuộc tấn công.
+IT|cache|/kæʃ/|bộ nhớ đệm|Clear the cache.|Xóa bộ nhớ đệm.
+IT|authenticate|/ɔːˈθentɪkeɪt/|xác thực|Authenticate the user.|Xác thực người dùng.
+IT|refactor|/ˌriːˈfæktər/|tái cấu trúc mã|Refactor the old module.|Tái cấu trúc mô-đun cũ.
+IT|backend|/ˈbækend/|phần phía máy chủ|She works on the backend.|Cô ấy làm phần backend.
+A1|water|/ˈwɔːtər/|nước|I drink water every day.|Tôi uống nước mỗi ngày.
+A1|house|/haʊs/|ngôi nhà|Their house is big.|Nhà của họ rất lớn.
+A1|family|/ˈfæməli/|gia đình|I love my family.|Tôi yêu gia đình mình.
+A1|food|/fuːd/|đồ ăn|The food is good.|Đồ ăn rất ngon.
+A1|school|/skuːl/|trường học|School starts at seven.|Trường học bắt đầu lúc bảy giờ.
+A1|work|/wɜːk/|làm việc|I work in an office.|Tôi làm việc ở văn phòng.
+A1|read|/riːd/|đọc|I read before bed.|Tôi đọc sách trước khi ngủ.
+A1|write|/raɪt/|viết|Write your name here.|Hãy viết tên bạn vào đây.
+A1|open|/ˈəʊpən/|mở|Open the door.|Mở cửa ra.
+A1|close|/kləʊz/|đóng|Close the window.|Đóng cửa sổ lại.
+A1|new|/njuː/|mới|I have a new phone.|Tôi có một chiếc điện thoại mới.
+A1|old|/əʊld/|cũ, già|This car is old.|Chiếc xe này cũ rồi.
+A1|good|/ɡʊd/|tốt|It is a good idea.|Đó là một ý hay.
+A1|small|/smɔːl/|nhỏ|A small room.|Một căn phòng nhỏ.
+A1|morning|/ˈmɔːnɪŋ/|buổi sáng|Good morning!|Chào buổi sáng!
+A1|night|/naɪt/|buổi tối, đêm|Good night!|Chúc ngủ ngon!
+A2|weather|/ˈweðər/|thời tiết|The weather is nice.|Thời tiết đẹp.
+A2|holiday|/ˈhɒlədeɪ/|kỳ nghỉ|We go on holiday in July.|Chúng tôi đi nghỉ vào tháng Bảy.
+A2|dangerous|/ˈdeɪndʒərəs/|nguy hiểm|The road is dangerous.|Con đường này nguy hiểm.
+A2|forget|/fəˈɡet/|quên|Don’t forget your key.|Đừng quên chìa khóa.
+A2|remember|/rɪˈmembər/|nhớ|I remember her name.|Tôi nhớ tên cô ấy.
+A2|win|/wɪn/|thắng|Our team won.|Đội của chúng tôi đã thắng.
+A2|lose|/luːz/|mất, thua|I lost my wallet.|Tôi làm mất ví.
+A2|clean|/kliːn/|sạch, dọn dẹp|Clean your desk.|Hãy dọn bàn làm việc.
+A2|quiet|/ˈkwaɪət/|yên tĩnh|The library is quiet.|Thư viện rất yên tĩnh.
+A2|crowded|/ˈkraʊdɪd/|đông đúc|The bus was crowded.|Chiếc xe buýt rất đông.
+A2|kind|/kaɪnd/|tốt bụng|She is very kind.|Cô ấy rất tốt bụng.
+A2|wait|/weɪt/|chờ|Wait for me here.|Hãy chờ tôi ở đây.
+A2|choose|/tʃuːz/|chọn|Choose one answer.|Hãy chọn một đáp án.
+A2|visit|/ˈvɪzɪt/|thăm|I visit my grandma on Sundays.|Chủ nhật nào tôi cũng thăm bà.
+A2|message|/ˈmesɪdʒ/|tin nhắn|Send me a message.|Hãy nhắn tin cho tôi.
+A2|ticket|/ˈtɪkɪt/|vé|Buy a ticket online.|Mua vé trực tuyến.
+B1|appointment|/əˈpɔɪntmənt/|cuộc hẹn|I have a doctor’s appointment.|Tôi có lịch hẹn với bác sĩ.
+B1|damage|/ˈdæmɪdʒ/|thiệt hại|The storm caused damage.|Cơn bão gây ra thiệt hại.
+B1|recommend|/ˌrekəˈmend/|giới thiệu, khuyên dùng|I recommend this book.|Tôi giới thiệu cuốn sách này.
+B1|attitude|/ˈætɪtjuːd/|thái độ|A positive attitude helps.|Thái độ tích cực rất có ích.
+B1|challenge|/ˈtʃælɪndʒ/|thử thách|It’s a big challenge.|Đó là một thử thách lớn.
+B1|compete|/kəmˈpiːt/|cạnh tranh|Teams compete for the prize.|Các đội cạnh tranh giải thưởng.
+B1|encourage|/ɪnˈkʌrɪdʒ/|khích lệ|She encouraged me to try.|Cô ấy khích lệ tôi thử.
+B1|require|/rɪˈkwaɪər/|yêu cầu, đòi hỏi|The job requires patience.|Công việc này đòi hỏi sự kiên nhẫn.
+B1|reduce|/rɪˈdjuːs/|giảm|Reduce the file size.|Giảm dung lượng tệp.
+B1|rely|/rɪˈlaɪ/|dựa vào|You can rely on me.|Bạn có thể dựa vào tôi.
+B1|schedule|/ˈʃedjuːl/|lịch trình|Check the schedule.|Hãy xem lịch trình.
+B1|struggle|/ˈstrʌɡl/|vật lộn, khó khăn|I struggle with grammar.|Tôi gặp khó khăn với ngữ pháp.
+B1|volunteer|/ˌvɒlənˈtɪər/|tình nguyện viên|She works as a volunteer.|Cô ấy làm tình nguyện viên.
+B1|disappointed|/ˌdɪsəˈpɔɪntɪd/|thất vọng|I’m disappointed with the result.|Tôi thất vọng với kết quả.
+B2|afford|/əˈfɔːd/|có đủ khả năng chi trả|I can’t afford a new laptop.|Tôi không đủ tiền mua laptop mới.
+B2|assume|/əˈsjuːm/|cho rằng, giả định|Don’t assume anything.|Đừng giả định gì cả.
+B2|conflict|/ˈkɒnflɪkt/|xung đột|A conflict between teams.|Xung đột giữa các nhóm.
+B2|contribute|/kənˈtrɪbjuːt/|đóng góp|Everyone should contribute.|Ai cũng nên đóng góp.
+B2|crucial|/ˈkruːʃl/|then chốt|A crucial decision.|Một quyết định then chốt.
+B2|demonstrate|/ˈdemənstreɪt/|trình bày, chứng minh|Demonstrate the new feature.|Hãy trình bày tính năng mới.
+B2|diverse|/daɪˈvɜːs/|đa dạng|A diverse team.|Một nhóm đa dạng.
+B2|enhance|/ɪnˈhɑːns/|nâng cao|Enhance user experience.|Nâng cao trải nghiệm người dùng.
+B2|flexible|/ˈfleksəbl/|linh hoạt|Flexible working hours.|Giờ làm việc linh hoạt.
+B2|obstacle|/ˈɒbstəkl/|trở ngại|Fear is the main obstacle.|Nỗi sợ là trở ngại chính.
+B2|perspective|/pəˈspektɪv/|góc nhìn|See it from another perspective.|Hãy nhìn từ một góc nhìn khác.
+B2|priority|/praɪˈɒrəti/|ưu tiên|Security is our top priority.|Bảo mật là ưu tiên hàng đầu của chúng tôi.
+B2|vulnerable|/ˈvʌlnərəbl/|dễ bị tổn thương|The system is vulnerable.|Hệ thống này dễ bị tấn công.
+B2|widespread|/ˈwaɪdspred/|phổ biến rộng rãi|Widespread support.|Sự ủng hộ rộng rãi.
+C1|acknowledge|/əkˈnɒlɪdʒ/|thừa nhận|Acknowledge your mistakes.|Hãy thừa nhận sai lầm của bạn.
+C1|alleviate|/əˈliːvieɪt/|làm dịu bớt|Alleviate the pain.|Làm dịu cơn đau.
+C1|arbitrary|/ˈɑːbɪtrəri/|tùy tiện|An arbitrary decision.|Một quyết định tùy tiện.
+C1|compelling|/kəmˈpelɪŋ/|thuyết phục, hấp dẫn|A compelling argument.|Một lập luận thuyết phục.
+C1|deteriorate|/dɪˈtɪəriəreɪt/|xấu đi|His health deteriorated.|Sức khỏe của ông ấy xấu đi.
+C1|discrepancy|/dɪˈskrepənsi/|sự chênh lệch|A discrepancy in the data.|Dữ liệu có sự chênh lệch.
+C1|feasible|/ˈfiːzəbl/|khả thi|Is the plan feasible?|Kế hoạch này có khả thi không?
+C1|implication|/ˌɪmplɪˈkeɪʃn/|hệ quả, hàm ý|Consider the implications.|Hãy cân nhắc các hệ quả.
+C1|plausible|/ˈplɔːzəbl/|hợp lý, có vẻ đúng|A plausible explanation.|Một lời giải thích hợp lý.
+C1|prevalent|/ˈprevələnt/|phổ biến|A prevalent problem.|Một vấn đề phổ biến.
+C1|robust|/rəʊˈbʌst/|vững chắc|A robust system.|Một hệ thống vững chắc.
+C1|skeptical|/ˈskeptɪkl/|hoài nghi|I’m skeptical about it.|Tôi hoài nghi về điều đó.
+C1|trivial|/ˈtrɪviəl/|tầm thường, nhỏ nhặt|A trivial detail.|Một chi tiết nhỏ nhặt.
+C1|volatile|/ˈvɒlətaɪl/|biến động|A volatile market.|Một thị trường biến động.
+C2|ambivalent|/æmˈbɪvələnt/|mâu thuẫn trong cảm xúc|She felt ambivalent about it.|Cô ấy có cảm xúc mâu thuẫn về chuyện đó.
+C2|conundrum|/kəˈnʌndrəm/|câu hỏi hóc búa|A real conundrum.|Một câu hỏi hóc búa thật sự.
+C2|detrimental|/ˌdetrɪˈmentl/|có hại|Detrimental to health.|Có hại cho sức khỏe.
+C2|elusive|/ɪˈluːsɪv/|khó nắm bắt|Success remained elusive.|Thành công vẫn khó nắm bắt.
+C2|idiosyncratic|/ˌɪdiəsɪŋˈkrætɪk/|đặc trưng riêng, lập dị|An idiosyncratic style.|Một phong cách rất riêng.
+C2|insidious|/ɪnˈsɪdiəs/|ngấm ngầm|An insidious bug.|Một lỗi ngấm ngầm.
+C2|mundane|/mʌnˈdeɪn/|tẻ nhạt, thường ngày|A mundane task.|Một việc tẻ nhạt thường ngày.
+C2|perfunctory|/pəˈfʌŋktəri/|qua loa|A perfunctory glance.|Một cái liếc qua loa.
+C2|resilient|/rɪˈzɪliənt/|kiên cường, phục hồi nhanh|A resilient network.|Một mạng lưới kiên cường.
+C2|serendipity|/ˌserənˈdɪpəti/|sự tình cờ may mắn|Pure serendipity.|Hoàn toàn là sự tình cờ may mắn.
+C2|vindicate|/ˈvɪndɪkeɪt/|chứng minh là đúng|The results vindicated him.|Kết quả đã chứng minh anh ấy đúng.
+C2|pervasive|/pəˈveɪsɪv/|lan tỏa khắp nơi|A pervasive influence.|Một ảnh hưởng lan tỏa khắp nơi.
+IT|API|/ˌeɪ piː ˈaɪ/|giao diện lập trình ứng dụng|Call the API.|Hãy gọi API.
+IT|server|/ˈsɜːvər/|máy chủ|The server is down.|Máy chủ đang ngừng hoạt động.
+IT|variable|/ˈveəriəbl/|biến|Declare a variable.|Khai báo một biến.
+IT|function|/ˈfʌŋkʃn/|hàm|Write a function.|Viết một hàm.
+IT|loop|/luːp/|vòng lặp|An infinite loop.|Một vòng lặp vô hạn.
+IT|array|/əˈreɪ/|mảng|Store it in an array.|Lưu nó vào một mảng.
+IT|syntax|/ˈsɪntæks/|cú pháp|A syntax error.|Một lỗi cú pháp.
+IT|runtime|/ˈrʌntaɪm/|thời gian chạy|A runtime error.|Một lỗi lúc chạy.
+IT|merge|/mɜːdʒ/|gộp (mã nguồn)|Merge the branch.|Gộp nhánh lại.
+IT|commit|/kəˈmɪt/|lưu thay đổi vào Git|Commit your changes.|Hãy commit các thay đổi của bạn.
+IT|pipeline|/ˈpaɪplaɪn/|quy trình tự động|The CI pipeline failed.|Pipeline CI đã thất bại.
+IT|container|/kənˈteɪnər/|vùng chứa (Docker)|Run it in a container.|Chạy nó trong một container.
+IT|endpoint|/ˈendpɔɪnt/|điểm cuối API|Test the endpoint.|Kiểm thử endpoint.
+IT|query|/ˈkwɪəri/|truy vấn|Run a SQL query.|Chạy một truy vấn SQL.
+IT|payload|/ˈpeɪləʊd/|dữ liệu gửi đi|Check the request payload.|Kiểm tra dữ liệu gửi kèm yêu cầu.
+IT|dependency|/dɪˈpendənsi/|thư viện phụ thuộc|Update the dependencies.|Cập nhật các thư viện phụ thuộc.
+IT|migrate|/maɪˈɡreɪt/|di chuyển hệ thống|Migrate to the cloud.|Chuyển lên đám mây.
+IT|vulnerability|/ˌvʌlnərəˈbɪləti/|lỗ hổng bảo mật|Patch the vulnerability.|Vá lỗ hổng bảo mật.
+IT|throughput|/ˈθruːpʊt/|thông lượng|Increase the throughput.|Tăng thông lượng.
+IT|middleware|/ˈmɪdlweə/|phần mềm trung gian|Add authentication middleware.|Thêm middleware xác thực.
+A1|mother|/ˈmʌðə/|mẹ|My mother cooks very well.|Mẹ tôi nấu ăn rất giỏi.
+A1|father|/ˈfɑːðə/|bố|My father works in a bank.|Bố tôi làm việc ở ngân hàng.
+A1|brother|/ˈbrʌðə/|anh trai; em trai|I have one older brother.|Tôi có một anh trai.
+A1|sister|/ˈsɪstə/|chị gái; em gái|Her sister is a nurse.|Chị gái cô ấy là y tá.
+A1|son|/sʌn/|con trai|Their son is five years old.|Con trai họ năm tuổi.
+A1|daughter|/ˈdɔːtə/|con gái|My daughter loves music.|Con gái tôi thích âm nhạc.
+A1|boy|/bɔɪ/|cậu bé|The boy is playing outside.|Cậu bé đang chơi ngoài trời.
+A1|girl|/ɡɜːl/|cô bé|That girl is my cousin.|Cô bé đó là em họ tôi.
+A1|man|/mæn/|đàn ông|The man is reading a newspaper.|Người đàn ông đang đọc báo.
+A1|woman|/ˈwʊmən/|phụ nữ|The woman is waiting for a bus.|Người phụ nữ đang chờ xe buýt.
+A1|child|/tʃaɪld/|đứa trẻ|Every child needs love.|Đứa trẻ nào cũng cần tình thương.
+A1|dog|/dɒɡ/|con chó|My dog sleeps all day.|Con chó của tôi ngủ cả ngày.
+A1|cat|/kæt/|con mèo|The cat is on the sofa.|Con mèo đang ở trên ghế sofa.
+A1|bird|/bɜːd/|con chim|A bird is singing in the tree.|Một con chim đang hót trên cây.
+A1|fish|/fɪʃ/|cá|We eat fish on Fridays.|Chúng tôi ăn cá vào thứ Sáu.
+A1|apple|/ˈæpl/|quả táo|I eat an apple every day.|Ngày nào tôi cũng ăn một quả táo.
+A1|banana|/bəˈnɑːnə/|quả chuối|This banana is very sweet.|Quả chuối này rất ngọt.
+A1|bread|/bred/|bánh mì|I buy fresh bread in the morning.|Tôi mua bánh mì tươi vào buổi sáng.
+A1|rice|/raɪs/|cơm; gạo|We eat rice for lunch.|Chúng tôi ăn cơm vào bữa trưa.
+A1|milk|/mɪlk/|sữa|She drinks a glass of milk.|Cô ấy uống một ly sữa.
+A1|tea|/tiː/|trà|Would you like some tea?|Bạn có muốn uống trà không?
+A1|coffee|/ˈkɒfi/|cà phê|I need a cup of coffee.|Tôi cần một tách cà phê.
+A1|egg|/eɡ/|quả trứng|He has an egg for breakfast.|Anh ấy ăn trứng vào bữa sáng.
+A1|meat|/miːt/|thịt|She doesn’t eat meat.|Cô ấy không ăn thịt.
+A1|chicken|/ˈtʃɪkɪn/|thịt gà; con gà|We have chicken for dinner.|Tối nay chúng tôi ăn gà.
+A1|breakfast|/ˈbrekfəst/|bữa sáng|Breakfast is at seven.|Bữa sáng lúc bảy giờ.
+A1|lunch|/lʌntʃ/|bữa trưa|Let’s have lunch together.|Chúng ta cùng ăn trưa nhé.
+A1|dinner|/ˈdɪnə/|bữa tối|Dinner is ready.|Bữa tối đã sẵn sàng.
+A1|table|/ˈteɪbl/|cái bàn|Put the books on the table.|Hãy để sách lên bàn.
+A1|chair|/tʃeə/|cái ghế|Please sit on this chair.|Mời bạn ngồi ghế này.
+A1|door|/dɔː/|cửa ra vào|Close the door, please.|Làm ơn đóng cửa lại.
+A1|window|/ˈwɪndəʊ/|cửa sổ|Open the window, it’s hot.|Hãy mở cửa sổ ra, trời nóng.
+A1|bed|/bed/|cái giường|I go to bed at ten.|Tôi đi ngủ lúc mười giờ.
+A1|room|/ruːm/|căn phòng|My room is small but clean.|Phòng tôi nhỏ nhưng sạch.
+A1|kitchen|/ˈkɪtʃɪn/|nhà bếp|Mom is in the kitchen.|Mẹ đang ở trong bếp.
+A1|car|/kɑː/|ô tô|His car is red.|Chiếc ô tô của anh ấy màu đỏ.
+A1|bus|/bʌs/|xe buýt|I take the bus to school.|Tôi đi xe buýt đến trường.
+A1|train|/treɪn/|tàu hỏa|The train leaves at nine.|Tàu rời ga lúc chín giờ.
+A1|bike|/baɪk/|xe đạp|She rides a bike to work.|Cô ấy đạp xe đi làm.
+A1|street|/striːt/|đường phố|Our street is very quiet.|Con đường nhà chúng tôi rất yên tĩnh.
+A1|city|/ˈsɪti/|thành phố|Hanoi is a big city.|Hà Nội là một thành phố lớn.
+A1|shop|/ʃɒp/|cửa hàng|The shop opens at eight.|Cửa hàng mở cửa lúc tám giờ.
+A1|market|/ˈmɑːkɪt/|chợ|We go to the market on Sunday.|Chúng tôi đi chợ vào Chủ nhật.
+A1|hospital|/ˈhɒspɪtl/|bệnh viện|My aunt works at a hospital.|Dì tôi làm việc ở bệnh viện.
+A1|park|/pɑːk/|công viên|The children play in the park.|Bọn trẻ chơi trong công viên.
+A1|book|/bʊk/|quyển sách|This book is interesting.|Quyển sách này thú vị.
+A1|pen|/pen/|cái bút|Can I use your pen?|Tôi dùng bút của bạn được không?
+A1|bag|/bæɡ/|cái túi; cặp sách|Her bag is on the chair.|Túi của cô ấy ở trên ghế.
+A1|phone|/fəʊn/|điện thoại|My phone is on the table.|Điện thoại của tôi ở trên bàn.
+A1|computer|/kəmˈpjuːtə/|máy tính|He works on a computer.|Anh ấy làm việc trên máy tính.
+A1|red|/red/|màu đỏ|I like the red shirt.|Tôi thích chiếc áo màu đỏ.
+A1|blue|/bluː/|màu xanh dương|The sky is blue.|Bầu trời màu xanh.
+A1|green|/ɡriːn/|màu xanh lá|The grass is green.|Cỏ màu xanh lá.
+A1|black|/blæk/|màu đen|He has a black cat.|Anh ấy có một con mèo đen.
+A1|white|/waɪt/|màu trắng|She wears a white dress.|Cô ấy mặc một chiếc váy trắng.
+A1|yellow|/ˈjeləʊ/|màu vàng|The banana is yellow.|Quả chuối màu vàng.
+A1|hot|/hɒt/|nóng|The soup is hot.|Món súp còn nóng.
+A1|cold|/kəʊld/|lạnh|It’s cold today.|Hôm nay trời lạnh.
+A1|long|/lɒŋ/|dài|She has long hair.|Cô ấy có mái tóc dài.
+A1|short|/ʃɔːt/|ngắn; thấp|This road is short.|Con đường này ngắn.
+A1|tall|/tɔːl/|cao|My brother is tall.|Anh trai tôi cao.
+A1|fast|/fɑːst/|nhanh|He runs fast.|Anh ấy chạy nhanh.
+A1|slow|/sləʊ/|chậm|The internet is slow.|Mạng internet chậm.
+A1|easy|/ˈiːzi/|dễ|The test is easy.|Bài kiểm tra dễ.
+A1|hard|/hɑːd/|khó; cứng|This exercise is hard.|Bài tập này khó.
+A1|young|/jʌŋ/|trẻ|She is a young teacher.|Cô ấy là một giáo viên trẻ.
+A1|rich|/rɪtʃ/|giàu|He is a rich man.|Ông ấy là một người giàu.
+A1|poor|/pɔː/|nghèo|They were very poor.|Họ từng rất nghèo.
+A1|sad|/sæd/|buồn|I feel sad today.|Hôm nay tôi thấy buồn.
+A1|tired|/ˈtaɪəd/|mệt|I’m tired after work.|Tôi mệt sau giờ làm.
+A1|hungry|/ˈhʌŋɡri/|đói|I’m very hungry.|Tôi rất đói.
+A1|go|/ɡəʊ/|đi|I go to school by bike.|Tôi đi học bằng xe đạp.
+A1|come|/kʌm/|đến|Come here, please.|Làm ơn lại đây.
+A1|eat|/iːt/|ăn|We eat at noon.|Chúng tôi ăn vào buổi trưa.
+A1|drink|/drɪŋk/|uống|Drink more water.|Hãy uống nhiều nước hơn.
+A1|sleep|/sliːp/|ngủ|The baby is sleeping.|Em bé đang ngủ.
+A1|walk|/wɔːk/|đi bộ|I walk to work.|Tôi đi bộ đến chỗ làm.
+A1|run|/rʌn/|chạy|He runs every morning.|Sáng nào anh ấy cũng chạy bộ.
+A1|sit|/sɪt/|ngồi|Sit down, please.|Mời bạn ngồi xuống.
+A1|stand|/stænd/|đứng|Stand up, please.|Mời bạn đứng lên.
+A1|play|/pleɪ/|chơi|They play football after school.|Họ chơi bóng đá sau giờ học.
+A1|like|/laɪk/|thích|I like music.|Tôi thích âm nhạc.
+A1|love|/lʌv/|yêu|I love my family.|Tôi yêu gia đình mình.
+A1|want|/wɒnt/|muốn|I want a new bag.|Tôi muốn một chiếc túi mới.
+A1|need|/niːd/|cần|I need some help.|Tôi cần một chút giúp đỡ.
+A1|live|/lɪv/|sống|I live in Da Lat.|Tôi sống ở Đà Lạt.
+A1|speak|/spiːk/|nói|She speaks English well.|Cô ấy nói tiếng Anh giỏi.
+A1|listen|/ˈlɪsn/|nghe|Listen to the teacher.|Hãy nghe cô giáo nói.
+A1|watch|/wɒtʃ/|xem|We watch TV at night.|Chúng tôi xem TV vào buổi tối.
+A1|wash|/wɒʃ/|rửa|Wash your hands.|Hãy rửa tay.
+A1|cook|/kʊk/|nấu ăn|He cooks dinner every day.|Ngày nào anh ấy cũng nấu bữa tối.
+A1|sing|/sɪŋ/|hát|She sings very well.|Cô ấy hát rất hay.
+A1|dance|/dɑːns/|nhảy múa|They dance at the party.|Họ nhảy múa trong bữa tiệc.
+A1|day|/deɪ/|ngày|Have a nice day!|Chúc một ngày tốt lành!
+A1|week|/wiːk/|tuần|I work five days a week.|Tôi làm việc năm ngày một tuần.
+A1|month|/mʌnθ/|tháng|There are twelve months in a year.|Một năm có mười hai tháng.
+A1|year|/jɪə/|năm|He is twenty years old.|Anh ấy hai mươi tuổi.
+A1|today|/təˈdeɪ/|hôm nay|Today is Monday.|Hôm nay là thứ Hai.
+A1|tomorrow|/təˈmɒrəʊ/|ngày mai|See you tomorrow.|Hẹn gặp bạn ngày mai.
+A1|yesterday|/ˈjestədeɪ/|hôm qua|I was at home yesterday.|Hôm qua tôi ở nhà.
+A2|airport|/ˈeəpɔːt/|sân bay|We arrived at the airport early.|Chúng tôi đến sân bay sớm.
+A2|passport|/ˈpɑːspɔːt/|hộ chiếu|Don’t forget your passport.|Đừng quên hộ chiếu của bạn.
+A2|luggage|/ˈlʌɡɪdʒ/|hành lý|My luggage is very heavy.|Hành lý của tôi rất nặng.
+A2|hotel|/həʊˈtel/|khách sạn|We stayed in a small hotel.|Chúng tôi ở một khách sạn nhỏ.
+A2|tourist|/ˈtʊərɪst/|khách du lịch|Many tourists visit Da Lat.|Nhiều khách du lịch đến Đà Lạt.
+A2|journey|/ˈdʒɜːni/|chuyến đi dài|The journey took six hours.|Chuyến đi mất sáu tiếng.
+A2|trip|/trɪp/|chuyến đi ngắn|We had a nice trip to the coast.|Chúng tôi có một chuyến đi vui ra biển.
+A2|beach|/biːtʃ/|bãi biển|The beach is clean and quiet.|Bãi biển sạch và yên tĩnh.
+A2|island|/ˈaɪlənd/|hòn đảo|They live on a small island.|Họ sống trên một hòn đảo nhỏ.
+A2|mountain|/ˈmaʊntɪn/|ngọn núi|We climbed the mountain on Sunday.|Chúng tôi leo núi vào Chủ nhật.
+A2|village|/ˈvɪlɪdʒ/|ngôi làng|My grandparents live in a village.|Ông bà tôi sống ở một ngôi làng.
+A2|countryside|/ˈkʌntrisaɪd/|miền quê|I love the quiet countryside.|Tôi yêu miền quê yên bình.
+A2|headache|/ˈhedeɪk/|chứng đau đầu|I have a headache today.|Hôm nay tôi bị đau đầu.
+A2|medicine|/ˈmedsn/|thuốc|Take this medicine twice a day.|Hãy uống thuốc này hai lần một ngày.
+A2|pain|/peɪn/|cơn đau|I feel a pain in my back.|Tôi thấy đau ở lưng.
+A2|cough|/kɒf/|ho|He has a bad cough.|Anh ấy ho nặng.
+A2|fever|/ˈfiːvə/|cơn sốt|The child has a high fever.|Đứa trẻ bị sốt cao.
+A2|healthy|/ˈhelθi/|khỏe mạnh|Eat healthy food every day.|Hãy ăn đồ lành mạnh mỗi ngày.
+A2|exercise|/ˈeksəsaɪz/|tập thể dục; bài tập|I exercise three times a week.|Tôi tập thể dục ba lần một tuần.
+A2|sick|/sɪk/|ốm|She is sick and can’t come.|Cô ấy bị ốm nên không đến được.
+A2|vegetable|/ˈvedʒtəbl/|rau củ|Eat more vegetables.|Hãy ăn nhiều rau củ hơn.
+A2|fruit|/fruːt/|trái cây|Fruit is good for you.|Trái cây tốt cho sức khỏe.
+A2|dessert|/dɪˈzɜːt/|món tráng miệng|We had ice cream for dessert.|Chúng tôi ăn kem tráng miệng.
+A2|delicious|/dɪˈlɪʃəs/|ngon|This soup is delicious.|Món súp này rất ngon.
+A2|spicy|/ˈspaɪsi/|cay|I don’t like spicy food.|Tôi không thích đồ ăn cay.
+A2|recipe|/ˈresəpi/|công thức nấu ăn|Can you share this recipe?|Bạn chia sẻ công thức này được không?
+A2|ingredient|/ɪnˈɡriːdiənt/|nguyên liệu|Eggs are the main ingredient.|Trứng là nguyên liệu chính.
+A2|menu|/ˈmenjuː/|thực đơn|Can I see the menu, please?|Cho tôi xem thực đơn nhé.
+A2|jacket|/ˈdʒækɪt/|áo khoác ngắn|Take a jacket, it’s cold.|Mang theo áo khoác đi, trời lạnh.
+A2|coat|/kəʊt/|áo khoác dài|She bought a warm coat.|Cô ấy mua một chiếc áo khoác ấm.
+A2|shoes|/ʃuːz/|đôi giày|These shoes are too small.|Đôi giày này quá nhỏ.
+A2|wear|/weə/|mặc; đeo|He wears glasses.|Anh ấy đeo kính.
+A2|job|/dʒɒb/|công việc|She has a good job.|Cô ấy có một công việc tốt.
+A2|manager|/ˈmænɪdʒə/|quản lý|The manager is in a meeting.|Quản lý đang họp.
+A2|salary|/ˈsæləri/|tiền lương|His salary is quite high.|Lương của anh ấy khá cao.
+A2|meeting|/ˈmiːtɪŋ/|cuộc họp|The meeting starts at ten.|Cuộc họp bắt đầu lúc mười giờ.
+A2|exam|/ɪɡˈzæm/|kỳ thi|I have an exam tomorrow.|Ngày mai tôi có một kỳ thi.
+A2|lesson|/ˈlesn/|bài học|Today’s lesson is about food.|Bài học hôm nay nói về đồ ăn.
+A2|homework|/ˈhəʊmwɜːk/|bài tập về nhà|I do my homework after dinner.|Tôi làm bài tập về nhà sau bữa tối.
+A2|subject|/ˈsʌbdʒɪkt/|môn học; chủ đề|Math is my favourite subject.|Toán là môn học yêu thích của tôi.
+A2|university|/ˌjuːnɪˈvɜːsəti/|trường đại học|She studies at a university in Hue.|Cô ấy học ở một trường đại học tại Huế.
+A2|library|/ˈlaɪbrəri/|thư viện|I study in the library.|Tôi học ở thư viện.
+A2|angry|/ˈæŋɡri/|tức giận|Dad was angry about the noise.|Bố đã tức giận vì tiếng ồn.
+A2|excited|/ɪkˈsaɪtɪd/|hào hứng|The kids are excited about the trip.|Bọn trẻ hào hứng về chuyến đi.
+A2|nervous|/ˈnɜːvəs/|lo lắng; hồi hộp|I’m nervous before the exam.|Tôi hồi hộp trước kỳ thi.
+A2|worried|/ˈwʌrid/|lo lắng|She is worried about her son.|Cô ấy lo lắng cho con trai.
+A2|proud|/praʊd/|tự hào|I’m proud of you.|Tôi tự hào về bạn.
+A2|polite|/pəˈlaɪt/|lịch sự|He is always polite to everyone.|Anh ấy luôn lịch sự với mọi người.
+A2|lazy|/ˈleɪzi/|lười biếng|I feel lazy on Sundays.|Tôi thấy lười vào Chủ nhật.
+A2|shy|/ʃaɪ/|nhút nhát|She is shy with new people.|Cô ấy nhút nhát với người mới.
+A2|honest|/ˈɒnɪst/|trung thực|He is an honest person.|Anh ấy là người trung thực.
+A2|friendly|/ˈfrendli/|thân thiện|The staff are very friendly.|Nhân viên rất thân thiện.
+A2|cancel|/ˈkænsl/|hủy|They cancelled the meeting.|Họ đã hủy cuộc họp.
+A2|change|/tʃeɪndʒ/|thay đổi; đổi|I want to change my password.|Tôi muốn đổi mật khẩu.
+A2|collect|/kəˈlekt/|sưu tầm; thu thập|He collects old coins.|Anh ấy sưu tầm tiền xu cũ.
+A2|enjoy|/ɪnˈdʒɔɪ/|thích thú|I enjoy cooking at the weekend.|Tôi thích nấu ăn vào cuối tuần.
+A2|explain|/ɪkˈspleɪn/|giải thích|Can you explain this word?|Bạn giải thích từ này được không?
+A2|follow|/ˈfɒləʊ/|đi theo; làm theo|Follow me, please.|Xin hãy đi theo tôi.
+A2|hurry|/ˈhʌri/|vội vàng|Hurry up, we’re late!|Nhanh lên, chúng ta trễ rồi!
+A2|join|/dʒɔɪn/|tham gia|Do you want to join us?|Bạn có muốn tham gia cùng chúng tôi không?
+A2|keep|/kiːp/|giữ|Keep this paper safe.|Hãy giữ tờ giấy này cẩn thận.
+A2|leave|/liːv/|rời đi; để lại|We leave at six tomorrow.|Ngày mai chúng tôi khởi hành lúc sáu giờ.
+A2|meet|/miːt/|gặp|Let’s meet at the café.|Hẹn gặp nhau ở quán cà phê nhé.
+A2|miss|/mɪs/|nhớ; lỡ|I miss my family.|Tôi nhớ gia đình mình.
+A2|move|/muːv/|di chuyển; chuyển nhà|They moved to a new house.|Họ đã chuyển đến nhà mới.
+A2|order|/ˈɔːdə/|gọi món; đặt hàng|I’d like to order a pizza.|Tôi muốn gọi một chiếc pizza.
+A2|pay|/peɪ/|trả tiền|Can I pay by card?|Tôi trả bằng thẻ được không?
+A2|practise|/ˈpræktɪs/|luyện tập|I practise English every day.|Ngày nào tôi cũng luyện tiếng Anh.
+A2|receive|/rɪˈsiːv/|nhận|I received your message.|Tôi đã nhận được tin nhắn của bạn.
+A2|return|/rɪˈtɜːn/|quay lại; trả lại|He returned the book to the library.|Anh ấy đã trả sách cho thư viện.
+A2|save|/seɪv/|tiết kiệm; lưu|Save your file before you close it.|Hãy lưu tệp trước khi đóng.
+A2|send|/send/|gửi|Please send me the photo.|Làm ơn gửi cho tôi bức ảnh.
+A2|share|/ʃeə/|chia sẻ|We share one room.|Chúng tôi ở chung một phòng.
+A2|spend|/spend/|tiêu; dành (thời gian)|She spends a lot of time online.|Cô ấy dành nhiều thời gian trên mạng.
+A2|start|/stɑːt/|bắt đầu|The class starts at eight.|Lớp học bắt đầu lúc tám giờ.
+A2|stay|/steɪ/|ở lại|Stay here until I come back.|Hãy ở đây đến khi tôi quay lại.
+A2|try|/traɪ/|thử; cố gắng|Try this cake, it’s great.|Hãy thử chiếc bánh này, rất ngon.
+A2|turn|/tɜːn/|rẽ; xoay|Turn left at the bank.|Rẽ trái ở chỗ ngân hàng.
+A2|carry|/ˈkæri/|mang; xách|Can you carry this bag?|Bạn xách giúp tôi cái túi này được không?
+A2|climb|/klaɪm/|leo|The children climb the tree.|Bọn trẻ trèo lên cây.
+A2|cross|/krɒs/|băng qua|Look both ways before you cross the road.|Hãy nhìn hai bên trước khi băng qua đường.
+A2|fix|/fɪks/|sửa chữa|He can fix my bike.|Anh ấy có thể sửa xe đạp cho tôi.
+A2|hurt|/hɜːt/|làm đau; bị đau|My leg hurts.|Chân tôi bị đau.
+A2|afraid|/əˈfreɪd/|sợ|She is afraid of dogs.|Cô ấy sợ chó.
+A2|careful|/ˈkeəfl/|cẩn thận|Be careful on the stairs.|Hãy cẩn thận trên cầu thang.
+A2|dark|/dɑːk/|tối|It gets dark at six.|Trời tối lúc sáu giờ.
+A2|empty|/ˈempti/|trống rỗng|The box is empty.|Chiếc hộp trống rỗng.
+A2|famous|/ˈfeɪməs/|nổi tiếng|This café is famous in the city.|Quán cà phê này nổi tiếng trong thành phố.
+A2|full|/fʊl/|đầy; no|The bus is full.|Xe buýt đã đầy.
+A2|heavy|/ˈhevi/|nặng|This box is too heavy.|Chiếc hộp này quá nặng.
+A2|popular|/ˈpɒpjələ/|phổ biến|Football is popular in Vietnam.|Bóng đá phổ biến ở Việt Nam.
+A2|strong|/strɒŋ/|khỏe; mạnh|He is strong enough to lift it.|Anh ấy đủ khỏe để nhấc nó lên.
+A2|weak|/wiːk/|yếu|I feel weak after being sick.|Tôi thấy yếu sau khi bị ốm.
+A2|wet|/wet/|ướt|My shoes are wet.|Giày của tôi bị ướt.
+A2|dry|/draɪ/|khô|The clothes are dry now.|Quần áo giờ đã khô.
+A2|wrong|/rɒŋ/|sai|This answer is wrong.|Đáp án này sai.
+A2|ready|/ˈredi/|sẵn sàng|Are you ready to go?|Bạn sẵn sàng đi chưa?
+A2|free|/friː/|rảnh; miễn phí|I’m free on Saturday.|Thứ Bảy tôi rảnh.
+A2|foreign|/ˈfɒrən/|nước ngoài|She speaks two foreign languages.|Cô ấy nói hai ngoại ngữ.
+A2|modern|/ˈmɒdn/|hiện đại|They live in a modern apartment.|Họ sống trong một căn hộ hiện đại.
+B1|advantage|/ədˈvɑːntɪdʒ/|lợi thế|Speaking English is a big advantage.|Nói được tiếng Anh là một lợi thế lớn.
+B1|disadvantage|/ˌdɪsədˈvɑːntɪdʒ/|bất lợi|Living far from work is a disadvantage.|Sống xa chỗ làm là một bất lợi.
+B1|advice|/ədˈvaɪs/|lời khuyên|Can I ask you for some advice?|Tôi hỏi bạn xin lời khuyên được không?
+B1|ambition|/æmˈbɪʃn/|tham vọng; hoài bão|Her ambition is to start a company.|Hoài bão của cô ấy là lập một công ty.
+B1|argument|/ˈɑːɡjumənt/|cuộc tranh cãi|They had an argument about money.|Họ đã cãi nhau về tiền bạc.
+B1|award|/əˈwɔːd/|giải thưởng|She won an award for her design.|Cô ấy giành giải thưởng cho thiết kế của mình.
+B1|behaviour|/bɪˈheɪvjə/|hành vi|His behaviour surprised everyone.|Hành vi của anh ấy khiến mọi người ngạc nhiên.
+B1|budget|/ˈbʌdʒɪt/|ngân sách|We have a small budget for the trip.|Chúng tôi có ngân sách nhỏ cho chuyến đi.
+B1|career|/kəˈrɪə/|sự nghiệp|He started his career as a teacher.|Anh ấy bắt đầu sự nghiệp với nghề giáo viên.
+B1|celebrate|/ˈselɪbreɪt/|ăn mừng|We celebrate Tet with our family.|Chúng tôi đón Tết cùng gia đình.
+B1|community|/kəˈmjuːnəti/|cộng đồng|The local community helped the farmers.|Cộng đồng địa phương đã giúp những người nông dân.
+B1|competition|/ˌkɒmpəˈtɪʃn/|cuộc thi; sự cạnh tranh|There is strong competition for this job.|Có sự cạnh tranh gay gắt cho vị trí này.
+B1|confident|/ˈkɒnfɪdənt/|tự tin|She feels confident about the interview.|Cô ấy cảm thấy tự tin về buổi phỏng vấn.
+B1|connect|/kəˈnekt/|kết nối|Connect the laptop to the Wi-Fi.|Hãy kết nối laptop với Wi-Fi.
+B1|consider|/kənˈsɪdə/|cân nhắc|I’m considering a new job.|Tôi đang cân nhắc một công việc mới.
+B1|contact|/ˈkɒntækt/|liên lạc|Please contact me by email.|Vui lòng liên lạc với tôi qua email.
+B1|customer|/ˈkʌstəmə/|khách hàng|The customer asked for a refund.|Khách hàng đã yêu cầu hoàn tiền.
+B1|delay|/dɪˈleɪ/|sự chậm trễ; trì hoãn|The flight had a two-hour delay.|Chuyến bay bị trễ hai tiếng.
+B1|depend|/dɪˈpend/|phụ thuộc|It depends on the weather.|Việc đó phụ thuộc vào thời tiết.
+B1|develop|/dɪˈveləp/|phát triển|The company develops mobile apps.|Công ty phát triển các ứng dụng di động.
+B1|discuss|/dɪˈskʌs/|thảo luận|Let’s discuss the plan tomorrow.|Ngày mai chúng ta thảo luận kế hoạch nhé.
+B1|discover|/dɪˈskʌvə/|khám phá; phát hiện|She discovered a small café nearby.|Cô ấy phát hiện một quán cà phê nhỏ gần đây.
+B1|earn|/ɜːn/|kiếm được|He earns enough to live comfortably.|Anh ấy kiếm đủ để sống thoải mái.
+B1|education|/ˌedʒuˈkeɪʃn/|giáo dục|Education is very important.|Giáo dục rất quan trọng.
+B1|employee|/ɪmˈplɔɪiː/|nhân viên|The company has fifty employees.|Công ty có năm mươi nhân viên.
+B1|employer|/ɪmˈplɔɪə/|người sử dụng lao động|My employer offers flexible hours.|Công ty tôi cho phép giờ làm linh hoạt.
+B1|equipment|/ɪˈkwɪpmənt/|thiết bị|The gym has modern equipment.|Phòng tập có thiết bị hiện đại.
+B1|expect|/ɪkˈspekt/|mong đợi|I didn’t expect such a big crowd.|Tôi không ngờ đám đông lại lớn thế.
+B1|explore|/ɪkˈsplɔː/|khám phá|We explored the old town on foot.|Chúng tôi đi bộ khám phá khu phố cổ.
+B1|fashion|/ˈfæʃn/|thời trang|She works in the fashion industry.|Cô ấy làm trong ngành thời trang.
+B1|furniture|/ˈfɜːnɪtʃə/|đồ nội thất|We need new furniture for the office.|Chúng tôi cần đồ nội thất mới cho văn phòng.
+B1|generous|/ˈdʒenərəs/|hào phóng|He is generous with his time.|Anh ấy hào phóng với thời gian của mình.
+B1|government|/ˈɡʌvənmənt/|chính phủ|The government plans to build new roads.|Chính phủ có kế hoạch xây đường mới.
+B1|grow|/ɡrəʊ/|lớn lên; trồng|They grow vegetables in their garden.|Họ trồng rau trong vườn.
+B1|guess|/ɡes/|đoán|Can you guess my age?|Bạn đoán được tuổi tôi không?
+B1|habit|/ˈhæbɪt/|thói quen|Reading before bed is a good habit.|Đọc sách trước khi ngủ là thói quen tốt.
+B1|income|/ˈɪnkʌm/|thu nhập|Their monthly income is quite stable.|Thu nhập hàng tháng của họ khá ổn định.
+B1|independent|/ˌɪndɪˈpendənt/|độc lập|She wants to be independent.|Cô ấy muốn được tự lập.
+B1|influence|/ˈɪnfluəns/|ảnh hưởng|Friends can influence your choices.|Bạn bè có thể ảnh hưởng đến lựa chọn của bạn.
+B1|instruction|/ɪnˈstrʌkʃn/|hướng dẫn|Read the instructions carefully.|Hãy đọc kỹ hướng dẫn.
+B1|invention|/ɪnˈvenʃn/|phát minh|The phone is a great invention.|Điện thoại là một phát minh tuyệt vời.
+B1|journalist|/ˈdʒɜːnəlɪst/|nhà báo|The journalist interviewed the mayor.|Nhà báo đã phỏng vấn thị trưởng.
+B1|knowledge|/ˈnɒlɪdʒ/|kiến thức|She has a lot of knowledge about history.|Cô ấy có nhiều kiến thức về lịch sử.
+B1|lack|/læk/|thiếu|The project failed because of a lack of time.|Dự án thất bại vì thiếu thời gian.
+B1|lecture|/ˈlektʃə/|bài giảng|The lecture lasted two hours.|Bài giảng kéo dài hai tiếng.
+B1|local|/ˈləʊkl/|địa phương|We ate at a local restaurant.|Chúng tôi ăn ở một nhà hàng địa phương.
+B1|manage|/ˈmænɪdʒ/|quản lý; xoay xở|She manages a team of five.|Cô ấy quản lý một nhóm năm người.
+B1|mention|/ˈmenʃn/|đề cập|He didn’t mention the price.|Anh ấy không đề cập đến giá cả.
+B1|mistake|/mɪˈsteɪk/|lỗi; sai lầm|I made a mistake in the report.|Tôi đã mắc lỗi trong báo cáo.
+B1|neighbour|/ˈneɪbə/|hàng xóm|Our neighbour is very helpful.|Hàng xóm nhà tôi rất hay giúp đỡ.
+B1|notice|/ˈnəʊtɪs/|nhận thấy|I noticed a mistake on the page.|Tôi nhận thấy một lỗi trên trang này.
+B1|offer|/ˈɒfə/|đề nghị; lời mời|They offered me a job.|Họ đã mời tôi làm việc.
+B1|opinion|/əˈpɪnjən/|ý kiến|In my opinion, it’s too expensive.|Theo ý kiến tôi, nó quá đắt.
+B1|organise|/ˈɔːɡənaɪz/|tổ chức|She organised a surprise party.|Cô ấy tổ chức một bữa tiệc bất ngờ.
+B1|patient|/ˈpeɪʃnt/|kiên nhẫn; bệnh nhân|Be patient, it takes time.|Hãy kiên nhẫn, việc này cần thời gian.
+B1|permission|/pəˈmɪʃn/|sự cho phép|You need permission to enter.|Bạn cần được phép mới vào được.
+B1|prefer|/prɪˈfɜː/|thích hơn|I prefer tea to coffee.|Tôi thích trà hơn cà phê.
+B1|pressure|/ˈpreʃə/|áp lực|He works well under pressure.|Anh ấy làm việc tốt dưới áp lực.
+B1|promise|/ˈprɒmɪs/|lời hứa; hứa|I promise to call you tonight.|Tôi hứa tối nay sẽ gọi cho bạn.
+B1|protect|/prəˈtekt/|bảo vệ|Trees protect the soil.|Cây cối bảo vệ đất.
+B1|prove|/pruːv/|chứng minh|The results prove that it works.|Kết quả chứng minh rằng nó hiệu quả.
+B1|public|/ˈpʌblɪk/|công cộng|The library is open to the public.|Thư viện mở cửa cho công chúng.
+B1|purpose|/ˈpɜːpəs/|mục đích|What is the purpose of your visit?|Mục đích chuyến thăm của bạn là gì?
+B1|quality|/ˈkwɒləti/|chất lượng|The quality of this product is excellent.|Chất lượng sản phẩm này rất tốt.
+B1|realise|/ˈrɪəlaɪz/|nhận ra|I realised I had left my keys at home.|Tôi nhận ra mình để quên chìa khóa ở nhà.
+B1|refuse|/rɪˈfjuːz/|từ chối|He refused to answer the question.|Anh ấy từ chối trả lời câu hỏi.
+B1|relationship|/rɪˈleɪʃnʃɪp/|mối quan hệ|They have a good relationship.|Họ có mối quan hệ tốt.
+B1|repair|/rɪˈpeə/|sửa chữa|I need to repair my laptop.|Tôi cần sửa chiếc laptop.
+B1|research|/rɪˈsɜːtʃ/|nghiên cứu|She does research on climate change.|Cô ấy nghiên cứu về biến đổi khí hậu.
+B1|respect|/rɪˈspekt/|sự tôn trọng; tôn trọng|We should respect other cultures.|Chúng ta nên tôn trọng các nền văn hóa khác.
+B1|result|/rɪˈzʌlt/|kết quả|The exam results come out on Friday.|Kết quả thi sẽ có vào thứ Sáu.
+B1|review|/rɪˈvjuː/|bài đánh giá; xem lại|I read a review before buying it.|Tôi đọc một bài đánh giá trước khi mua.
+B1|risk|/rɪsk/|rủi ro|Driving at night has a higher risk.|Lái xe ban đêm có rủi ro cao hơn.
+B1|role|/rəʊl/|vai trò|She plays an important role in the team.|Cô ấy giữ vai trò quan trọng trong nhóm.
+B1|safety|/ˈseɪfti/|sự an toàn|Safety comes first.|An toàn là trên hết.
+B1|satisfied|/ˈsætɪsfaɪd/|hài lòng|The customers are satisfied with the service.|Khách hàng hài lòng với dịch vụ.
+B1|search|/sɜːtʃ/|tìm kiếm|I searched online for a cheap flight.|Tôi tìm trên mạng một chuyến bay giá rẻ.
+B1|serious|/ˈsɪəriəs/|nghiêm trọng; nghiêm túc|This is a serious problem.|Đây là một vấn đề nghiêm trọng.
+B1|society|/səˈsaɪəti/|xã hội|Technology changes society.|Công nghệ thay đổi xã hội.
+B1|solve|/sɒlv/|giải quyết|We need to solve this problem today.|Chúng ta cần giải quyết vấn đề này hôm nay.
+B1|survey|/ˈsɜːveɪ/|cuộc khảo sát|The survey shows most people agree.|Cuộc khảo sát cho thấy đa số đồng ý.
+B1|survive|/səˈvaɪv/|sống sót|Few plants survive in the desert.|Rất ít loài cây sống sót được ở sa mạc.
+B1|talent|/ˈtælənt/|tài năng|She has a talent for music.|Cô ấy có tài năng âm nhạc.
+B1|temperature|/ˈtemprətʃə/|nhiệt độ|The temperature drops at night.|Nhiệt độ giảm vào ban đêm.
+B1|tradition|/trəˈdɪʃn/|truyền thống|It’s a tradition in our family.|Đó là một truyền thống trong gia đình chúng tôi.
+B1|translate|/trænzˈleɪt/|dịch|Can you translate this sentence?|Bạn dịch câu này được không?
+B1|trust|/trʌst/|tin tưởng; niềm tin|I trust my teammates.|Tôi tin tưởng đồng đội của mình.
+B1|unusual|/ʌnˈjuːʒuəl/|khác thường|It’s unusual to see snow here.|Thật khác thường khi thấy tuyết ở đây.
+B1|value|/ˈvæljuː/|giá trị|Honesty is a core value.|Trung thực là một giá trị cốt lõi.
+B1|variety|/vəˈraɪəti/|sự đa dạng|The shop sells a variety of tea.|Cửa hàng bán nhiều loại trà.
+B1|warn|/wɔːn/|cảnh báo|They warned us about the storm.|Họ đã cảnh báo chúng tôi về cơn bão.
+B1|wonder|/ˈwʌndə/|tự hỏi|I wonder why he is late.|Tôi tự hỏi vì sao anh ấy đến muộn.
+B1|worth|/wɜːθ/|đáng giá|This museum is worth a visit.|Bảo tàng này đáng để ghé thăm.
+B1|attract|/əˈtrækt/|thu hút|The festival attracts many tourists.|Lễ hội thu hút nhiều khách du lịch.
+B1|improvement|/ɪmˈpruːvmənt/|sự cải thiện|There has been a big improvement in his English.|Tiếng Anh của anh ấy đã cải thiện nhiều.
+B1|passion|/ˈpæʃn/|niềm đam mê|Cooking is her passion.|Nấu ăn là niềm đam mê của cô ấy.
+B1|memory|/ˈmeməri/|ký ức; trí nhớ|I have good memories of that trip.|Tôi có nhiều kỷ niệm đẹp về chuyến đi đó.
+B1|pollution|/pəˈluːʃn/|ô nhiễm|Air pollution is a serious problem.|Ô nhiễm không khí là một vấn đề nghiêm trọng.
+B1|recycle|/ˌriːˈsaɪkl/|tái chế|We recycle paper and plastic.|Chúng tôi tái chế giấy và nhựa.
+B1|reputation|/ˌrepjuˈteɪʃn/|danh tiếng|The hotel has a good reputation.|Khách sạn có danh tiếng tốt.
+B1|treatment|/ˈtriːtmənt/|sự điều trị|The treatment lasted three weeks.|Việc điều trị kéo dài ba tuần.
+B2|accomplish|/əˈkʌmplɪʃ/|hoàn thành; đạt được|She accomplished all her goals this year.|Năm nay cô ấy đã đạt được mọi mục tiêu.
+B2|acquire|/əˈkwaɪə/|có được; tiếp thu|He acquired new skills at work.|Anh ấy có thêm kỹ năng mới trong công việc.
+B2|adapt|/əˈdæpt/|thích nghi|It took a while to adapt to the climate.|Phải mất một thời gian mới thích nghi với khí hậu.
+B2|adequate|/ˈædɪkwət/|đủ; thỏa đáng|The funding is not adequate.|Nguồn kinh phí chưa đủ.
+B2|allocate|/ˈæləkeɪt/|phân bổ|We allocated more money to training.|Chúng tôi phân bổ thêm tiền cho đào tạo.
+B2|analyse|/ˈænəlaɪz/|phân tích|The team analysed the data carefully.|Nhóm đã phân tích dữ liệu kỹ lưỡng.
+B2|anticipate|/ænˈtɪsɪpeɪt/|lường trước|We anticipate a rise in demand.|Chúng tôi lường trước nhu cầu sẽ tăng.
+B2|appreciate|/əˈpriːʃieɪt/|trân trọng; đánh giá cao|I really appreciate your help.|Tôi thực sự trân trọng sự giúp đỡ của bạn.
+B2|apparent|/əˈpærənt/|rõ ràng|It became apparent that he was lying.|Rõ ràng là anh ta đã nói dối.
+B2|assess|/əˈses/|đánh giá|Teachers assess students every month.|Giáo viên đánh giá học sinh hằng tháng.
+B2|attribute|/əˈtrɪbjuːt/|cho là do|She attributes her success to hard work.|Cô ấy cho rằng thành công nhờ làm việc chăm chỉ.
+B2|bias|/ˈbaɪəs/|thiên kiến|The article shows a clear bias.|Bài báo thể hiện rõ sự thiên kiến.
+B2|capacity|/kəˈpæsəti/|sức chứa; năng lực|The hall has a capacity of 500.|Hội trường có sức chứa 500 người.
+B2|circumstance|/ˈsɜːkəmstəns/|hoàn cảnh|Under the circumstances, we agreed.|Trong hoàn cảnh đó, chúng tôi đã đồng ý.
+B2|collapse|/kəˈlæps/|sụp đổ|The bridge collapsed after the flood.|Cây cầu sụp sau trận lũ.
+B2|commitment|/kəˈmɪtmənt/|sự cam kết|The job requires a long-term commitment.|Công việc đòi hỏi sự cam kết lâu dài.
+B2|complex|/ˈkɒmpleks/|phức tạp|The situation is more complex than it seems.|Tình hình phức tạp hơn vẻ ngoài.
+B2|concept|/ˈkɒnsept/|khái niệm|The concept is hard to explain.|Khái niệm này khó giải thích.
+B2|conduct|/kənˈdʌkt/|tiến hành|They conducted a survey last month.|Họ đã tiến hành một cuộc khảo sát tháng trước.
+B2|confirm|/kənˈfɜːm/|xác nhận|Please confirm your booking by email.|Vui lòng xác nhận đặt chỗ qua email.
+B2|constant|/ˈkɒnstənt/|liên tục; không đổi|The noise was a constant problem.|Tiếng ồn là một vấn đề kéo dài liên tục.
+B2|contradict|/ˌkɒntrəˈdɪkt/|mâu thuẫn với|His words contradict his actions.|Lời nói của anh ấy mâu thuẫn với hành động.
+B2|convince|/kənˈvɪns/|thuyết phục|She convinced me to apply.|Cô ấy đã thuyết phục tôi nộp đơn.
+B2|cope|/kəʊp/|đối phó; xoay xở|How do you cope with stress?|Bạn đối phó với căng thẳng thế nào?
+B2|criteria|/kraɪˈtɪəriə/|tiêu chí|The criteria are clearly stated.|Các tiêu chí được nêu rõ ràng.
+B2|critical|/ˈkrɪtɪkl/|then chốt; phê phán|Time is critical in this case.|Thời gian là yếu tố then chốt trong trường hợp này.
+B2|decline|/dɪˈklaɪn/|suy giảm; từ chối|Sales declined sharply last year.|Doanh số giảm mạnh vào năm ngoái.
+B2|derive|/dɪˈraɪv/|bắt nguồn|The word derives from Latin.|Từ này bắt nguồn từ tiếng Latin.
+B2|dilemma|/dɪˈlemə/|tình thế khó xử|She faces a difficult dilemma.|Cô ấy đang ở trong một tình thế khó xử.
+B2|distinct|/dɪˈstɪŋkt/|rõ rệt; riêng biệt|The two groups have distinct needs.|Hai nhóm có nhu cầu riêng biệt.
+B2|domestic|/dəˈmestɪk/|trong nước; gia đình|Domestic flights are cheaper.|Chuyến bay nội địa rẻ hơn.
+B2|dominate|/ˈdɒmɪneɪt/|chi phối; thống trị|One company dominates the market.|Một công ty chi phối thị trường.
+B2|durable|/ˈdjʊərəbl/|bền|These boots are strong and durable.|Đôi bốt này chắc và bền.
+B2|eliminate|/ɪˈlɪmɪneɪt/|loại bỏ|We must eliminate unnecessary costs.|Chúng ta phải loại bỏ chi phí không cần thiết.
+B2|emerge|/ɪˈmɜːdʒ/|xuất hiện; nổi lên|New problems emerged during testing.|Những vấn đề mới xuất hiện trong lúc kiểm thử.
+B2|enforce|/ɪnˈfɔːs/|thực thi|Police enforce the traffic laws.|Cảnh sát thực thi luật giao thông.
+B2|enormous|/ɪˈnɔːməs/|khổng lồ|The project needs an enormous effort.|Dự án cần nỗ lực khổng lồ.
+B2|ensure|/ɪnˈʃɔː/|đảm bảo|Please ensure that the door is locked.|Hãy đảm bảo cửa đã khóa.
+B2|establish|/ɪˈstæblɪʃ/|thành lập; thiết lập|The school was established in 1990.|Ngôi trường được thành lập năm 1990.
+B2|estimate|/ˈestɪmeɪt/|ước tính|We estimate the cost at ten million.|Chúng tôi ước tính chi phí là mười triệu.
+B2|exceed|/ɪkˈsiːd/|vượt quá|Costs exceeded our budget.|Chi phí vượt quá ngân sách.
+B2|exclude|/ɪkˈskluːd/|loại trừ|The price excludes tax.|Giá này chưa bao gồm thuế.
+B2|exploit|/ɪkˈsplɔɪt/|khai thác; lợi dụng|The firm exploits cheap labour.|Công ty lợi dụng lao động giá rẻ.
+B2|expose|/ɪkˈspəʊz/|phơi bày; để lộ|The report exposed serious problems.|Báo cáo đã phơi bày những vấn đề nghiêm trọng.
+B2|extend|/ɪkˈstend/|kéo dài; mở rộng|They extended the deadline by a week.|Họ đã gia hạn thời hạn thêm một tuần.
+B2|factor|/ˈfæktə/|yếu tố|Price is a key factor.|Giá cả là một yếu tố then chốt.
+B2|fundamental|/ˌfʌndəˈmentl/|cơ bản; nền tảng|There is a fundamental difference.|Có một sự khác biệt cơ bản.
+B2|genuine|/ˈdʒenjuɪn/|chân thật; thật|She showed genuine concern.|Cô ấy thể hiện sự quan tâm chân thành.
+B2|guarantee|/ˌɡærənˈtiː/|bảo đảm; bảo hành|The laptop has a two-year guarantee.|Chiếc laptop được bảo hành hai năm.
+B2|hypothesis|/haɪˈpɒθəsɪs/|giả thuyết|The test supports our hypothesis.|Cuộc kiểm tra ủng hộ giả thuyết của chúng tôi.
+B2|identical|/aɪˈdentɪkl/|giống hệt|The twins look identical.|Hai anh em sinh đôi trông giống hệt nhau.
+B2|illustrate|/ˈɪləstreɪt/|minh họa|This example illustrates the problem.|Ví dụ này minh họa vấn đề.
+B2|impose|/ɪmˈpəʊz/|áp đặt|The city imposed a new tax.|Thành phố áp đặt một loại thuế mới.
+B2|incentive|/ɪnˈsentɪv/|sự khuyến khích|Bonuses are a strong incentive.|Tiền thưởng là sự khuyến khích mạnh mẽ.
+B2|incorporate|/ɪnˈkɔːpəreɪt/|kết hợp; đưa vào|We incorporated your feedback.|Chúng tôi đã đưa góp ý của bạn vào.
+B2|inevitable|/ɪnˈevɪtəbl/|không thể tránh khỏi|Change is inevitable.|Thay đổi là điều không thể tránh khỏi.
+B2|initiative|/ɪˈnɪʃətɪv/|sáng kiến; tính chủ động|She took the initiative to fix it.|Cô ấy chủ động sửa lỗi đó.
+B2|innovative|/ˈɪnəveɪtɪv/|đổi mới; sáng tạo|They offer an innovative solution.|Họ đưa ra một giải pháp sáng tạo.
+B2|insight|/ˈɪnsaɪt/|cái nhìn sâu sắc|The book gives useful insight into culture.|Cuốn sách mang lại cái nhìn sâu sắc về văn hóa.
+B2|integrate|/ˈɪntɪɡreɪt/|tích hợp; hòa nhập|We integrated the payment system.|Chúng tôi đã tích hợp hệ thống thanh toán.
+B2|interfere|/ˌɪntəˈfɪə/|can thiệp; gây cản trở|Don’t interfere in their business.|Đừng can thiệp vào việc của họ.
+B2|interpret|/ɪnˈtɜːprɪt/|diễn giải; thông dịch|It’s hard to interpret the results.|Rất khó diễn giải các kết quả này.
+B2|invest|/ɪnˈvest/|đầu tư|They invested in renewable energy.|Họ đã đầu tư vào năng lượng tái tạo.
+B2|justify|/ˈdʒʌstɪfaɪ/|biện minh; chứng minh là hợp lý|How can you justify this cost?|Bạn biện minh cho chi phí này thế nào?
+B2|legislation|/ˌledʒɪsˈleɪʃn/|pháp luật; luật lệ|New legislation protects workers.|Luật mới bảo vệ người lao động.
+B2|maintain|/meɪnˈteɪn/|duy trì; bảo trì|It’s hard to maintain a healthy routine.|Khó mà duy trì nếp sinh hoạt lành mạnh.
+B2|mature|/məˈtʃʊə/|trưởng thành|She is very mature for her age.|Cô ấy rất chín chắn so với tuổi.
+B2|minimise|/ˈmɪnɪmaɪz/|giảm thiểu|We want to minimise the risk.|Chúng tôi muốn giảm thiểu rủi ro.
+B2|monitor|/ˈmɒnɪtə/|giám sát|Doctors monitor her condition daily.|Bác sĩ theo dõi tình trạng của cô ấy hằng ngày.
+B2|motivate|/ˈməʊtɪveɪt/|tạo động lực|Good teachers motivate their students.|Giáo viên giỏi tạo động lực cho học sinh.
+B2|negotiate|/nɪˈɡəʊʃieɪt/|đàm phán|They negotiated a better price.|Họ đã đàm phán được mức giá tốt hơn.
+B2|notion|/ˈnəʊʃn/|quan niệm|I don’t accept that notion.|Tôi không chấp nhận quan niệm đó.
+B2|objective|/əbˈdʒektɪv/|mục tiêu; khách quan|Our main objective is to grow.|Mục tiêu chính của chúng tôi là phát triển.
+B2|obtain|/əbˈteɪn/|đạt được; có được|You need the right documents to obtain a visa.|Bạn cần giấy tờ phù hợp để xin visa.
+B2|outcome|/ˈaʊtkʌm/|kết quả|We are happy with the outcome.|Chúng tôi hài lòng với kết quả.
+B2|overcome|/ˌəʊvəˈkʌm/|vượt qua|She overcame her fear of speaking.|Cô ấy đã vượt qua nỗi sợ nói trước đám đông.
+B2|phenomenon|/fəˈnɒmɪnən/|hiện tượng|Social media is a global phenomenon.|Mạng xã hội là một hiện tượng toàn cầu.
+B2|policy|/ˈpɒləsi/|chính sách|The company has a strict privacy policy.|Công ty có chính sách bảo mật nghiêm ngặt.
+B2|potential|/pəˈtenʃl/|tiềm năng|The idea has great potential.|Ý tưởng này có tiềm năng lớn.
+B2|precise|/prɪˈsaɪs/|chính xác|I need precise information.|Tôi cần thông tin chính xác.
+B2|predict|/prɪˈdɪkt/|dự đoán|No one can predict the weather exactly.|Không ai dự đoán chính xác được thời tiết.
+B2|preserve|/prɪˈzɜːv/|bảo tồn|We must preserve old buildings.|Chúng ta phải bảo tồn các công trình cổ.
+B2|principle|/ˈprɪnsəpl/|nguyên tắc|He refused on principle.|Anh ấy từ chối vì nguyên tắc.
+B2|proportion|/prəˈpɔːʃn/|tỷ lệ|A large proportion of students agreed.|Một tỷ lệ lớn học sinh đã đồng ý.
+B2|pursue|/pəˈsjuː/|theo đuổi|She decided to pursue a career in law.|Cô ấy quyết định theo đuổi sự nghiệp luật.
+B2|rational|/ˈræʃnəl/|hợp lý; lý trí|We need a rational explanation.|Chúng ta cần một lời giải thích hợp lý.
+B2|reform|/rɪˈfɔːm/|cải cách|The government announced education reform.|Chính phủ công bố cải cách giáo dục.
+B2|regulate|/ˈreɡjuleɪt/|điều tiết; quản lý|Laws regulate the use of drones.|Luật pháp điều chỉnh việc sử dụng máy bay không người lái.
+B2|reject|/rɪˈdʒekt/|bác bỏ; từ chối|The committee rejected the proposal.|Hội đồng đã bác bỏ đề xuất.
+B2|relevant|/ˈreləvənt/|liên quan|Please add only relevant details.|Chỉ thêm những chi tiết liên quan.
+B2|reluctance|/rɪˈlʌktəns/|sự miễn cưỡng|She agreed with some reluctance.|Cô ấy đồng ý với chút miễn cưỡng.
+B2|reside|/rɪˈzaɪd/|cư trú|He resides in a small town.|Anh ấy cư trú ở một thị trấn nhỏ.
+B2|resolve|/rɪˈzɒlv/|giải quyết|We resolved the conflict quickly.|Chúng tôi giải quyết xung đột nhanh chóng.
+B2|resource|/rɪˈzɔːs/|tài nguyên; nguồn lực|Water is a precious resource.|Nước là một tài nguyên quý giá.
+B2|restrict|/rɪˈstrɪkt/|hạn chế|The law restricts the use of plastic bags.|Luật hạn chế việc dùng túi nhựa.
+B2|retain|/rɪˈteɪn/|giữ lại|The company wants to retain its best staff.|Công ty muốn giữ chân nhân viên giỏi nhất.
+B2|reveal|/rɪˈviːl/|tiết lộ|The test revealed a serious error.|Bài kiểm tra đã bộc lộ một lỗi nghiêm trọng.
+B2|stable|/ˈsteɪbl/|ổn định|The economy is fairly stable.|Nền kinh tế khá ổn định.
+B2|strategy|/ˈstrætədʒi/|chiến lược|We need a new marketing strategy.|Chúng ta cần chiến lược tiếp thị mới.
+B2|sufficient|/səˈfɪʃnt/|đủ|We don’t have sufficient evidence.|Chúng tôi không có đủ bằng chứng.
+B2|tendency|/ˈtendənsi/|xu hướng|He has a tendency to arrive late.|Anh ấy có xu hướng đến muộn.
+B2|transform|/trænsˈfɔːm/|biến đổi|Technology has transformed education.|Công nghệ đã làm thay đổi giáo dục.
+B2|undergo|/ˌʌndəˈɡəʊ/|trải qua|The building will undergo repairs.|Tòa nhà sẽ trải qua đợt sửa chữa.
+B2|valid|/ˈvælɪd/|hợp lệ; có giá trị|Your ticket is valid for one month.|Vé của bạn có giá trị một tháng.
+B2|vary|/ˈveəri/|thay đổi; khác nhau|Prices vary from shop to shop.|Giá khác nhau giữa các cửa hàng.
+B2|witness|/ˈwɪtnəs/|nhân chứng; chứng kiến|She witnessed the accident.|Cô ấy đã chứng kiến vụ tai nạn.
+C1|abstract|/ˈæbstrækt/|trừu tượng|Freedom is an abstract concept.|Tự do là một khái niệm trừu tượng.
+C1|accountable|/əˈkaʊntəbl/|phải chịu trách nhiệm|Managers are accountable for their decisions.|Các nhà quản lý phải chịu trách nhiệm về quyết định của mình.
+C1|adhere|/ədˈhɪə/|tuân thủ|All staff must adhere to the rules.|Mọi nhân viên phải tuân thủ quy định.
+C1|advocate|/ˈædvəkeɪt/|ủng hộ; người ủng hộ|She advocates for equal pay.|Cô ấy lên tiếng ủng hộ việc trả lương công bằng.
+C1|aesthetic|/iːsˈθetɪk/|thuộc về thẩm mỹ|The design has great aesthetic appeal.|Thiết kế có sức hấp dẫn thẩm mỹ cao.
+C1|albeit|/ɔːlˈbiːɪt/|mặc dù|The plan worked, albeit slowly.|Kế hoạch đã hiệu quả, dù khá chậm.
+C1|amend|/əˈmend/|sửa đổi|They amended the contract last week.|Họ đã sửa đổi hợp đồng tuần trước.
+C1|articulate|/ɑːˈtɪkjuleɪt/|diễn đạt rõ ràng|She can articulate complex ideas clearly.|Cô ấy diễn đạt các ý tưởng phức tạp rất rõ ràng.
+C1|ascertain|/ˌæsəˈteɪn/|xác định chắc chắn|We tried to ascertain the cause of the fire.|Chúng tôi cố xác định nguyên nhân vụ cháy.
+C1|astute|/əˈstjuːt/|sắc sảo|He is an astute businessman.|Ông ấy là một doanh nhân sắc sảo.
+C1|attain|/əˈteɪn/|đạt được|It took years to attain this level.|Phải mất nhiều năm mới đạt được trình độ này.
+C1|authentic|/ɔːˈθentɪk/|xác thực; chính gốc|We serve authentic Vietnamese food.|Chúng tôi phục vụ món Việt chính gốc.
+C1|autonomy|/ɔːˈtɒnəmi/|quyền tự chủ|Employees value autonomy at work.|Nhân viên coi trọng quyền tự chủ trong công việc.
+C1|bolster|/ˈbəʊlstə/|củng cố; tăng cường|The news bolstered investor confidence.|Tin này củng cố niềm tin của nhà đầu tư.
+C1|candid|/ˈkændɪd/|thẳng thắn|Let me be candid with you.|Để tôi nói thẳng với bạn.
+C1|catalyst|/ˈkætəlɪst/|chất xúc tác|The crisis was a catalyst for change.|Cuộc khủng hoảng là chất xúc tác cho sự thay đổi.
+C1|cohesion|/kəʊˈhiːʒn/|sự gắn kết|Team cohesion improved after the retreat.|Sự gắn kết trong nhóm tăng lên sau chuyến đi.
+C1|coincide|/ˌkəʊɪnˈsaɪd/|trùng với|The meeting coincides with the holiday.|Cuộc họp trùng với kỳ nghỉ lễ.
+C1|commence|/kəˈmens/|bắt đầu (trang trọng)|The ceremony will commence at noon.|Buổi lễ sẽ bắt đầu vào buổi trưa.
+C1|concede|/kənˈsiːd/|thừa nhận; nhượng bộ|He conceded that he was wrong.|Anh ấy thừa nhận mình đã sai.
+C1|concise|/kənˈsaɪs/|súc tích|Keep your summary concise.|Hãy viết phần tóm tắt thật súc tích.
+C1|condemn|/kənˈdem/|lên án|Leaders condemned the attack.|Các nhà lãnh đạo đã lên án vụ tấn công.
+C1|consensus|/kənˈsensəs/|sự đồng thuận|The group reached a consensus quickly.|Nhóm nhanh chóng đạt được sự đồng thuận.
+C1|contemplate|/ˈkɒntəmpleɪt/|suy ngẫm; cân nhắc|He contemplated changing careers.|Anh ấy cân nhắc việc đổi nghề.
+C1|contentious|/kənˈtenʃəs/|gây tranh cãi|It’s a highly contentious issue.|Đây là một vấn đề gây tranh cãi lớn.
+C1|convene|/kənˈviːn/|triệu tập|The committee will convene on Monday.|Ủy ban sẽ họp vào thứ Hai.
+C1|corroborate|/kəˈrɒbəreɪt/|chứng thực|Two witnesses corroborated her story.|Hai nhân chứng đã chứng thực lời kể của cô ấy.
+C1|credible|/ˈkredəbl/|đáng tin|We need a credible source.|Chúng ta cần một nguồn đáng tin cậy.
+C1|cumbersome|/ˈkʌmbəsəm/|rườm rà; cồng kềnh|The process is slow and cumbersome.|Quy trình vừa chậm vừa rườm rà.
+C1|curtail|/kɜːˈteɪl/|cắt giảm|The company curtailed its spending.|Công ty đã cắt giảm chi tiêu.
+C1|delineate|/dɪˈlɪnieɪt/|phác họa; vạch rõ|The report delineates each team’s role.|Báo cáo vạch rõ vai trò của từng nhóm.
+C1|denote|/dɪˈnəʊt/|biểu thị|The red light denotes danger.|Đèn đỏ biểu thị nguy hiểm.
+C1|deplete|/dɪˈpliːt/|làm cạn kiệt|Overfishing depletes fish stocks.|Đánh bắt quá mức làm cạn kiệt nguồn cá.
+C1|deter|/dɪˈtɜː/|ngăn cản|High prices deter many customers.|Giá cao khiến nhiều khách hàng e ngại.
+C1|devise|/dɪˈvaɪz/|nghĩ ra|She devised a simple solution.|Cô ấy nghĩ ra một giải pháp đơn giản.
+C1|diminish|/dɪˈmɪnɪʃ/|giảm bớt|His enthusiasm slowly diminished.|Sự nhiệt tình của anh ấy dần giảm đi.
+C1|discern|/dɪˈsɜːn/|nhận ra; phân biệt|It’s hard to discern the truth here.|Ở đây khó mà nhận ra đâu là sự thật.
+C1|disparity|/dɪˈspærəti/|sự chênh lệch|There is a wide disparity in income.|Có sự chênh lệch lớn về thu nhập.
+C1|disseminate|/dɪˈsemɪneɪt/|phổ biến; truyền bá|The agency disseminates health information.|Cơ quan này phổ biến thông tin y tế.
+C1|dissent|/dɪˈsent/|sự bất đồng chính kiến|There was little dissent in the meeting.|Có rất ít ý kiến bất đồng trong cuộc họp.
+C1|dwindle|/ˈdwɪndl/|giảm dần|Our savings dwindled over the year.|Khoản tiết kiệm của chúng tôi hao dần trong năm.
+C1|elaborate|/ɪˈlæbəreɪt/|trình bày chi tiết|Could you elaborate on that point?|Bạn có thể nói rõ hơn về điểm đó không?
+C1|eloquent|/ˈeləkwənt/|hùng hồn; lưu loát|She gave an eloquent speech.|Cô ấy có một bài phát biểu hùng hồn.
+C1|embark|/ɪmˈbɑːk/|bắt đầu (một hành trình)|They embarked on a new project.|Họ bắt tay vào một dự án mới.
+C1|endorse|/ɪnˈdɔːs/|tán thành; xác nhận|The board endorsed the proposal.|Hội đồng đã tán thành đề xuất.
+C1|enigma|/ɪˈnɪɡmə/|điều bí ẩn|His motives remain an enigma.|Động cơ của anh ấy vẫn là một điều bí ẩn.
+C1|equitable|/ˈekwɪtəbl/|công bằng|We need a more equitable system.|Chúng ta cần một hệ thống công bằng hơn.
+C1|erode|/ɪˈrəʊd/|xói mòn|Rain slowly erodes the soil.|Mưa làm xói mòn đất dần dần.
+C1|exemplify|/ɪɡˈzemplɪfaɪ/|là ví dụ điển hình cho|Her work exemplifies good design.|Công việc của cô ấy là ví dụ điển hình của thiết kế tốt.
+C1|explicit|/ɪkˈsplɪsɪt/|rõ ràng; tường minh|The rules are explicit.|Các quy định rất rõ ràng.
+C1|facilitate|/fəˈsɪlɪteɪt/|tạo điều kiện; hỗ trợ|Technology facilitates communication.|Công nghệ tạo điều kiện cho việc giao tiếp.
+C1|fluctuate|/ˈflʌktʃueɪt/|dao động|Prices fluctuate throughout the year.|Giá cả dao động suốt năm.
+C1|formidable|/ˈfɔːmɪdəbl/|đáng gờm|They face a formidable challenge.|Họ đối mặt với một thử thách đáng gờm.
+C1|foster|/ˈfɒstə/|nuôi dưỡng; thúc đẩy|Schools should foster creativity.|Trường học nên thúc đẩy sự sáng tạo.
+C1|hinder|/ˈhɪndə/|cản trở|Poor weather hindered the rescue.|Thời tiết xấu cản trở việc cứu hộ.
+C1|hypothetical|/ˌhaɪpəˈθetɪkl/|mang tính giả định|Let’s consider a hypothetical case.|Hãy xét một trường hợp giả định.
+C1|impede|/ɪmˈpiːd/|cản trở|Traffic impeded our progress.|Giao thông cản trở tiến độ của chúng tôi.
+C1|imperative|/ɪmˈperətɪv/|bắt buộc; cấp thiết|It is imperative that we act now.|Chúng ta bắt buộc phải hành động ngay.
+C1|impetus|/ˈɪmpɪtəs/|động lực thúc đẩy|The award gave new impetus to her work.|Giải thưởng tiếp thêm động lực cho công việc của cô ấy.
+C1|implicit|/ɪmˈplɪsɪt/|ngầm hiểu|There was an implicit agreement.|Đã có một thỏa thuận ngầm.
+C1|inclined|/ɪnˈklaɪnd/|có xu hướng; có ý muốn|I’m inclined to agree with you.|Tôi có xu hướng đồng ý với bạn.
+C1|indicative|/ɪnˈdɪkətɪv/|là dấu hiệu của|The results are indicative of a trend.|Kết quả là dấu hiệu của một xu hướng.
+C1|infer|/ɪnˈfɜː/|suy ra|We can infer that sales will rise.|Chúng ta có thể suy ra doanh số sẽ tăng.
+C1|infringe|/ɪnˈfrɪndʒ/|vi phạm|The product infringes our patent.|Sản phẩm này vi phạm bằng sáng chế của chúng tôi.
+C1|inhibit|/ɪnˈhɪbɪt/|kìm hãm|Fear can inhibit learning.|Nỗi sợ có thể kìm hãm việc học.
+C1|innate|/ɪˈneɪt/|bẩm sinh|Children have an innate curiosity.|Trẻ em có sự tò mò bẩm sinh.
+C1|intricate|/ˈɪntrɪkət/|phức tạp; tinh vi|The watch has an intricate design.|Chiếc đồng hồ có thiết kế tinh vi.
+C1|intrinsic|/ɪnˈtrɪnzɪk/|vốn có; nội tại|Honesty has intrinsic value.|Sự trung thực có giá trị nội tại.
+C1|invoke|/ɪnˈvəʊk/|viện dẫn; gợi lên|He invoked the law to defend himself.|Anh ấy viện dẫn luật để tự bào chữa.
+C1|jeopardise|/ˈdʒepədaɪz/|gây nguy hại cho|One mistake could jeopardise the deal.|Một sai sót có thể gây nguy hại cho thương vụ.
+C1|lucrative|/ˈluːkrətɪv/|sinh lợi|It’s a lucrative business.|Đó là một ngành kinh doanh sinh lợi.
+C1|magnitude|/ˈmæɡnɪtjuːd/|mức độ; tầm cỡ|We didn’t realise the magnitude of the problem.|Chúng tôi không nhận ra tầm cỡ của vấn đề.
+C1|mandate|/ˈmændeɪt/|ủy quyền; sự ủy nhiệm|The mayor has a clear mandate.|Thị trưởng có sự ủy nhiệm rõ ràng.
+C1|notwithstanding|/ˌnɒtwɪθˈstændɪŋ/|bất chấp|The event went ahead, notwithstanding the rain.|Sự kiện vẫn diễn ra bất chấp trời mưa.
+C1|obscure|/əbˈskjʊə/|mơ hồ; ít người biết|The meaning of the text is obscure.|Ý nghĩa của đoạn văn này mơ hồ.
+C1|ominous|/ˈɒmɪnəs/|đáng ngại|Dark clouds were an ominous sign.|Mây đen là một dấu hiệu đáng ngại.
+C1|overt|/ˈəʊvɜːt/|công khai|There was no overt opposition.|Không có sự phản đối công khai nào.
+C1|paramount|/ˈpærəmaʊnt/|tối quan trọng|Safety is paramount.|An toàn là điều tối quan trọng.
+C1|perceive|/pəˈsiːv/|nhận thức; cảm nhận|Many people perceive it as a risk.|Nhiều người nhận thức đó là một rủi ro.
+C1|pertinent|/ˈpɜːtɪnənt/|thích đáng; có liên quan|She asked a very pertinent question.|Cô ấy đặt một câu hỏi rất thích đáng.
+C1|pinpoint|/ˈpɪnpɔɪnt/|xác định chính xác|We pinpointed the source of the error.|Chúng tôi xác định chính xác nguồn gốc của lỗi.
+C1|pivotal|/ˈpɪvətl/|then chốt|She played a pivotal role in the project.|Cô ấy đóng vai trò then chốt trong dự án.
+C1|precarious|/prɪˈkeəriəs/|bấp bênh|His financial position is precarious.|Tình hình tài chính của anh ấy rất bấp bênh.
+C1|predominant|/prɪˈdɒmɪnənt/|chiếm ưu thế|English is the predominant language here.|Tiếng Anh là ngôn ngữ chiếm ưu thế ở đây.
+C1|premise|/ˈpremɪs/|tiền đề|The argument is based on a false premise.|Lập luận dựa trên một tiền đề sai.
+C1|proficient|/prəˈfɪʃnt/|thành thạo|She is proficient in three languages.|Cô ấy thành thạo ba ngôn ngữ.
+C1|prolific|/prəˈlɪfɪk/|sáng tác nhiều|He is a prolific writer.|Ông ấy là một nhà văn viết rất nhiều.
+C1|pronounced|/prəˈnaʊnst/|rõ rệt|There was a pronounced change in her mood.|Tâm trạng cô ấy thay đổi rõ rệt.
+C1|propensity|/prəˈpensəti/|khuynh hướng|He has a propensity to exaggerate.|Anh ấy có khuynh hướng phóng đại.
+C1|rectify|/ˈrektɪfaɪ/|sửa chữa; khắc phục|We will rectify the error immediately.|Chúng tôi sẽ khắc phục lỗi ngay lập tức.
+C1|redundant|/rɪˈdʌndənt/|dư thừa; bị cho thôi việc|Fifty workers were made redundant.|Năm mươi công nhân bị cho thôi việc.
+C1|refute|/rɪˈfjuːt/|bác bỏ|She refuted every claim they made.|Cô ấy bác bỏ mọi cáo buộc của họ.
+C1|relinquish|/rɪˈlɪŋkwɪʃ/|từ bỏ|He relinquished control of the company.|Ông ấy từ bỏ quyền kiểm soát công ty.
+C1|replicate|/ˈreplɪkeɪt/|tái tạo; nhân bản|Other labs could not replicate the result.|Các phòng thí nghiệm khác không thể tái tạo kết quả.
+C1|repercussion|/ˌriːpəˈkʌʃn/|hệ quả|The decision had serious repercussions.|Quyết định đó để lại hệ quả nghiêm trọng.
+C1|reputable|/ˈrepjətəbl/|có uy tín|Buy only from a reputable seller.|Chỉ mua từ người bán có uy tín.
+C1|scrutiny|/ˈskruːtəni/|sự xem xét kỹ lưỡng|The plan is under close scrutiny.|Kế hoạch đang bị xem xét kỹ lưỡng.
+C1|stringent|/ˈstrɪndʒənt/|nghiêm ngặt|There are stringent safety rules.|Có những quy định an toàn nghiêm ngặt.
+C1|subsequent|/ˈsʌbsɪkwənt/|tiếp theo|Subsequent studies confirmed the finding.|Các nghiên cứu tiếp theo đã xác nhận phát hiện này.
+C1|succinct|/səkˈsɪŋkt/|ngắn gọn|Write a succinct email.|Hãy viết một email ngắn gọn.
+C1|surpass|/səˈpɑːs/|vượt qua|Sales surpassed all expectations.|Doanh số vượt mọi kỳ vọng.
+C1|susceptible|/səˈseptəbl/|dễ bị ảnh hưởng|Old systems are susceptible to attack.|Các hệ thống cũ dễ bị tấn công.
+C1|tangible|/ˈtændʒəbl/|hữu hình; rõ ràng|We need tangible results.|Chúng ta cần những kết quả rõ ràng.
+C1|thrive|/θraɪv/|phát triển mạnh|Small businesses thrive in this area.|Các doanh nghiệp nhỏ phát triển mạnh ở khu vực này.
+C1|unprecedented|/ʌnˈpresɪdentɪd/|chưa từng có|The company saw unprecedented growth.|Công ty đạt mức tăng trưởng chưa từng có.
+C1|warrant|/ˈwɒrənt/|biện minh; đáng để|The risk does not warrant the cost.|Rủi ro không đáng với chi phí bỏ ra.
+C1|whereas|/weərˈæz/|trong khi|He likes tea, whereas she prefers coffee.|Anh ấy thích trà, trong khi cô ấy thích cà phê.
+C1|withstand|/wɪðˈstænd/|chịu đựng|The building can withstand strong winds.|Tòa nhà có thể chịu được gió mạnh.
+C2|abstruse|/æbˈstruːs/|khó hiểu; thâm sâu|The lecture was too abstruse for beginners.|Bài giảng quá thâm sâu với người mới học.
+C2|aberration|/ˌæbəˈreɪʃn/|sự lệch lạc; bất thường|The low score was an aberration.|Điểm thấp đó chỉ là một bất thường.
+C2|acrimony|/ˈækrɪməni/|sự cay nghiệt|The divorce ended in bitter acrimony.|Cuộc ly hôn kết thúc trong sự cay nghiệt.
+C2|alacrity|/əˈlækrəti/|sự nhanh nhẹn; hăng hái|She accepted the offer with alacrity.|Cô ấy nhận lời đề nghị một cách hăng hái.
+C2|altruistic|/ˌæltruˈɪstɪk/|vị tha|His motives were purely altruistic.|Động cơ của anh ấy hoàn toàn vị tha.
+C2|ameliorate|/əˈmiːliəreɪt/|cải thiện; làm giảm bớt|New policies aim to ameliorate poverty.|Các chính sách mới nhằm làm giảm bớt nghèo đói.
+C2|anachronism|/əˈnækrənɪzəm/|điều lỗi thời; sai niên đại|The film contains a glaring anachronism.|Bộ phim có một chi tiết sai niên đại rất rõ.
+C2|antithesis|/ænˈtɪθəsɪs/|mặt đối lập|Silence is the antithesis of noise.|Im lặng là mặt đối lập của tiếng ồn.
+C2|apathy|/ˈæpəθi/|sự thờ ơ|Voter apathy is a growing concern.|Sự thờ ơ của cử tri là mối lo ngày càng lớn.
+C2|arcane|/ɑːˈkeɪn/|bí hiểm; ít người biết|The rules of the game are arcane.|Luật chơi này rất bí hiểm.
+C2|assuage|/əˈsweɪdʒ/|làm dịu|Nothing could assuage her grief.|Không gì làm dịu được nỗi đau của cô ấy.
+C2|audacious|/ɔːˈdeɪʃəs/|táo bạo|It was an audacious plan.|Đó là một kế hoạch táo bạo.
+C2|austere|/ɒˈstɪə/|khắc khổ; mộc mạc|They lived an austere life.|Họ sống một cuộc đời khắc khổ.
+C2|banal|/bəˈnɑːl/|tầm thường; nhàm chán|The film’s dialogue is banal.|Lời thoại của bộ phim rất tầm thường.
+C2|belie|/bɪˈlaɪ/|làm sai lệch; mâu thuẫn với|His calm tone belied his fear.|Giọng bình thản của anh ấy che giấu nỗi sợ.
+C2|bombastic|/bɒmˈbæstɪk/|khoa trương|The speech was loud and bombastic.|Bài phát biểu ồn ào và khoa trương.
+C2|brevity|/ˈbrevəti/|sự ngắn gọn|The brevity of the report was welcome.|Sự ngắn gọn của bản báo cáo được hoan nghênh.
+C2|cacophony|/kəˈkɒfəni/|âm thanh hỗn tạp|A cacophony of horns filled the street.|Một mớ âm thanh còi xe hỗn tạp vang khắp phố.
+C2|capitulate|/kəˈpɪtʃuleɪt/|đầu hàng|The company capitulated to the demands.|Công ty đã chịu nhượng bộ trước các yêu cầu.
+C2|castigate|/ˈkæstɪɡeɪt/|chỉ trích gay gắt|The press castigated the minister.|Báo chí chỉ trích gay gắt vị bộ trưởng.
+C2|circumspect|/ˈsɜːkəmspekt/|thận trọng|He was circumspect in his reply.|Anh ấy trả lời rất thận trọng.
+C2|clandestine|/klænˈdestɪn/|bí mật; lén lút|They held clandestine meetings.|Họ tổ chức những cuộc họp bí mật.
+C2|cogent|/ˈkəʊdʒənt/|thuyết phục; chặt chẽ|She made a cogent argument.|Cô ấy đưa ra một lập luận chặt chẽ.
+C2|commensurate|/kəˈmenʃərət/|tương xứng|The salary is commensurate with experience.|Mức lương tương xứng với kinh nghiệm.
+C2|conciliatory|/kənˈsɪliətri/|hòa giải|He took a conciliatory tone.|Anh ấy dùng giọng điệu hòa giải.
+C2|connoisseur|/ˌkɒnəˈsɜː/|người sành sỏi|He is a connoisseur of fine tea.|Ông ấy là người sành trà.
+C2|convoluted|/ˈkɒnvəluːtɪd/|rắc rối; quanh co|The plot is far too convoluted.|Cốt truyện quá rắc rối.
+C2|copious|/ˈkəʊpiəs/|dồi dào|She took copious notes.|Cô ấy ghi chép rất nhiều.
+C2|culminate|/ˈkʌlmɪneɪt/|lên đến đỉnh điểm|The project culminated in a successful launch.|Dự án lên đến đỉnh điểm với lần ra mắt thành công.
+C2|cursory|/ˈkɜːsəri/|qua loa|He gave the report a cursory glance.|Anh ấy xem lướt qua bản báo cáo.
+C2|dearth|/dɜːθ/|sự khan hiếm|There is a dearth of skilled workers.|Đang khan hiếm lao động có tay nghề.
+C2|debilitate|/dɪˈbɪlɪteɪt/|làm suy yếu|The illness debilitated him for months.|Căn bệnh làm anh ấy suy nhược nhiều tháng.
+C2|decorum|/dɪˈkɔːrəm/|phép lịch sự; nghi thức|Please maintain decorum during the ceremony.|Xin giữ đúng phép lịch sự trong buổi lễ.
+C2|deference|/ˈdefərəns/|sự kính trọng|They showed deference to the elders.|Họ bày tỏ sự kính trọng với người lớn tuổi.
+C2|deleterious|/ˌdeləˈtɪəriəs/|có hại|Smoking has deleterious effects on health.|Hút thuốc có tác hại đến sức khỏe.
+C2|derivative|/dɪˈrɪvətɪv/|thiếu độc đáo; phái sinh|The music felt derivative.|Bản nhạc nghe thiếu độc đáo.
+C2|desultory|/ˈdesltri/|rời rạc; không có mục đích|They had a desultory conversation.|Họ trò chuyện rời rạc.
+C2|dichotomy|/daɪˈkɒtəmi/|sự phân đôi|There is a dichotomy between theory and practice.|Có sự phân đôi giữa lý thuyết và thực hành.
+C2|didactic|/daɪˈdæktɪk/|mang tính giáo huấn|The novel is too didactic.|Cuốn tiểu thuyết quá mang tính giáo huấn.
+C2|diffident|/ˈdɪfɪdənt/|rụt rè|He was diffident about his talent.|Anh ấy rụt rè về tài năng của mình.
+C2|discordant|/dɪˈskɔːdənt/|bất hòa|A discordant note spoiled the song.|Một nốt chói tai làm hỏng bài hát.
+C2|disparage|/dɪˈspærɪdʒ/|chê bai|Don’t disparage their efforts.|Đừng chê bai nỗ lực của họ.
+C2|dogmatic|/dɒɡˈmætɪk/|giáo điều|He is dogmatic about his methods.|Anh ấy giáo điều về phương pháp của mình.
+C2|ebullient|/ɪˈbʌliənt/|sôi nổi|She was ebullient after the win.|Cô ấy sôi nổi sau chiến thắng.
+C2|eclectic|/ɪˈklektɪk/|chọn lọc từ nhiều nguồn|He has eclectic tastes in music.|Anh ấy có gu âm nhạc đa dạng.
+C2|efficacious|/ˌefɪˈkeɪʃəs/|hiệu quả|The treatment proved efficacious.|Phương pháp điều trị tỏ ra hiệu quả.
+C2|egregious|/ɪˈɡriːdʒiəs/|nghiêm trọng một cách lộ liễu|It was an egregious error.|Đó là một sai sót nghiêm trọng, quá lộ liễu.
+C2|embellish|/ɪmˈbelɪʃ/|tô vẽ|He tends to embellish his stories.|Anh ấy hay tô vẽ câu chuyện của mình.
+C2|empirical|/ɪmˈpɪrɪkl/|dựa trên thực nghiệm|We need empirical evidence.|Chúng ta cần bằng chứng thực nghiệm.
+C2|enervate|/ˈenəveɪt/|làm kiệt sức|The heat enervated the hikers.|Cái nóng làm những người đi bộ kiệt sức.
+C2|enigmatic|/ˌenɪɡˈmætɪk/|bí ẩn|She gave an enigmatic smile.|Cô ấy nở một nụ cười bí ẩn.
+C2|equivocal|/ɪˈkwɪvəkl/|nước đôi; mơ hồ|His answer was deliberately equivocal.|Câu trả lời của anh ấy cố tình nước đôi.
+C2|erudite|/ˈerudaɪt/|uyên bác|He is an erudite scholar.|Ông ấy là một học giả uyên bác.
+C2|esoteric|/ˌesəˈterɪk/|bí truyền; chuyên sâu|The topic is too esoteric for most readers.|Chủ đề này quá chuyên sâu với đa số độc giả.
+C2|euphemism|/ˈjuːfəmɪzəm/|lối nói giảm nói tránh|“Passed away” is a euphemism for “died”.|“Qua đời” là cách nói giảm nói tránh cho “chết”.
+C2|exonerate|/ɪɡˈzɒnəreɪt/|minh oan|The evidence exonerated the driver.|Bằng chứng đã minh oan cho tài xế.
+C2|expedient|/ɪkˈspiːdiənt/|thích hợp trước mắt; tiện lợi|It was expedient to delay the launch.|Hoãn buổi ra mắt là lựa chọn thích hợp lúc đó.
+C2|extraneous|/ɪkˈstreɪniəs/|không liên quan|Remove extraneous details.|Hãy loại bỏ các chi tiết không liên quan.
+C2|fastidious|/fæˈstɪdiəs/|khó tính; tỉ mỉ|He is fastidious about cleanliness.|Anh ấy rất khắt khe về sự sạch sẽ.
+C2|fervent|/ˈfɜːvənt/|nhiệt thành|She is a fervent supporter of the team.|Cô ấy là người ủng hộ nhiệt thành của đội.
+C2|futile|/ˈfjuːtaɪl/|vô ích|It is futile to argue with him.|Tranh cãi với anh ta cũng vô ích.
+C2|garrulous|/ˈɡærələs/|lắm lời|My garrulous neighbour talks for hours.|Người hàng xóm lắm lời của tôi nói hàng giờ.
+C2|gregarious|/ɡrɪˈɡeəriəs/|thích giao du|He is a gregarious and friendly man.|Ông ấy là người thích giao du và thân thiện.
+C2|hackneyed|/ˈhæknid/|sáo mòn|The speech was full of hackneyed phrases.|Bài phát biểu đầy những cụm từ sáo mòn.
+C2|harbinger|/ˈhɑːbɪndʒə/|điềm báo|Crocuses are a harbinger of spring.|Hoa nghệ tây là điềm báo mùa xuân.
+C2|hegemony|/hɪˈdʒeməni/|quyền bá chủ|The empire held hegemony over the region.|Đế quốc nắm quyền bá chủ trong khu vực.
+C2|iconoclast|/aɪˈkɒnəklæst/|người phá bỏ tín điều|She is an iconoclast in the art world.|Cô ấy là người phá cách trong giới nghệ thuật.
+C2|impetuous|/ɪmˈpetʃuəs/|bốc đồng|His impetuous decision cost him dearly.|Quyết định bốc đồng khiến anh ấy phải trả giá đắt.
+C2|impervious|/ɪmˈpɜːviəs/|không bị ảnh hưởng|He was impervious to criticism.|Anh ấy không bị lời chỉ trích làm lay động.
+C2|inadvertent|/ˌɪnədˈvɜːtənt/|vô ý|It was an inadvertent mistake.|Đó là một sai sót vô ý.
+C2|incongruous|/ɪnˈkɒŋɡruəs/|lạc lõng|The modern tower looked incongruous here.|Tòa tháp hiện đại trông lạc lõng ở đây.
+C2|indolent|/ˈɪndələnt/|lười nhác|The heat made everyone indolent.|Cái nóng khiến ai cũng lười nhác.
+C2|inscrutable|/ɪnˈskruːtəbl/|khó dò|His face was calm and inscrutable.|Gương mặt anh ấy bình thản và khó đoán.
+C2|intransigent|/ɪnˈtrænsɪdʒənt/|không khoan nhượng|Both sides remain intransigent.|Cả hai bên vẫn không chịu nhượng bộ.
+C2|inundate|/ˈɪnʌndeɪt/|tràn ngập|We were inundated with requests.|Chúng tôi bị ngập trong các yêu cầu.
+C2|laconic|/ləˈkɒnɪk/|ngắn gọn; ít lời|He gave a laconic reply.|Anh ấy đáp lại ngắn gọn.
+C2|languid|/ˈlæŋɡwɪd/|uể oải|They spent a languid afternoon by the lake.|Họ trải qua một buổi chiều uể oải bên hồ.
+C2|lethargic|/ləˈθɑːdʒɪk/|lờ đờ|I feel lethargic after lunch.|Tôi thấy lờ đờ sau bữa trưa.
+C2|loquacious|/ləˈkweɪʃəs/|nói nhiều|The loquacious host kept everyone laughing.|Người dẫn chương trình nói nhiều làm mọi người cười mãi.
+C2|lucid|/ˈluːsɪd/|sáng suốt; rõ ràng|She gave a lucid explanation.|Cô ấy giải thích rất rõ ràng.
+C2|magnanimous|/mæɡˈnænɪməs/|cao thượng|He was magnanimous in victory.|Anh ấy cao thượng trong chiến thắng.
+C2|malleable|/ˈmæliəbl/|dễ uốn; dễ thay đổi|Gold is a malleable metal.|Vàng là kim loại dễ uốn.
+C2|mercurial|/mɜːˈkjʊəriəl/|thất thường|He has a mercurial temper.|Anh ấy có tính khí thất thường.
+C2|nefarious|/nɪˈfeəriəs/|xấu xa|They were involved in a nefarious scheme.|Họ dính líu đến một âm mưu xấu xa.
+C2|obfuscate|/ˈɒbfʌskeɪt/|làm rối; che mờ|The report seems to obfuscate the facts.|Bản báo cáo dường như làm rối các sự thật.
+C2|obsequious|/əbˈsiːkwiəs/|xu nịnh|The waiter was annoyingly obsequious.|Người phục vụ xu nịnh đến khó chịu.
+C2|ostentatious|/ˌɒstenˈteɪʃəs/|phô trương|They live in an ostentatious mansion.|Họ sống trong một biệt thự phô trương.
+C2|panacea|/ˌpænəˈsɪə/|thuốc chữa bách bệnh|Technology is not a panacea.|Công nghệ không phải là thuốc chữa bách bệnh.
+C2|paragon|/ˈpærəɡən/|hình mẫu hoàn hảo|She is a paragon of virtue.|Cô ấy là hình mẫu hoàn hảo của đức hạnh.
+C2|parsimonious|/ˌpɑːsɪˈməʊniəs/|keo kiệt|He is parsimonious with his money.|Ông ấy rất keo kiệt với tiền bạc.
+C2|pernicious|/pəˈnɪʃəs/|có hại ngấm ngầm|Fake news has a pernicious effect.|Tin giả có tác hại ngấm ngầm.
+C2|perspicacious|/ˌpɜːspɪˈkeɪʃəs/|sáng suốt; sắc sảo|A perspicacious editor spotted the flaw.|Một biên tập viên sắc sảo đã phát hiện ra lỗi.
+C2|pithy|/ˈpɪθi/|súc tích; cô đọng|He gave a pithy summary.|Anh ấy đưa ra bản tóm tắt cô đọng.
+C2|placate|/pləˈkeɪt/|xoa dịu|She tried to placate the angry customer.|Cô ấy cố xoa dịu vị khách đang giận.
+C2|platitude|/ˈplætɪtjuːd/|lời sáo rỗng|His speech was full of platitudes.|Bài phát biểu của ông ấy đầy lời sáo rỗng.
+C2|prodigious|/prəˈdɪdʒəs/|phi thường|She has a prodigious memory.|Cô ấy có trí nhớ phi thường.
+C2|proliferate|/prəˈlɪfəreɪt/|sinh sôi; lan nhanh|Fake accounts proliferate online.|Các tài khoản giả sinh sôi trên mạng.
+C2|quixotic|/kwɪkˈsɒtɪk/|viển vông; lý tưởng hóa|It was a quixotic attempt to change the system.|Đó là một nỗ lực viển vông nhằm thay đổi hệ thống.
+C2|recalcitrant|/rɪˈkælsɪtrənt/|ngoan cố|The recalcitrant student refused to listen.|Cậu học sinh ngoan cố không chịu nghe.
+C2|recondite|/ˈrekəndaɪt/|thâm sâu; ít người biết|The book deals with recondite subjects.|Cuốn sách bàn về những chủ đề thâm sâu.
+C2|redolent|/ˈredələnt/|gợi nhớ; thoang thoảng|The room was redolent of lavender.|Căn phòng thoang thoảng mùi oải hương.
+C2|salient|/ˈseɪliənt/|nổi bật; quan trọng nhất|Let me outline the salient points.|Để tôi nêu những điểm nổi bật nhất.
+C2|sanguine|/ˈsæŋɡwɪn/|lạc quan|She is sanguine about the future.|Cô ấy lạc quan về tương lai.
+C2|sardonic|/sɑːˈdɒnɪk/|mỉa mai|He gave a sardonic smile.|Anh ấy nở một nụ cười mỉa mai.
+C2|sycophant|/ˈsɪkəfænt/|kẻ xu nịnh|The boss surrounded himself with sycophants.|Ông sếp vây quanh mình toàn kẻ xu nịnh.
+C2|taciturn|/ˈtæsɪtɜːn/|ít nói|He is a taciturn man.|Ông ấy là người ít nói.
+C2|temerity|/təˈmerəti/|sự liều lĩnh|He had the temerity to complain.|Anh ta có cả gan đi phàn nàn.
+C2|truculent|/ˈtrʌkjələnt/|hung hăng|The truculent customer shouted at the staff.|Vị khách hung hăng quát nhân viên.
+C2|unequivocal|/ˌʌnɪˈkwɪvəkl/|rõ ràng; dứt khoát|The answer was an unequivocal yes.|Câu trả lời là một tiếng “có” dứt khoát.
+C2|vacillate|/ˈvæsɪleɪt/|do dự|She vacillated between the two offers.|Cô ấy do dự giữa hai lời mời.
+C2|venerate|/ˈvenəreɪt/|tôn kính|They venerate their ancestors.|Họ tôn kính tổ tiên.
+C2|vicarious|/vɪˈkeəriəs/|gián tiếp|She enjoyed vicarious pleasure through her son.|Cô ấy vui lây qua những thành tựu của con trai.
+C2|vociferous|/vəˈsɪfərəs/|ồn ào; kịch liệt|There was vociferous opposition to the plan.|Có sự phản đối kịch liệt với kế hoạch.
+C2|zealous|/ˈzeləs/|nhiệt tâm|He is a zealous defender of free speech.|Ông ấy là người bảo vệ nhiệt tâm của tự do ngôn luận.
+IT|abstraction|/æbˈstrækʃn/|sự trừu tượng hóa|This layer hides complexity through abstraction.|Tầng này che giấu độ phức tạp nhờ trừu tượng hóa.
+IT|access|/ˈækses/|truy cập; quyền truy cập|Only admins have access to this folder.|Chỉ quản trị viên mới có quyền truy cập thư mục này.
+IT|authorization|/ˌɔːθəraɪˈzeɪʃn/|sự cấp quyền|Authorization decides what a user can do.|Việc cấp quyền quyết định người dùng được làm gì.
+IT|frontend|/ˈfrʌntend/|giao diện người dùng (phía trước)|She works on the frontend of the app.|Cô ấy làm phần giao diện của ứng dụng.
+IT|browser|/ˈbraʊzə/|trình duyệt|Clear your browser cache and try again.|Hãy xóa bộ nhớ đệm trình duyệt và thử lại.
+IT|bug|/bʌɡ/|lỗi phần mềm|We found a bug in the login page.|Chúng tôi tìm thấy một lỗi ở trang đăng nhập.
+IT|binary|/ˈbaɪnəri/|nhị phân|Computers store data in binary.|Máy tính lưu dữ liệu dưới dạng nhị phân.
+IT|boolean|/ˈbuːliən/|kiểu logic đúng/sai|A boolean can be true or false.|Một biến boolean có thể là đúng hoặc sai.
+IT|branch|/brɑːntʃ/|nhánh (mã nguồn)|Create a new branch for this feature.|Hãy tạo một nhánh mới cho tính năng này.
+IT|build|/bɪld/|bản dựng; biên dịch|The build failed because of a missing file.|Bản dựng thất bại vì thiếu một tệp.
+IT|checksum|/ˈtʃeksʌm/|giá trị kiểm tra toàn vẹn|Verify the file with its checksum.|Hãy kiểm tra tệp bằng giá trị checksum.
+IT|class|/klɑːs/|lớp (lập trình)|Define a class for each user.|Hãy định nghĩa một lớp cho mỗi người dùng.
+IT|client|/ˈklaɪənt/|máy khách; khách hàng|The client sends a request to the server.|Máy khách gửi yêu cầu đến máy chủ.
+IT|cloud|/klaʊd/|đám mây|We store our backups in the cloud.|Chúng tôi lưu bản sao lưu trên đám mây.
+IT|cluster|/ˈklʌstə/|cụm máy chủ|The cluster has ten nodes.|Cụm máy chủ này có mười nút.
+IT|code|/kəʊd/|mã nguồn; viết mã|Clean code is easier to maintain.|Mã nguồn sạch thì dễ bảo trì hơn.
+IT|command|/kəˈmɑːnd/|lệnh|Run this command in the terminal.|Hãy chạy lệnh này trong terminal.
+IT|configure|/kənˈfɪɡə/|cấu hình|Configure the router before use.|Hãy cấu hình router trước khi dùng.
+IT|cookie|/ˈkʊki/|tệp cookie|The site stores a cookie in your browser.|Trang web lưu một cookie trong trình duyệt của bạn.
+IT|cursor|/ˈkɜːsə/|con trỏ|Move the cursor to the end of the line.|Hãy di chuyển con trỏ đến cuối dòng.
+IT|dashboard|/ˈdæʃbɔːd/|bảng điều khiển|The dashboard shows live traffic.|Bảng điều khiển hiển thị lưu lượng truy cập trực tiếp.
+IT|dataset|/ˈdeɪtəset/|tập dữ liệu|We trained the model on a large dataset.|Chúng tôi huấn luyện mô hình trên một tập dữ liệu lớn.
+IT|decrypt|/diːˈkrɪpt/|giải mã|Only the owner can decrypt the file.|Chỉ chủ sở hữu mới giải mã được tệp.
+IT|default|/dɪˈfɔːlt/|mặc định|The default port is 8080.|Cổng mặc định là 8080.
+IT|deprecated|/ˈdeprəkeɪtɪd/|đã lỗi thời (không khuyến khích dùng)|This function is deprecated.|Hàm này đã bị đánh dấu lỗi thời.
+IT|directory|/dɪˈrektəri/|thư mục|Create a new directory for the project.|Hãy tạo một thư mục mới cho dự án.
+IT|domain|/dəʊˈmeɪn/|tên miền|I bought a new domain for my blog.|Tôi đã mua một tên miền mới cho blog.
+IT|download|/ˌdaʊnˈləʊd/|tải xuống|Download the file and unzip it.|Hãy tải tệp xuống và giải nén.
+IT|driver|/ˈdraɪvə/|trình điều khiển|Update the graphics driver.|Hãy cập nhật trình điều khiển đồ họa.
+IT|encode|/ɪnˈkəʊd/|mã hóa (định dạng)|Encode the text in UTF-8.|Hãy mã hóa văn bản bằng UTF-8.
+IT|exception|/ɪkˈsepʃn/|ngoại lệ|The program threw an exception.|Chương trình đã ném ra một ngoại lệ.
+IT|execute|/ˈeksɪkjuːt/|thực thi|Execute the script as an administrator.|Hãy thực thi tập lệnh với quyền quản trị.
+IT|extension|/ɪkˈstenʃn/|phần mở rộng|Install this extension in your browser.|Hãy cài tiện ích mở rộng này vào trình duyệt.
+IT|fetch|/fetʃ/|lấy dữ liệu|The app fetches data from the API.|Ứng dụng lấy dữ liệu từ API.
+IT|file|/faɪl/|tệp|Save the file before you close it.|Hãy lưu tệp trước khi đóng.
+IT|folder|/ˈfəʊldə/|thư mục|Move the images to another folder.|Hãy chuyển các hình ảnh sang thư mục khác.
+IT|firmware|/ˈfɜːmweə/|phần sụn|Update the router firmware.|Hãy cập nhật phần sụn của router.
+IT|gateway|/ˈɡeɪtweɪ/|cổng kết nối|The gateway routes traffic to each service.|Cổng kết nối định tuyến lưu lượng đến từng dịch vụ.
+IT|hardware|/ˈhɑːdweə/|phần cứng|The hardware needs an upgrade.|Phần cứng cần được nâng cấp.
+IT|hash|/hæʃ/|mã băm|Passwords should be stored as a hash.|Mật khẩu nên được lưu dưới dạng mã băm.
+IT|header|/ˈhedə/|tiêu đề (gói tin, trang)|Check the request header.|Hãy kiểm tra tiêu đề của yêu cầu.
+IT|host|/həʊst/|máy chủ lưu trữ; lưu trữ|We host our website on a cloud server.|Chúng tôi lưu trữ website trên một máy chủ đám mây.
+IT|hyperlink|/ˈhaɪpəlɪŋk/|liên kết siêu văn bản|Click the hyperlink to open the page.|Bấm vào liên kết để mở trang.
+IT|install|/ɪnˈstɔːl/|cài đặt|Install the latest version.|Hãy cài đặt phiên bản mới nhất.
+IT|instance|/ˈɪnstəns/|thể hiện (đối tượng); phiên bản chạy|Create a new instance of the class.|Hãy tạo một thể hiện mới của lớp.
+IT|interface|/ˈɪntəfeɪs/|giao diện|The user interface is simple and clear.|Giao diện người dùng đơn giản và rõ ràng.
+IT|iterate|/ˈɪtəreɪt/|lặp lại; duyệt qua|Iterate over each item in the list.|Hãy duyệt qua từng phần tử trong danh sách.
+IT|kernel|/ˈkɜːnl/|nhân hệ điều hành|The Linux kernel manages hardware resources.|Nhân Linux quản lý tài nguyên phần cứng.
+IT|localhost|/ˈləʊklhəʊst/|máy cục bộ|Open http://localhost:3000 in your browser.|Hãy mở địa chỉ localhost:3000 trong trình duyệt.
+IT|log|/lɒɡ/|nhật ký; ghi nhật ký|Check the log for error messages.|Hãy xem nhật ký để tìm thông báo lỗi.
+IT|malware|/ˈmælweə/|phần mềm độc hại|The scan found malware on the laptop.|Quá trình quét phát hiện phần mềm độc hại trên laptop.
+IT|module|/ˈmɒdjuːl/|mô-đun|Each module has a single job.|Mỗi mô-đun đảm nhận một việc.
+IT|network|/ˈnetwɜːk/|mạng|The network is down again.|Mạng lại bị sập rồi.
+IT|node|/nəʊd/|nút|Each node stores a copy of the data.|Mỗi nút lưu một bản sao dữ liệu.
+IT|object|/ˈɒbdʒekt/|đối tượng|The function returns an object.|Hàm trả về một đối tượng.
+IT|offline|/ˌɒfˈlaɪn/|ngoại tuyến|The app also works offline.|Ứng dụng cũng hoạt động khi ngoại tuyến.
+IT|online|/ˌɒnˈlaɪn/|trực tuyến|The service is online again.|Dịch vụ đã hoạt động trực tuyến trở lại.
+IT|operating system|/ˈɒpəreɪtɪŋ ˈsɪstəm/|hệ điều hành|Which operating system do you use?|Bạn dùng hệ điều hành nào?
+IT|packet|/ˈpækɪt/|gói tin|Some packets were lost in transit.|Một số gói tin bị mất khi truyền.
+IT|parameter|/pəˈræmɪtə/|tham số|Pass the user ID as a parameter.|Hãy truyền ID người dùng làm tham số.
+IT|parse|/pɑːz/|phân tích cú pháp|Parse the JSON response.|Hãy phân tích cú pháp phản hồi JSON.
+IT|password|/ˈpɑːswɜːd/|mật khẩu|Choose a strong password.|Hãy chọn một mật khẩu mạnh.
+IT|patch|/pætʃ/|bản vá|Install the security patch today.|Hãy cài bản vá bảo mật ngay hôm nay.
+IT|plugin|/ˈplʌɡɪn/|phần mở rộng (plugin)|This plugin adds a search box.|Plugin này thêm một ô tìm kiếm.
+IT|port|/pɔːt/|cổng|The server listens on port 443.|Máy chủ lắng nghe trên cổng 443.
+IT|protocol|/ˈprəʊtəkɒl/|giao thức|HTTPS is a secure protocol.|HTTPS là một giao thức an toàn.
+IT|proxy|/ˈprɒksi/|máy chủ trung gian|Traffic goes through a proxy.|Lưu lượng đi qua một máy chủ trung gian.
+IT|queue|/kjuː/|hàng đợi|Messages wait in the queue.|Các thông điệp chờ trong hàng đợi.
+IT|recursion|/rɪˈkɜːʃn/|đệ quy|Recursion can replace a loop.|Đệ quy có thể thay cho vòng lặp.
+IT|regex|/ˈreɡeks/|biểu thức chính quy|Use a regex to validate the email.|Hãy dùng biểu thức chính quy để kiểm tra email.
+IT|render|/ˈrendə/|kết xuất; hiển thị|The page takes too long to render.|Trang mất quá nhiều thời gian để hiển thị.
+IT|request|/rɪˈkwest/|yêu cầu|The server rejected the request.|Máy chủ đã từ chối yêu cầu.
+IT|response|/rɪˈspɒns/|phản hồi|The response contains an error code.|Phản hồi chứa một mã lỗi.
+IT|rollback|/ˈrəʊlbæk/|hoàn tác về bản trước|We had to rollback the update.|Chúng tôi phải hoàn tác bản cập nhật.
+IT|router|/ˈruːtə/|bộ định tuyến|Restart the router and try again.|Hãy khởi động lại router rồi thử lại.
+IT|schema|/ˈskiːmə/|lược đồ (cấu trúc dữ liệu)|Update the database schema.|Hãy cập nhật lược đồ cơ sở dữ liệu.
+IT|script|/skrɪpt/|tập lệnh|I wrote a script to back up files.|Tôi viết một tập lệnh để sao lưu tệp.
+IT|session|/ˈseʃn/|phiên làm việc|Your session has expired.|Phiên làm việc của bạn đã hết hạn.
+IT|software|/ˈsɒftweə/|phần mềm|The software is free to download.|Phần mềm này được tải miễn phí.
+IT|stack|/stæk/|ngăn xếp; bộ công nghệ|Our stack uses Python and PostgreSQL.|Bộ công nghệ của chúng tôi dùng Python và PostgreSQL.
+IT|storage|/ˈstɔːrɪdʒ/|lưu trữ|We need more storage space.|Chúng tôi cần thêm dung lượng lưu trữ.
+IT|template|/ˈtempleɪt/|mẫu|Use this template for new pages.|Hãy dùng mẫu này cho các trang mới.
+IT|thread|/θred/|luồng|Each task runs in its own thread.|Mỗi tác vụ chạy trong một luồng riêng.
+IT|token|/ˈtəʊkən/|mã thông báo|The server issues a token after login.|Máy chủ cấp một mã thông báo sau khi đăng nhập.
+IT|upload|/ˌʌpˈləʊd/|tải lên|Upload the file to the server.|Hãy tải tệp lên máy chủ.
+IT|username|/ˈjuːzəneɪm/|tên đăng nhập|Enter your username and password.|Hãy nhập tên đăng nhập và mật khẩu.
+IT|version|/ˈvɜːʒn/|phiên bản|Which version of Python do you use?|Bạn dùng phiên bản Python nào?
+IT|virtualization|/ˌvɜːtʃuəlaɪˈzeɪʃn/|ảo hóa|Virtualization lets us run several systems on one machine.|Ảo hóa cho phép chạy nhiều hệ thống trên một máy.
+IT|webhook|/ˈwebhʊk/|webhook (gọi lại qua web)|The service sends a webhook after each payment.|Dịch vụ gửi một webhook sau mỗi lần thanh toán.
+IT|wireframe|/ˈwaɪəfreɪm/|bản phác thảo giao diện|We shared the wireframe with the client.|Chúng tôi chia sẻ bản phác thảo giao diện với khách hàng.
+IT|authentication|/ɔːˌθentɪˈkeɪʃn/|xác thực|Two-factor authentication improves security.|Xác thực hai lớp giúp tăng bảo mật.
+IT|backup|/ˈbækʌp/|bản sao lưu|Make a backup before updating.|Hãy sao lưu trước khi cập nhật.
+IT|bottleneck|/ˈbɒtlnek/|điểm nghẽn|The database is the main bottleneck.|Cơ sở dữ liệu là điểm nghẽn chính.
+IT|callback|/ˈkɔːlbæk/|hàm gọi lại|Pass a callback to the function.|Hãy truyền một hàm gọi lại vào hàm.
+IT|clone|/kləʊn/|sao chép (kho mã)|Clone the repository to your machine.|Hãy sao chép kho mã về máy của bạn.
+IT|encapsulation|/ɪnˌkæpsjuˈleɪʃn/|tính đóng gói|Encapsulation hides internal details.|Tính đóng gói ẩn các chi tiết bên trong.
+IT|inheritance|/ɪnˈherɪtəns/|tính kế thừa|Inheritance lets a class reuse code.|Tính kế thừa cho phép một lớp dùng lại mã.
+IT|timeout|/ˈtaɪmaʊt/|hết thời gian chờ|The request ended with a timeout.|Yêu cầu kết thúc do hết thời gian chờ.
+IT|terminal|/ˈtɜːmɪnl/|cửa sổ dòng lệnh|Open the terminal and type the command.|Hãy mở terminal và gõ lệnh.
+IT|sandbox|/ˈsændbɒks/|môi trường thử nghiệm cô lập|Test the code in a sandbox first.|Hãy thử mã trong môi trường cô lập trước.

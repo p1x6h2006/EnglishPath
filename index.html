@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EnglishPath – Tiếng Anh từ A1 đến C2</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Be+Vietnam+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f2f5fa;--sf:#fff;--ink:#14213d;--mut:#5b6784;--ac:#2447f5;--on:#fff;--hi:#ffd23f;--ln:#d6dcea;--gl:rgba(36,71,245,.06);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1424;--sf:#172038;--ink:#e8ecf8;--mut:#9aa6c6;--ac:#8ba5ff;--on:#0e1424;--ln:#2a3556;--gl:rgba(139,165,255,.07)}}
+:root[data-theme="dark"]{--bg:#0e1424;--sf:#172038;--ink:#e8ecf8;--mut:#9aa6c6;--ac:#8ba5ff;--on:#0e1424;--ln:#2a3556;--gl:rgba(139,165,255,.07)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.65 "Be Vietnam Pro",system-ui,sans-serif;color:var(--ink);background:var(--bg) linear-gradient(var(--gl) 1px,transparent 1px) 0 0/100% 28px}
+h1,h2,h3,.logo,.wd{font-family:"Bricolage Grotesque","Be Vietnam Pro",system-ui,sans-serif;line-height:1.15}
+.w{max-width:960px;margin:0 auto;padding:0 18px 40px}
+header{display:flex;align-items:center;gap:18px;padding:14px 0;border-bottom:2px solid var(--ink);flex-wrap:wrap}
+.logo{font-weight:800;font-size:1.4rem}
+nav{display:flex;gap:4px;overflow-x:auto;max-width:100%}
+nav button{font:inherit;font-weight:500;background:none;border:0;border-bottom:3px solid transparent;color:var(--ink);padding:6px 10px;cursor:pointer;white-space:nowrap}
+nav button.on{border-color:var(--hi);font-weight:600}
+h1{font-size:clamp(1.8rem,5vw,2.8rem);font-weight:800;margin:26px 0 6px;max-width:16em}
+.m{color:var(--mut);font-size:.92rem;margin:.3em 0}
+.stairs{display:flex;align-items:flex-end;gap:6px;margin:18px 0 10px}
+.step{flex:1;height:var(--h);background:var(--sf);border:2px solid var(--ink);border-bottom-width:0;border-radius:8px 8px 0 0;cursor:pointer;display:flex;flex-direction:column;justify-content:flex-end;text-align:left;padding:8px;font:inherit;color:var(--ink)}
+.step b{font-family:"Bricolage Grotesque",sans-serif;font-size:1.2rem}
+.step small{color:var(--mut);font-size:.72rem;line-height:1.2}
+.step.on{background:var(--hi);color:#14213d}.step.on small{color:#14213d}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.b,.c{font:inherit;font-size:.92rem;border:1.5px solid var(--ink);background:var(--sf);color:var(--ink);border-radius:8px;padding:7px 12px;cursor:pointer}
+.b.p,.c.on{background:var(--ac);color:var(--on);border-color:var(--ac)}
+.c{padding:4px 10px;margin:0 6px 6px 0;font-size:.85rem}
+:focus-visible{outline:3px solid var(--ac);outline-offset:2px}
+.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px}
+.card{background:var(--sf);border:1px solid var(--ln);border-radius:12px;padding:14px 16px;margin:10px 0}
+.g .card{margin:0}
+.card h3{margin:0 0 6px;font-size:1.2rem}
+summary{cursor:pointer;font-weight:600;font-size:1.05rem}
+.tag{display:inline-block;background:var(--hi);color:#14213d;border-radius:5px;padding:0 7px;font-size:.8rem;font-weight:600;margin-right:6px}
+.ex{border-left:3px solid var(--hi);padding-left:10px;font-style:italic}
+.fc{min-height:200px;text-align:center;display:flex;flex-direction:column;justify-content:center;cursor:pointer;border:2px solid var(--ink)}
+.wd{font-size:2.4rem;font-weight:800;margin:0}
+.opt{display:block;width:100%;text-align:left;margin:8px 0}
+.opt.ok{background:#1f8f4e;color:#fff;border-color:#1f8f4e}.opt.no{background:#c53b3b;color:#fff;border-color:#c53b3b}
+ul{padding-left:1.2em}
+footer{margin-top:30px;color:var(--mut);font-size:.85rem}
+@media(max-width:560px){.step small{display:none}}
+:root:root{--bg:#070b17;--sf:#0e1630;--ink:#e6edff;--mut:#8b9acb;--ac:#22d3ee;--on:#03121a;--hi:#b794ff;--ln:#22305a;--gl:rgba(34,211,238,.06);color-scheme:dark}
+body{background:radial-gradient(900px 500px at 85% -10%,rgba(124,92,255,.22),transparent 60%),radial-gradient(700px 450px at 0% 10%,rgba(34,211,238,.14),transparent 60%),linear-gradient(var(--gl) 1px,transparent 1px) 0 0/100% 28px,linear-gradient(90deg,var(--gl) 1px,transparent 1px) 0 0/28px 100%,var(--bg);background-attachment:fixed}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(420px circle at var(--gx,50%) var(--gy,15%),rgba(34,211,238,.1),transparent 65%)}
+header{border-color:var(--ln)}
+.logo,h1{background:linear-gradient(100deg,#fff 10%,#22d3ee 55%,#b794ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+h1::after{content:"_";-webkit-text-fill-color:#22d3ee;animation:bl 1s steps(1) infinite}
+@keyframes bl{50%{opacity:0}}
+@keyframes pop{from{transform:perspective(600px) rotateX(60deg);opacity:.3}to{transform:none;opacity:1}}
+nav button{transition:.2s}nav button:hover{color:var(--ac);text-shadow:0 0 12px var(--ac)}nav button.on{border-color:var(--ac);color:var(--ac)}
+.step{background:linear-gradient(180deg,rgba(34,211,238,.1),var(--sf));border-color:var(--ln);transition:transform .25s,box-shadow .25s,border-color .25s}
+.step:hover{transform:translateY(-8px);border-color:var(--ac);box-shadow:0 0 22px rgba(34,211,238,.45)}
+.step.on{background:linear-gradient(180deg,var(--ac),#7c5cff);color:#03121a;border-color:var(--ac);box-shadow:0 0 26px rgba(34,211,238,.55)}
+.step.on small{color:#03121a}
+.card{position:relative;overflow:hidden;background:radial-gradient(260px circle at var(--mx,-300px) var(--my,-300px),rgba(34,211,238,.16),transparent 65%),var(--sf);border-color:var(--ln);transition:transform .25s,border-color .25s,box-shadow .25s}
+.card:hover{transform:translateY(-4px);border-color:var(--ac);box-shadow:0 10px 30px rgba(0,0,0,.45),0 0 18px rgba(34,211,238,.25)}
+.fc{animation:pop .35s ease}
+.b,.c{position:relative;overflow:hidden;border-color:var(--ln);transition:transform .2s,box-shadow .2s,border-color .2s}
+.b:hover,.c:hover{transform:translateY(-2px);border-color:var(--ac);box-shadow:0 0 14px rgba(34,211,238,.45)}
+.b::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.3) 50%,transparent 70%);transform:translateX(-120%);transition:transform .5s}
+.b:hover::after{transform:translateX(120%)}
+.b.p,.c.on{background:linear-gradient(90deg,#22d3ee,#7c5cff);color:#03121a;border-color:transparent}
+.opt:hover{transform:translateX(6px)}
+.tag{background:linear-gradient(90deg,#22d3ee,#b794ff);color:#03121a}
+.ex{border-color:var(--ac)}
+summary{list-style:none}summary::-webkit-details-marker{display:none}summary::before{content:"▸ ";color:var(--ac);display:inline-block;transition:transform .2s}details[open] summary::before{transform:rotate(90deg)}
+.wd{text-shadow:0 0 18px rgba(34,211,238,.6)}
+@media(prefers-reduced-motion:reduce){*,::after{animation:none!important;transition:none!important}}
+.exs .ex{margin:8px 0;font-style:normal}.exs .ex b{font-weight:600}.exs .vi{color:var(--mut);font-size:.93rem}.ni{display:block;width:100%;max-width:240px;margin:8px 0 12px;font:inherit;font-size:1.1rem;padding:10px 12px;color:#14213d;background:#fcfcff;border:2px solid #22d3ee;border-radius:12px;box-shadow:0 0 0 4px rgba(34,211,238,.35);outline:0}.ni::-webkit-inner-spin-button,.ni::-webkit-outer-spin-button{opacity:1;height:28px}.fc .vi{color:var(--mut);font-size:.95rem;font-style:normal}</style></head><body><div class="w">
+<header><div class="logo">EnglishPath</div><nav aria-label="Mục chính"></nav></header>
+<h1>Tiếng Anh từ A1 đến C2 trong một trang</h1>
+<p class="m">Chọn một bậc để lọc ngữ pháp, từ vựng, 9 kỹ năng và bài tập. Bấm lại để bỏ lọc.</p>
+<div id="st"></div><main id="v"></main>
+<footer>Nội dung tổng hợp để tự học. Khi ôn thi, hãy đối chiếu với tài liệu chính thức của đơn vị tổ chức thi.</footer>
+</div>
+<script>
+const $=s=>document.querySelector(s);
+const LV=[["A1","Sơ cấp","Giới thiệu bản thân, đặt câu đơn giản, nắm khoảng 500–800 từ đầu tiên.","1–2 tháng","IELTS dưới 3.0"],
+["A2","Cơ bản","Hội thoại hằng ngày, kể chuyện quá khứ, khoảng 1.500 từ.","2–3 tháng","IELTS 3.0–4.0"],
+["B1","Trung cấp","Nêu ý kiến, đọc bài ngắn, khoảng 2.500 từ. Chuẩn đầu ra phổ biến ở nhiều trường đại học.","3–4 tháng","IELTS 4.0–5.0, VSTEP bậc 3"],
+["B2","Trung cao","Hiểu tài liệu kỹ thuật, tranh luận lưu loát, khoảng 4.000 từ.","4–6 tháng","IELTS 5.5–6.5, VSTEP bậc 4"],
+["C1","Cao cấp","Viết học thuật, nghe giảng, dùng từ linh hoạt theo ngữ cảnh.","6–9 tháng","IELTS 7.0–8.0, VSTEP bậc 5"],
+["C2","Thành thạo","Hiểu sắc thái tinh tế, diễn đạt gần như người bản ngữ.","9 tháng trở lên","IELTS 8.5–9.0"]];
+const G=[["A1","Động từ to be","I am, you are, he/she/it is. Phủ định: thêm not. Câu hỏi: đưa be lên trước chủ ngữ.","I’m a student.=Tôi là sinh viên.|Is she your teacher?=Cô ấy là giáo viên của bạn à?|They aren’t here.=Họ không ở đây."],
+["A1","Hiện tại đơn","Dùng cho thói quen và sự thật. Thêm s/es với he/she/it. Phủ định: don’t/doesn’t + V. Hỏi: Do/Does + S + V.","He codes every day.=Anh ấy viết code mỗi ngày.|Do you drink coffee?=Bạn có uống cà phê không?|She doesn’t like spam.=Cô ấy không thích thư rác."],
+["A2","Quá khứ đơn","Hành động đã xong. Thêm -ed hoặc dùng dạng bất quy tắc (go → went). Phủ định và câu hỏi dùng did + V.","I installed Linux last week.=Tuần trước tôi đã cài Linux.|Did you finish the lab?=Bạn làm xong bài thực hành chưa?"],
+["A2","So sánh hơn và nhất","Tính từ ngắn: -er / the -est. Tính từ dài: more / the most. Bất quy tắc: good → better → best.","This laptop is faster than mine.=Chiếc laptop này nhanh hơn của tôi.|She is the most careful tester.=Cô ấy là người kiểm thử cẩn thận nhất."],
+["B1","Hiện tại hoàn thành","have/has + V3. Dùng cho kinh nghiệm, kết quả còn liên quan hiện tại, hoặc đi với for/since.","I’ve worked here for two years.=Tôi đã làm việc ở đây được hai năm.|Have you ever used Docker?=Bạn từng dùng Docker bao giờ chưa?"],
+["B1","Điều kiện loại 1 và 2","Loại 1 (có thể xảy ra): If + hiện tại, will + V. Loại 2 (không có thật ở hiện tại): If + quá khứ, would + V.","If it rains, we’ll stay in.=Nếu trời mưa, chúng ta sẽ ở nhà.|If I were you, I’d back up the data.=Nếu tôi là bạn, tôi sẽ sao lưu dữ liệu."],
+["B2","Câu bị động","be + V3. Dùng khi người thực hiện không quan trọng hoặc chưa biết.","The bug was fixed yesterday.=Lỗi đó đã được sửa hôm qua.|The system is being updated.=Hệ thống đang được cập nhật."],
+["B2","Câu tường thuật","Lùi một thì: am/is → was, will → would, can → could. Đổi đại từ và trạng từ chỉ thời gian.","She said she would call back.=Cô ấy nói sẽ gọi lại.|He asked if I had finished.=Anh ấy hỏi tôi đã xong chưa."],
+["C1","Đảo ngữ","Đưa trạng từ phủ định lên đầu rồi đảo trợ động từ: never, rarely, not only, hardly … when.","Never have I seen such clean code.=Tôi chưa bao giờ thấy đoạn code nào sạch đến thế.|Not only did it crash, but it also deleted data.=Nó không chỉ bị treo mà còn xóa mất dữ liệu."],
+["C1","Điều kiện hỗn hợp và giả định","Hỗn hợp: If + had V3, would + V (kết quả ở hiện tại). Giả định: suggest/insist that + S + V nguyên mẫu.","If I had studied, I would be certified now.=Nếu hồi đó tôi chịu học, giờ tôi đã có chứng chỉ rồi.|She insisted that he sign the form.=Cô ấy khăng khăng yêu cầu anh ấy ký vào mẫu đơn."],
+["C2","Câu chẻ (cleft)","It is/was … that, hoặc What … is …, để nhấn mạnh một thành phần của câu.","It was the latency that annoyed users.=Chính độ trễ mới làm người dùng khó chịu.|What I need is a quiet room.=Thứ tôi cần là một căn phòng yên tĩnh."],
+["C2","Danh hóa và rút gọn mệnh đề","Biến động từ thành danh từ để văn phong trang trọng; rút gọn mệnh đề bằng V-ing hoặc Having + V3.","The implementation of the policy led to delays.=Việc triển khai chính sách đã gây ra sự chậm trễ.|Having reviewed the logs, we found the cause.=Sau khi xem lại nhật ký hệ thống, chúng tôi tìm ra nguyên nhân."]];
+const V=[];
+const Q=[["A1","She ___ a teacher.",["is","are","am"],0,"Chủ ngữ she đi với is."],
+["A1","He ___ coffee every morning.",["drink","drinks","drinking"],1,"Hiện tại đơn, ngôi thứ ba số ít thêm s."],
+["A2","I ___ to the library yesterday.",["go","goed","went"],2,"Quá khứ bất quy tắc của go là went."],
+["A2","This phone is ___ than that one.",["cheap","cheaper","cheapest"],1,"Có than nên dùng so sánh hơn."],
+["B1","I ___ here since 2022.",["live","have lived","am living"],1,"Since đi với hiện tại hoàn thành."],
+["B1","If I ___ you, I would update the driver.",["am","was","were"],2,"Điều kiện loại 2 dùng were cho mọi ngôi."],
+["B2","The report ___ by the team last night.",["wrote","was written","has written"],1,"Bị động quá khứ: was/were + V3."],
+["B2","He said he ___ the next day.",["will come","would come","came"],1,"Tường thuật: lùi will thành would."],
+["C1","Rarely ___ such a clear explanation.",["I have heard","have I heard","I heard have"],1,"Rarely ở đầu câu kéo theo đảo ngữ."],
+["C1","She insisted that he ___ the form.",["signs","signed","sign"],2,"Sau insist that dùng động từ nguyên mẫu (giả định)."],
+["C2","It was the lack of testing ___ caused the failure.",["what","that","it"],1,"Câu chẻ: It was … that …"],
+["C2","Her ___ attention to detail caught every error.",["meticulous","ubiquitous","ephemeral"],0,"Meticulous nghĩa là tỉ mỉ."]];
+const E=[["TOEIC Listening và Reading","200 câu trắc nghiệm, khoảng 2 giờ, thang điểm 10–990. Hợp để chứng minh tiếng Anh môi trường công sở.","Học từ vựng theo chủ đề công việc; luyện Part 5 và 6 (ngữ pháp, điền từ) để lấy điểm nhanh."],
+["IELTS","Bốn kỹ năng Nghe, Đọc, Viết, Nói; thang band 0–9; tổng khoảng 2 giờ 45 phút. Có bản Academic và General Training.","Viết một bài Task 2 mỗi tuần; ghi âm phần nói của mình rồi nghe lại."],
+["VSTEP","Chứng chỉ do Việt Nam tổ chức, đánh giá bốn kỹ năng, kết quả theo bậc 3–5 (B1–C1). Thường dùng làm chuẩn đầu ra ở các trường đại học trong nước.","Hỏi khoa xem trường yêu cầu bậc mấy và đơn vị thi nào được công nhận."]];
+let st={l:"all",tab:"lo-trinh",i:0,flip:false,qi:0,sc:0,ans:null},K={known:{}};
+try{K=Object.assign(K,JSON.parse(localStorage.getItem("ep")||"{}"))}catch(e){}
+const save=()=>{try{localStorage.setItem("ep",JSON.stringify(K))}catch(e){}};
+const F=x=>st.l=="all"||st.l==x[0]||(st.l=="IT"&&st.tab!="tu-vung");
+const T=[["lo-trinh","Lộ trình"],["ngu-phap","Ngữ pháp"],["tu-vung","Từ vựng"],["luyen-tap","Luyện tập"],["ky-thi","Kỳ thi"]];
+const cur=()=>V.filter(F)[st.i];
+const views={
+"lo-trinh":()=>`<div class="g">`+LV.filter(F).map(v=>`<article class="card"><h3>${v[0]} · ${v[1]}</h3><p>${v[2]}</p><p class="m">Thời gian gợi ý: ${v[3]}, khoảng 1 giờ mỗi ngày.<br>Tương đương: ${v[4]}.</p><button class="b" data-l="${v[0]}" data-t="ngu-phap">Ngữ pháp</button> <button class="b" data-l="${v[0]}" data-t="tu-vung">Từ vựng</button> <button class="b" data-l="${v[0]}" data-t="luyen-tap">Luyện tập</button></article>`).join("")+`</div>`,
+"ngu-phap":()=>G.filter(F).map(g=>`<details class="card"><summary><span class="tag">${g[0]}</span>${g[1]}</summary><p>${g[2]}</p><div class="exs">${g[3].split("|").map(x=>{const p=x.split("=");return`<p class="ex"><b>${p[0]}</b><br><span class="vi">${p[1]||""}</span></p>`}).join("")}</div></details>`).join(""),
+"tu-vung":()=>{const a=V.filter(F);if(!a.length)return"";if(st.i>=a.length)st.i=0;const w=a[st.i],n=a.filter(x=>K.known[x[1]]).length;
+return `<p class="m">Thẻ ${st.i+1}/${a.length}, đã nhớ ${n}</p><div class="card fc" data-f="1" tabindex="0"><p class="wd">${w[1]}</p>`+(st.flip?`<p>${w[2]} (${w[0]})</p><p><b>${w[3]}</b></p><p class="ex">${w[4]}${w[5]?`<br><span class="vi">${w[5]}</span>`:""}</p>`:`<p class="m">Chạm vào thẻ để xem nghĩa</p>`)+`</div><p><button class="b" data-s="1">Nghe phát âm</button> <button class="b" data-k="0">Chưa nhớ</button> <button class="b p" data-k="1">Đã nhớ</button></p><div>`+a.map((x,j)=>`<button class="c${j==st.i?" on":""}" data-j="${j}">${K.known[x[1]]?"✓ ":""}${x[1]}</button>`).join("")+`</div>`},
+"luyen-tap":()=>{const a=Q.filter(F);if(!a.length)return"";
+if(st.qi>=a.length)return `<div class="card"><h3>Kết quả: ${st.sc}/${a.length}</h3><p>${st.sc==a.length?"Hoàn hảo! Hãy thử bậc cao hơn.":"Xem lại các câu sai ở mục Ngữ pháp rồi làm lại."}</p><button class="b p" data-r="1">Làm lại</button></div>`;
+const q=a[st.qi];
+return `<p class="m">Câu ${st.qi+1}/${a.length} (${q[0]})</p><div class="card"><h3>${q[1]}</h3>`+q[2].map((o,j)=>`<button class="b opt${st.ans==null?"":j==q[3]?" ok":j==st.ans?" no":""}" data-a="${j}">${o}</button>`).join("")+(st.ans==null?"":`<p>${q[4]}</p><button class="b p" data-n="1">Câu tiếp theo</button>`)+`</div>`},
+"ky-thi":()=>`<div class="g">`+E.map(e=>`<article class="card"><h3>${e[0]}</h3><p>${e[1]}</p><p><b>Mẹo:</b> ${e[2]}</p></article>`).join("")+`</div><div class="card"><h3>Mẹo học cho sinh viên CNTT</h3><ul><li>Đọc tài liệu kỹ thuật và README bằng tiếng Anh mỗi ngày.</li><li>Đổi ngôn ngữ giao diện IDE và điện thoại sang tiếng Anh.</li><li>Viết commit message và comment bằng tiếng Anh.</li><li>Xem tutorial không phụ đề, nhắc lại từng câu để luyện phát âm.</li><li>Ôn thẻ từ vựng 10 phút mỗi ngày thay vì dồn một buổi dài.</li></ul><p class="m">Cấu trúc đề có thể thay đổi, hãy xem trang chính thức của đơn vị tổ chức thi trước khi đăng ký.</p></div>`};
+function R(){const h=location.hash.slice(1);if(views[h])st.tab=h;
+$("nav").innerHTML=T.map(t=>`<button class="${t[0]==st.tab?"on":""}" data-t="${t[0]}">${t[1]}</button>`).join("");
+$("#st").innerHTML=`<div class="stairs">`+LV.map((v,i)=>`<button class="step${st.l==v[0]?" on":""}" style="--h:${64+i*18}px" data-l="${v[0]}"><b>${v[0]}</b><small>${v[1]}</small></button>`).join("")+`</div><div class="chips"><button class="c${st.l=="all"?" on":""}" data-l="all">Tất cả cấp độ</button><button class="c${st.l=="IT"?" on":""}" data-l="IT" data-t="tu-vung">Từ vựng IT</button></div>`;
+$("#v").innerHTML=views[st.tab]()||`<p class="card">Mục này chưa có nội dung cho lựa chọn hiện tại.</p>`}
+document.addEventListener("click",e=>{const d=e.target.closest("[data-l],[data-t],[data-f],[data-s],[data-k],[data-j],[data-a],[data-n],[data-r]");if(!d)return;const s=d.dataset;
+if(s.l!=null){st.l=d.classList.contains("step")&&st.l==s.l?"all":s.l;st.i=st.qi=st.sc=0;st.ans=null;st.flip=false}
+if(s.t){st.tab=s.t;location.hash=s.t}
+if(s.f!=null)st.flip=!st.flip;
+if(s.s!=null){const w=cur();if(w&&window.speechSynthesis){const u=new SpeechSynthesisUtterance(w[1]);u.lang="en-US";speechSynthesis.cancel();speechSynthesis.speak(u)}}
+if(s.k!=null){const w=cur()[1];if(s.k=="1")K.known[w]=1;else delete K.known[w];save();st.i++;st.flip=false}
+if(s.j!=null){st.i=+s.j;st.flip=false}
+if(s.a!=null&&st.ans==null){st.ans=+s.a;if(st.ans==Q.filter(F)[st.qi][3])st.sc++}
+if(s.n!=null){st.qi++;st.ans=null}
+if(s.r!=null){st.qi=st.sc=0;st.ans=null}
+R()});
+document.addEventListener("keydown",e=>{if((e.key=="Enter"||e.key==" ")&&e.target.dataset&&e.target.dataset.f){e.preventDefault();st.flip=!st.flip;R()}});
+addEventListener("hashchange",R);R();
+</script>
+<script>
+G.push(["A1","Mạo từ a, an, the","a trước âm phụ âm, an trước nguyên âm. Dùng a/an cho vật chưa xác định, the cho vật đã xác định hoặc duy nhất.","I have a laptop.=Tôi có một chiếc laptop.|She is an engineer.=Cô ấy là một kỹ sư.|The laptop is new.=Chiếc laptop đó còn mới."],
+["A1","There is và There are","There is + danh từ số ít hoặc không đếm được; There are + danh từ số nhiều.","There is a bug.=Có một lỗi.|There are two servers.=Có hai máy chủ."],
+["A1","Giới từ in, on, at","Thời gian: at 7 a.m., on Monday, in May. Nơi chốn: at the door, on the table, in the room.","See you at noon.=Hẹn gặp bạn lúc trưa.|The file is on the desktop.=Tệp nằm trên màn hình desktop."],
+["A2","Hiện tại tiếp diễn","am/is/are + V-ing. Hành động đang diễn ra hoặc kế hoạch gần.","I’m learning Java.=Tôi đang học Java.|We’re meeting tomorrow.=Ngày mai chúng ta sẽ gặp nhau (đã hẹn)."],
+["A2","Will và be going to","Will: quyết định tại chỗ, dự đoán. Be going to: dự định đã có hoặc dự đoán có căn cứ.","I’ll help you.=Để tôi giúp bạn.|I’m going to apply for the internship.=Tôi định nộp đơn xin thực tập."],
+["A2","Động từ khuyết thiếu","can (khả năng), must (bắt buộc), should (lời khuyên), may (có thể). Theo sau là V nguyên mẫu, không thêm s.","You must save the file.=Bạn phải lưu tệp lại.|She can code in Python.=Cô ấy biết lập trình bằng Python."],
+["A2","Much, many, a lot of","many + danh từ đếm được, much + không đếm được (hay dùng trong câu phủ định và nghi vấn); a lot of dùng cho cả hai.","How many files are there?=Có bao nhiêu tệp vậy?|I don’t have much time.=Tôi không có nhiều thời gian."],
+["B1","Quá khứ tiếp diễn","was/were + V-ing. Hành động đang diễn ra tại một thời điểm, hoặc bị một hành động quá khứ đơn cắt ngang.","I was coding when the power went out.=Tôi đang viết code thì mất điện."],
+["B1","Mệnh đề quan hệ","who (người), which (vật), that (cả hai), whose (sở hữu), where (nơi chốn). Có thể bỏ đại từ khi nó làm tân ngữ.","The tool that I use is free.=Công cụ mà tôi dùng là miễn phí.|A coder whose app went viral.=Một lập trình viên có ứng dụng nổi tiếng chóng mặt."],
+["B1","Gerund và to-infinitive","enjoy, avoid, finish + V-ing. want, decide, hope + to V. Một số động từ (stop, remember) đổi nghĩa theo dạng đi kèm.","I enjoy reading docs.=Tôi thích đọc tài liệu.|I decided to apply.=Tôi đã quyết định nộp đơn."],
+["B1","Câu hỏi đuôi","Câu khẳng định thì đuôi phủ định và ngược lại, dùng cùng trợ động từ với vế chính.","You’re a student, aren’t you?=Bạn là sinh viên, đúng không?|He can’t swim, can he?=Anh ấy không biết bơi, phải không?"],
+["B2","Quá khứ hoàn thành","had + V3. Hành động xảy ra trước một hành động hoặc mốc khác trong quá khứ.","I had finished before he called.=Tôi đã làm xong trước khi anh ấy gọi."],
+["B2","Điều kiện loại 3","If + had V3, would have V3. Nói về điều không có thật trong quá khứ.","If I had backed up, I wouldn’t have lost the data.=Nếu tôi đã sao lưu thì đã không mất dữ liệu."],
+["B2","Wish và If only","Wish + quá khứ đơn (ước ở hiện tại); wish + had V3 (tiếc nuối quá khứ); wish + would (phàn nàn).","I wish I knew more.=Ước gì tôi biết nhiều hơn.|I wish I had studied.=Giá mà tôi đã học bài."],
+["B2","Used to, be used to, get used to","used to + V: thói quen trong quá khứ. be/get used to + V-ing: quen với việc gì.","I used to play games.=Trước đây tôi hay chơi game.|I’m used to waking up early.=Tôi quen với việc dậy sớm rồi."],
+["C1","Tương lai hoàn thành","will have + V3: hành động sẽ hoàn tất trước một mốc trong tương lai.","By June I will have passed the exam.=Đến tháng Sáu tôi sẽ thi đỗ rồi."],
+["C1","Suy đoán với modal","must have V3 (chắc chắn đã), might have V3 (có thể đã), can’t have V3 (chắc chắn không).","He must have forgotten.=Chắc hẳn anh ấy đã quên.|It can’t have been the server.=Chắc chắn không phải do máy chủ."],
+["C1","Từ nối học thuật","however, moreover, nevertheless, consequently, whereas: nối ý, đối lập, nguyên nhân và kết quả trong văn viết.","The tool is fast; however, it is costly.=Công cụ này nhanh; tuy nhiên, nó khá đắt."],
+["C2","Hedging: nói giảm trong văn học thuật","Dùng tend to, appear to, may, suggest để tránh khẳng định tuyệt đối.","The results suggest that the method may improve accuracy.=Kết quả gợi ý rằng phương pháp này có thể cải thiện độ chính xác."],
+["C2","Đảo ngữ thay cho If","Bỏ if và đảo trợ động từ: Had I known, Should you need, Were he to leave.","Had I known, I would have called.=Giá mà tôi biết, tôi đã gọi rồi.|Should you need help, contact us.=Nếu bạn cần hỗ trợ, hãy liên hệ chúng tôi."]);
+Q.push(["A1","There ___ two books on the table.",["is","are","be"],1,"Danh từ số nhiều đi với There are."],
+["A2","You ___ wear a helmet. It’s the law.",["must","can","may"],0,"Must diễn tả sự bắt buộc."],
+["B1","The man ___ lives next door is a developer.",["who","which","whose"],0,"Who thay cho người làm chủ ngữ."],
+["B2","If she had left earlier, she ___ the train.",["would catch","would have caught","caught"],1,"Điều kiện loại 3: would have + V3."],
+["C1","By next year, I ___ my degree.",["will finish","will have finished","finish"],1,"Mốc tương lai dùng tương lai hoàn thành."],
+["C2","Hardly had she sat down ___ the phone rang.",["than","when","then"],1,"Cấu trúc Hardly … when."]);
+const P=[["A2","look for","tìm kiếm","I’m looking for my keys."],["A2","give up","bỏ cuộc","Never give up."],["A2","turn off","tắt","Turn off the server."],["B1","find out","tìm ra, biết được","Find out the cause."],["B1","set up","cài đặt, thiết lập","Set up a new account."],["B1","carry on","tiếp tục","Carry on with the task."],["B1","log in","đăng nhập","Log in to your account."],["B2","come up with","nghĩ ra","She came up with a fix."],["B2","put off","trì hoãn","Don’t put off studying."],["B2","break down","hỏng, sụp","The server broke down."],["B2","figure out","hiểu ra, tìm ra","I can’t figure it out."],["B2","roll back","khôi phục bản trước","Roll back the update."],["B2","a piece of cake","dễ như ăn bánh","The test was a piece of cake."],["C1","on the same page","cùng hiểu một ý","Let’s get on the same page."],["C1","back to square one","quay lại từ đầu","The bug is back, so we’re at square one."],["C1","hit the nail on the head","nói trúng phóc","You hit the nail on the head."],["C2","the elephant in the room","vấn đề ai cũng né","Budget is the elephant in the room."],["C2","cut corners","làm ẩu để tiết kiệm","Never cut corners on security."]];
+views["cum-tu"]=()=>`<div class="g">`+P.filter(F).map(p=>`<article class="card"><h3><span class="tag">${p[0]}</span>${p[1]}</h3><p><b>${p[2]}</b></p><p class="ex">${p[3]}</p></article>`).join("")+`</div>`;
+T.splice(4,0,["cum-tu","Cụm từ"]);
+document.addEventListener("pointermove",e=>{const r=document.documentElement.style;r.setProperty("--gx",e.clientX+"px");r.setProperty("--gy",e.clientY+"px");const c=e.target.closest&&e.target.closest(".card,.step");if(c){const b=c.getBoundingClientRect();c.style.setProperty("--mx",e.clientX-b.left+"px");c.style.setProperty("--my",e.clientY-b.top+"px")}});
+R();
+</script><style>.tw{overflow-x:auto;margin:10px 0}.tb{border-collapse:collapse;width:100%;min-width:560px;font-size:.92rem}.tb th,.tb td{border:1px solid var(--ln);padding:8px 10px;text-align:left;vertical-align:top}.tb th{background:var(--sf)}details h4{margin:.9em 0 .2em;color:var(--ac);font-size:.95rem}input[type=range]{width:100%;accent-color:#22d3ee}.big{font:800 2.4rem "Bricolage Grotesque",sans-serif;color:var(--ac)}</style>
+<script>
+const S=[
+["✅","Từ vựng","Tất cả các từ, nghĩa của từ","happy, computer, go","Vocabulary is the set of words you know and can use. Learn words in context, together with collocations (make a decision, not do a decision), word families (decide, decision, decisive), and both meaning and usage.","Từ vựng là tập hợp các từ bạn biết và dùng được. Hãy học từ trong ngữ cảnh, kèm các cụm đi chung (make a decision chứ không phải do a decision), họ từ (decide, decision, decisive), cả nghĩa lẫn cách dùng.","Học 5–10 từ mỗi ngày, ôn lại sau 1, 3, 7 ngày (lặp lại ngắt quãng).|Ghi từ loại và một câu ví dụ do chính bạn đặt.|Học theo chủ đề (công việc, du lịch, IT) để dễ nhớ hơn.","make a decision=đưa ra quyết định|heavy rain=mưa lớn (không nói strong rain)|decide / decision / decisive=quyết định / sự quyết định / quyết đoán|bank=ngân hàng hoặc bờ sông, tùy ngữ cảnh"],
+["✅","Ngữ pháp","Quy tắc sắp xếp câu, chia thì, cấu trúc","I am going to school / She has eaten","Grammar is the system of rules for word order, tenses and sentence structure. It shows how words combine so that your listener understands exactly what you mean, such as when something happened or whether it is real or imaginary.","Ngữ pháp là hệ thống quy tắc về trật tự từ, thì và cấu trúc câu. Nó cho biết các từ kết hợp thế nào để người nghe hiểu đúng ý bạn, ví dụ việc xảy ra khi nào, thật hay chỉ là giả định.","Học một cấu trúc rồi tự đặt 3 câu thật của bản thân.|Đọc lại bài viết của mình để bắt lỗi thì và chia động từ.|Chú ý lỗi hay gặp: quên s ở ngôi thứ ba, quên mạo từ.","I am going to school=Tôi đang đi học|She has eaten=Cô ấy đã ăn rồi|She goes to work (không phải She go)=Cô ấy đi làm|If I were you, I’d go=Nếu tôi là bạn, tôi sẽ đi"],
+["📢","Phát âm","Cách đọc từng âm, từ, nhấn trọng âm, ngắt nghỉ","record /ˈrekɔːd/ (danh từ) vs /rɪˈkɔːd/ (động từ)","Pronunciation covers individual sounds, word stress, sentence stress, rhythm and intonation. Wrong stress can change the meaning of a word or make it hard to understand even when the grammar is perfect.","Phát âm gồm âm riêng lẻ, trọng âm từ, trọng âm câu, nhịp điệu và ngữ điệu. Nhấn sai có thể đổi nghĩa của từ hoặc khiến người nghe khó hiểu dù ngữ pháp hoàn hảo.","Tra phiên âm IPA của từng từ mới, đừng đoán.|Nghe từ điển đọc rồi nhại lại (shadowing).|Luyện cặp âm dễ nhầm: ship/sheep, thin/tin.","record /ˈrekɔːd/ (n) vs /rɪˈkɔːd/ (v)=bản ghi / ghi lại|present /ˈpreznt/ vs /prɪˈzent/=món quà / trình bày|ship /ʃɪp/ vs sheep /ʃiːp/=con tàu / con cừu (nguyên âm ngắn và dài)|thirty vs thirteen=30 và 13, khác nhau ở chỗ nhấn âm"],
+["🎤","Nghe hiểu","Khả năng nghe và hiểu nội dung nói","Nghe hội thoại, tin tức, bài giảng","Listening is the ability to understand spoken English. Real speech is fast and connected: sounds link together, weak words shrink, and speakers use fillers. Train your ear with different accents and speeds.","Nghe hiểu là khả năng hiểu tiếng Anh nói. Lời nói thật rất nhanh và nối âm: các âm dính vào nhau, từ yếu bị đọc lướt, người nói hay dùng từ đệm. Hãy luyện tai với nhiều giọng và tốc độ.","Nghe lần 1 lấy ý chính, lần 2 bắt chi tiết, lần 3 đọc transcript.|Chép chính tả (dictation) từng đoạn ngắn 30 giây.|Dùng podcast, TED, tin tức; bật phụ đề tiếng Anh rồi tắt dần.","What do you want to do?=Nối âm: “wanna” /ˈwɒnə/|I’m gonna grab a coffee=Mình đi mua cà phê đây (gonna = going to)|Could you repeat that, please?=Bạn nhắc lại được không?|Pardon? / Sorry?=Xin lỗi, bạn nói gì ạ?"],
+["💬","Nói","Diễn đạt ra lời, giao tiếp trực tiếp","Nói chuyện, thuyết trình, trao đổi","Speaking is expressing ideas aloud and interacting in real time. Fluency matters more than perfection: keep going, use fillers and rephrase when you get stuck, and aim to be clear rather than flawless.","Nói là diễn đạt ý tưởng thành lời và tương tác trực tiếp. Sự trôi chảy quan trọng hơn sự hoàn hảo: cứ nói tiếp, dùng từ đệm và diễn đạt lại khi bí, ưu tiên rõ ràng hơn là không sai chút nào.","Mỗi ngày tự nói 2 phút về một chủ đề rồi ghi âm nghe lại.|Học sẵn các mẫu câu mở lời, đồng ý, phản đối.|Tìm bạn luyện nói hoặc nói chuyện với trợ lý AI.","Well, let me think…=Ừm, để mình nghĩ đã…|Could you speak more slowly?=Bạn nói chậm hơn được không?|In my opinion…=Theo ý kiến của tôi…|What I mean is…=Ý tôi muốn nói là…"],
+["📖","Đọc hiểu","Đọc và nắm bắt nội dung văn bản","Đọc bài báo, sách, tài liệu","Reading comprehension means understanding written text. Use skimming for the main idea, scanning for specific facts, and guess unknown words from context instead of stopping at every word.","Đọc hiểu là hiểu nội dung văn bản. Dùng skimming (đọc lướt) để nắm ý chính, scanning (quét) để tìm thông tin cụ thể, và đoán từ lạ qua ngữ cảnh thay vì dừng lại ở mỗi từ.","Đọc tiêu đề, câu đầu mỗi đoạn trước khi đọc kỹ.|Gạch chân từ khóa, không tra từ điển ngay lần đọc đầu.|Chọn tài liệu hơi khó hơn trình độ một chút (khoảng 95% từ đã biết).","skim=đọc lướt lấy ý chính|scan=quét tìm số, tên, ngày|The main idea is…=Ý chính là…|It can be inferred that…=Có thể suy ra rằng…"],
+["✍️","Viết","Diễn đạt bằng chữ, cấu trúc bài viết","Viết thư, bài luận, báo cáo","Writing is expressing ideas in text with clear structure: an introduction, body paragraphs (one main idea each) and a conclusion. Choose the right register, formal for emails to a boss, casual for friends.","Viết là diễn đạt ý bằng chữ với cấu trúc rõ ràng: mở bài, thân bài (mỗi đoạn một ý chính) và kết bài. Chọn đúng văn phong: trang trọng khi viết cho sếp, thân mật khi viết cho bạn.","Lập dàn ý 3 dòng trước khi viết.|Viết xong để nguội một lúc rồi đọc lại và sửa.|Học các từ nối để bài mạch lạc.","Dear Mr. Smith,=Kính gửi ông Smith|I am writing to inquire about…=Tôi viết thư để hỏi về…|First, … Moreover, … In conclusion,=Trước hết… Hơn nữa… Tóm lại|Best regards,=Trân trọng"],
+["🗣️","Giao tiếp thực tế / Ngữ dụng ngôn ngữ","Cách nói phù hợp hoàn cảnh, văn hóa, phép lịch sự","Không nói “Give me water” mà dùng “Could I have some water, please?”","Pragmatics is about using language appropriately: who you talk to, in which situation, and what you really mean. Native speakers often use indirect language, so “It’s a bit cold in here” can mean “Please close the window”.","Ngữ dụng học là dùng ngôn ngữ cho phù hợp: nói với ai, trong tình huống nào, và thật sự muốn nói gì. Người bản xứ hay nói gián tiếp, nên “It’s a bit cold in here” có thể nghĩa là “Làm ơn đóng cửa sổ giúp”.","Dùng Could / Would + please khi nhờ vả.|Câu hỏi thăm How are you? thường chỉ là lời chào, đáp ngắn gọn.|Từ chối nhẹ nhàng bằng I’m afraid… hoặc Thanks, but…","Could I have some water, please?=Cho tôi xin ít nước ạ (lịch sự)|Would you mind opening the window?=Bạn có phiền mở cửa sổ không?|I’m afraid I can’t make it.=Tiếc là tôi không đến được (từ chối lịch sự)|How are you? – Fine, thanks. And you?=Lời chào hỏi, không cần kể lể"],
+["🎭","Thành ngữ & Từ lóng","Cụm từ có nghĩa không theo nghĩa đen","It’s raining cats and dogs = Trời mưa to","Idioms are fixed expressions whose meaning is different from the individual words. Slang is informal language used among friends. Learn them as whole chunks and avoid slang in formal writing or job interviews.","Thành ngữ là cụm cố định có nghĩa khác với nghĩa từng từ. Từ lóng là ngôn ngữ thân mật giữa bạn bè. Hãy học nguyên cụm và tránh từ lóng trong văn bản trang trọng hay phỏng vấn.","Học thành ngữ qua phim, bài hát, kèm tình huống dùng.|Đừng dịch từng chữ; hiểu nghĩa bóng.|Kiểm tra mức độ trang trọng (informal, slang) trong từ điển.","It’s raining cats and dogs=Trời mưa như trút nước|Break a leg!=Chúc may mắn!|Spill the beans=Lỡ tiết lộ bí mật|A piece of cake=Dễ như ăn bánh"],
+["📝","Cụm từ & Kết nối từ","Cụm cố định, liên từ làm câu mượt mà","look forward to, however, therefore","Phrases (phrasal verbs, collocations) and linking words make English natural and cohesive. Linking words show relationships between ideas: contrast, cause, addition, sequence.","Các cụm từ (cụm động từ, collocation) và từ nối làm tiếng Anh tự nhiên và mạch lạc. Từ nối thể hiện quan hệ giữa các ý: tương phản, nguyên nhân, bổ sung, trình tự.","Nhớ look forward to + V-ing (to là giới từ).|Học từ nối theo nhóm chức năng.|Đừng lạm dụng một từ nối; thay đổi cho đa dạng.","look forward to seeing you=mong được gặp bạn|however / on the other hand=tuy nhiên / mặt khác (tương phản)|therefore / as a result=do đó / kết quả là (nguyên nhân – kết quả)|moreover / in addition=hơn nữa / thêm vào đó (bổ sung)"],
+["🧠","Tư duy ngôn ngữ","Cách sắp xếp ý theo lối tư duy người bản xứ","Cấu trúc câu tiếng Anh thường: Trạng thái → Thời gian → Địa điểm","Thinking in English means organizing ideas the way native speakers do: a clear subject in every sentence, the main point first, then details. Do not translate word for word from Vietnamese; think in chunks and patterns.","Tư duy bằng tiếng Anh là sắp xếp ý như người bản xứ: câu nào cũng có chủ ngữ rõ ràng, nêu ý chính trước rồi mới đến chi tiết. Đừng dịch từng chữ từ tiếng Việt; hãy nghĩ theo cụm và khuôn mẫu.","Tự mô tả việc xung quanh bằng tiếng Anh trong đầu.|Học nguyên câu mẫu thay vì từng từ lẻ.|Chú ý lỗi dịch word-by-word và sửa dần.","Hôm qua mưa = It rained yesterday=Tiếng Anh cần chủ ngữ (it)|She worked hard at the office yesterday=Thường: cách thức → nơi chốn → thời gian|Conclusion first: The main problem is cost.=Nêu ý chính trước rồi giải thích|Bạn ăn cơm chưa? = Have you eaten yet?=Dịch ý, không dịch từng chữ"]];
+views["mang"]=()=>`<p class="m">11 mảng kiến thức của tiếng Anh. Bấm từng mảng để xem giải thích chi tiết kèm bản dịch, mẹo luyện và ví dụ.</p><div class="tw"><table class="tb"><thead><tr><th>Mảng</th><th>Giải thích ngắn gọn</th><th>Ví dụ</th></tr></thead><tbody>`+S.map(s=>`<tr><td><b>${s[0]} ${s[1]}</b></td><td>${s[2]}</td><td><i>${s[3]}</i></td></tr>`).join("")+`</tbody></table></div><div class="card"><h3>💡 Tóm tắt gọn gàng</h3><p>Tiếng Anh gồm <b>4 kỹ năng chính</b>: <b>Nghe — Nói — Đọc — Viết</b>, cùng với <b>3 nền tảng</b>: <b>Từ vựng — Ngữ pháp — Phát âm</b>, và các yếu tố nâng cao: <b>thành ngữ, văn hóa giao tiếp, phong cách, ngữ điệu</b>…</p><p>Nếu chỉ học từ vựng + ngữ pháp, bạn có thể <b>viết được câu đúng</b> nhưng <b>nghe không hiểu, nói không tự nhiên, đọc chậm, viết không mượt</b>. Hãy phát triển đều tất cả nhé! 😊</p></div>`+S.map(s=>`<details class="card"><summary>${s[0]} ${s[1]}</summary><h4>English</h4><p>${s[4]}</p><h4>Bản dịch tiếng Việt</h4><p>${s[5]}</p><h4>Mẹo luyện tập</h4><ul>${s[6].split("|").map(t=>`<li>${t}</li>`).join("")}</ul><h4>Ví dụ</h4><div class="tw"><table class="tb"><tbody>`+s[7].split("|").map(x=>{const p=x.split("=");return`<tr><td><i>${p[0]}</i></td><td>${p[1]}</td></tr>`}).join("")+`</tbody></table></div></details>`).join("");
+T.splice(1,0,["mang","Các mảng"]);
+const AQ=[["B1","Collocation đúng với “decision” là gì?","make a decision",["do a decision","take a decide"],"Decision đi với make (hoặc take)."],["B1","I ___ this movie twice.","have seen",["seen","am seeing"],"Kinh nghiệm dùng hiện tại hoàn thành."],["B1","Danh từ “record” nhấn âm nào?","Âm thứ nhất: RE-cord",["Âm thứ hai: re-CORD","Hai âm nhấn như nhau"],"Danh từ nhấn âm đầu, động từ nhấn âm sau."],["B1","“I’m gonna go” thực chất là gì?","I’m going to go",["I’m gone go","I’m gonna be gone"],"Gonna là dạng nối âm của going to."],["A2","Cách nhờ người khác nói chậm lại lịch sự nhất?","Could you speak more slowly, please?",["Speak slowly!","You speak slow."],"Could you… please là mẫu nhờ vả lịch sự."],["B1","Skimming là gì?","Đọc lướt để nắm ý chính",["Đọc từng chữ để dịch","Chỉ tìm một con số cụ thể"],"Tìm thông tin cụ thể là scanning."],["B1","Mỗi đoạn văn nên có mấy ý chính?","Một ý chính",["Càng nhiều càng tốt","Không cần ý chính"],"One paragraph, one main idea."],["A2","Cách xin nước lịch sự nhất?","Could I have some water, please?",["Give me water.","Water!"],"Could I… please lịch sự hơn câu mệnh lệnh."],["B1","“It’s raining cats and dogs” nghĩa là gì?","Mưa rất to",["Có mèo và chó rơi xuống","Trời sắp tạnh"],"Thành ngữ không hiểu theo nghĩa đen."],["B1","I look forward to ___ you.","seeing",["see","saw"],"Look forward to + V-ing (to là giới từ)."],["B1","Câu tiếng Anh đúng cho “Hôm qua mưa”?","It rained yesterday.",["Rained yesterday.","Yesterday rain."],"Tiếng Anh cần chủ ngữ (it)."]];
+const sh=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
+const mk=(l,p,c,w,ex)=>{const o=sh([c,...w]);return[l,p,o,o.indexOf(c),ex]};
+function pool(){const o=[];Q.filter(F).forEach(q=>o.push(mk(q[0],q[1],q[2][q[3]],q[2].filter((_,i)=>i!=q[3]),q[4])));
+AQ.filter(F).forEach(q=>o.push(mk(q[0],q[1],q[2],q[3],q[4])));
+V.filter(F).forEach(w=>o.push(mk(w[0],`“${w[1]}” có nghĩa là gì?`,w[3],sh(V.map(x=>x[3]).filter(m=>m!=w[3])).slice(0,2),`${w[1]} ${w[2]} = ${w[3]}. Ví dụ: ${w[4]}`)));
+P.filter(F).forEach(p=>o.push(mk(p[0],`Cụm “${p[1]}” nghĩa là gì?`,p[2],sh(P.map(x=>x[2]).filter(m=>m!=p[2])).slice(0,2),`${p[1]} = ${p[2]}. Ví dụ: ${p[3]}`)));return o}
+const M={cnt:20,qs:null,i:0,sc:0,a:null};
+views["luyen-tap"]=()=>{if(!M.qs){const n=pool().length,mx=Math.min(100,n),c=Math.min(M.cnt,mx);
+return `<div class="card"><h3>Chọn số câu hỏi</h3><p class="m">Câu hỏi được trộn ngẫu nhiên từ ngữ pháp, từ vựng, cụm từ, thành ngữ và các mảng kiến thức. Kho hiện có ${n} câu ở lựa chọn này${n<100?`, nên tối đa ${n} câu`:""}.</p><label class="m" for="rg">Số câu (từ ${Math.min(10,mx)} đến ${mx})</label><input type="number" id="rg" class="ni" min="${Math.min(10,mx)}" max="${mx}" step="1" value="${c}" inputmode="numeric" aria-label="Số câu hỏi"><p>`+[10,25,50,100].filter(x=>x<=mx).map(x=>`<button class="c${x==c?" on":""}" data-cnt="${x}">${x}</button>`).join("")+`</p><button class="b p" data-qstart="1">Bắt đầu luyện tập</button></div>`}
+if(M.i>=M.qs.length)return `<div class="card"><h3>Kết quả: ${M.sc}/${M.qs.length}</h3><p>${Math.round(M.sc/M.qs.length*100)}% câu đúng. ${M.sc==M.qs.length?"Hoàn hảo!":"Xem lại các mục liên quan rồi làm lại bộ câu mới nhé."}</p><button class="b p" data-qstart="1">Bộ câu mới (ngẫu nhiên)</button> <button class="b" data-qreset="1">Đổi số câu</button></div>`;
+const q=M.qs[M.i];return `<p class="m">Câu ${M.i+1}/${M.qs.length} (${q[0]}) · Đúng ${M.sc}</p><div class="card"><h3>${q[1]}</h3>`+q[2].map((o,j)=>`<button class="b opt${M.a==null?"":j==q[3]?" ok":j==M.a?" no":""}" data-qa="${j}">${o}</button>`).join("")+(M.a==null?"":`<p>${q[4]}</p><button class="b p" data-qn="1">${M.i+1==M.qs.length?"Xem kết quả":"Câu tiếp theo"}</button>`)+`</div><button class="c" data-qreset="1">Thoát</button>`};
+document.addEventListener("click",e=>{const d=e.target.closest("[data-l],[data-t],[data-cnt],[data-qstart],[data-qa],[data-qn],[data-qreset]");if(!d)return;const s=d.dataset;
+if(s.l!=null||s.t)M.qs=null;
+if(s.cnt)M.cnt=+s.cnt;
+if(s.qstart){const L=pool().length,n=Math.max(Math.min(10,L),Math.min(+M.cnt||10,100,L));M.qs=sh(pool()).slice(0,n);M.i=M.sc=0;M.a=null}
+if(s.qa!=null&&M.a==null){M.a=+s.qa;if(M.a==M.qs[M.i][3])M.sc++}
+if(s.qn){M.i++;M.a=null}
+if(s.qreset)M.qs=null;
+R()});
+document.addEventListener("input",e=>{if(e.target.id=="rg")M.cnt=+e.target.value||0});document.addEventListener("change",e=>{if(e.target.id=="rg"){const mx=+e.target.max,mn=+e.target.min;const v=Math.max(mn,Math.min(mx,Math.round(+e.target.value||mn)));M.cnt=v;e.target.value=v}});
+R();
+</script>
+</body></html>
+<style>textarea{width:100%;font:inherit;background:var(--bg);color:var(--ink);border:1.5px solid var(--ln);border-radius:8px;padding:8px}.bu{margin:6px 0;padding:8px 12px;border:1px solid var(--ln);border-radius:10px}.bu.u{margin-left:15%;background:rgba(34,211,238,.1)}.bu.a{margin-right:10%}.fx{display:block;color:var(--hi);font-size:.9rem;margin-top:4px}.ok2{color:#4ade80}.no2{color:#f87171;text-decoration:underline}.bad{color:#f87171;margin:.3em 0}.good{color:#4ade80;margin:.3em 0}#chat{max-height:50vh;overflow:auto}h3.sec{margin:22px 0 4px}</style>
+<script>
+(()=>{
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const tg=l=>`<span class="tag">${l}</span>`;
+const lv=()=>LV.some(v=>v[0]==st.l)?st.l:"B1";
+const say=(t,r)=>{if(!window.speechSynthesis)return;const u=new SpeechSynthesisUtterance(t);u.lang="en-US";u.rate=r||1;speechSynthesis.cancel();speechSynthesis.speak(u)};
+const nm=s=>s.toLowerCase().replace(/[’]/g,"'").replace(/[^a-z0-9' ]/g," ").split(/\s+/).filter(Boolean);
+const intro=i=>{const s=S[i];return `<details class="card"><summary>${s[0]} ${s[1]}: tổng quan và mẹo luyện</summary><h4>English</h4><p>${s[4]}</p><h4>Bản dịch</h4><p>${s[5]}</p><h4>Mẹo luyện tập</h4><ul>${s[6].split("|").map(t=>`<li>${t}</li>`).join("")}</ul><h4>Ví dụ</h4><div class="tw"><table class="tb"><tbody>${s[7].split("|").map(x=>{const p=x.split("=");return `<tr><td><i>${p[0]}</i></td><td>${p[1]}</td></tr>`}).join("")}</tbody></table></div></details>`};
+const gr=(i,a,f)=>intro(i)+`<div class="g">`+a.map((x,k)=>[x,k]).filter(([x])=>F(x)).map(([x,k])=>f(x,k)).join("")+`</div>`;
+
+// ---- dữ liệu ----
+const PA=[["A1","Âm /θ/ và /ð/","Đặt đầu lưỡi giữa hai hàm răng rồi thổi hơi nhẹ. Đừng thay bằng /t/ hay /d/.",["think","this","three","that"]],
+["A1","Đuôi -s/-es: /s/, /z/, /ɪz/","cats /s/, dogs /z/, buses /ɪz/. Đừng bỏ âm cuối, vì nó báo số nhiều và ngôi thứ ba.",["cats","dogs","buses"]],
+["A2","Đuôi -ed: /t/, /d/, /ɪd/","worked /t/, played /d/, wanted /ɪd/. Chỉ thêm âm tiết khi gốc từ tận cùng bằng t hoặc d.",["worked","played","wanted"]],
+["A2","Nguyên âm ngắn và dài","ship /ɪ/ ngắn, sheep /iː/ dài. Hai từ khác nghĩa hoàn toàn.",["ship","sheep","live","leave"]],
+["B1","Trọng âm danh từ và động từ","Danh từ nhấn âm đầu (RE-cord), động từ nhấn âm sau (re-CORD).",["I want to record a record","Please present the present"]],
+["B1","Trọng âm câu","Nhấn từ mang nghĩa (danh từ, động từ, tính từ); đọc lướt từ chức năng (a, the, to, of).",["I want to go to the store","She can’t come today"]],
+["B2","Nối âm (linking)","Phụ âm cuối nối với nguyên âm đầu từ sau: pick it up đọc như /pɪ-kɪ-tʌp/.",["pick it up","turn it off","an apple a day"]],
+["B2","Âm câm","Nhiều chữ cái không đọc: debt (b), knife (k), answer (w), island (s), castle (t).",["debt","knife","answer","island","castle"]],
+["C1","Ngữ điệu","Câu hỏi Yes/No lên giọng cuối câu; câu hỏi Wh- thường xuống giọng; liệt kê lên, lên, rồi xuống.",["Are you coming?","Where do you live?","Apples, oranges, and bananas."]],
+["C1","Trọng âm đuôi -tion, -ic, -ity","Trọng âm rơi vào âm tiết ngay trước đuôi: eduCAtion, ecoNOmic, aBIlity.",["education","economic","ability","photograph","photography"]],
+["C2","Dạng yếu và âm schwa /ə/","Từ chức năng đọc yếu: to /tə/, of /əv/, and /ən/. Đây là bí quyết nghe tự nhiên.",["a cup of tea and a piece of cake","I have to go"]],
+["C2","Nhấn đối chiếu","Đổi từ được nhấn là đổi ý: I didn’t say HE stole it khác I didn’t say he STOLE it.",["I didn’t say he stole it"]]];
+const NG=[["A1","My name is Lan and I live in Hanoi.","Tên mình là Lan và mình sống ở Hà Nội."],["A1","What time does the class start?","Lớp bắt đầu lúc mấy giờ?"],
+["A2","I usually get up at six and have breakfast at home.","Mình thường dậy lúc sáu giờ và ăn sáng ở nhà."],["A2","Could you tell me where the station is?","Bạn chỉ giúp mình ga ở đâu được không?"],
+["B1","I’ve been learning English for two years, and I want to improve my speaking.","Mình học tiếng Anh hai năm rồi và muốn cải thiện kỹ năng nói."],["B1","If it rains tomorrow, we will stay at home.","Nếu ngày mai mưa, chúng mình sẽ ở nhà."],
+["B2","The meeting has been postponed until next Thursday because the manager is abroad.","Cuộc họp bị hoãn đến thứ Năm tuần sau vì quản lý đang ở nước ngoài."],["B2","I wish I had spent more time preparing for the interview.","Phải chi mình dành nhiều thời gian chuẩn bị phỏng vấn hơn."],
+["C1","Had I known about the delay, I would have taken an earlier flight.","Giá mà tôi biết chuyến bay bị trễ, tôi đã đi chuyến sớm hơn."],["C1","The results, however, were not as conclusive as we had anticipated.","Tuy nhiên, kết quả không rõ ràng như chúng tôi dự đoán."],
+["C2","Ostensibly a minor update, the patch fundamentally altered how the system handles authentication.","Bề ngoài chỉ là bản cập nhật nhỏ, nhưng bản vá đã thay đổi căn bản cách hệ thống xác thực."],["C2","It is the nuance, rather than the vocabulary, that distinguishes fluent speakers.","Chính sắc thái, chứ không phải vốn từ, phân biệt người nói lưu loát."]];
+const SCN=[["Trò chuyện tự do","casual small talk about daily life and hobbies"],["Phỏng vấn xin việc IT","a job interview for a junior developer position; you are the interviewer"],["Quán cà phê","ordering drinks at a café; you are the barista"],["Hỏi đường","a tourist asks for directions; you are a local"],["Họp nhóm IT","a daily stand-up meeting in a software team; you are the team lead"]];
+const DO=[["A1","Tom’s day","Tom is a student. He gets up at 6:30. He walks to school with his friend Anna. They have English class at 9:00.","How does Tom go to school?",["By bus","On foot","By bike"],1,"Câu 3: He walks to school."],
+["A2","Lan’s weekend","Last Saturday, Lan went to the market with her mother. They bought fish, vegetables and fruit. In the afternoon she cleaned her room, and in the evening she watched a film.","What did Lan do in the evening?",["Cleaned her room","Watched a film","Went to the market"],1,"Buổi tối (in the evening) cô ấy xem phim."],
+["B1","Working from home","More people now work from home. It saves travel time and money, but some workers feel lonely and find it hard to stop working at the end of the day.","What is one problem of working from home?",["Higher travel costs","Feeling lonely","Lower salary"],1,"Từ khóa: feel lonely."],
+["B2","Sleep and memory","Researchers found that students who slept eight hours before an exam performed noticeably better than those who stayed up late studying. The findings suggest that sleep helps the brain consolidate what has been learned.","What can be inferred from the passage?",["Studying late is the best strategy","Sleep supports memory","Exams are easier in the morning"],1,"Suy luận từ suggest that sleep helps the brain consolidate."],
+["C1","The scheduling app","Although the app was ostensibly designed to simplify scheduling, many employees found it counterproductive, as constant notifications fragmented their concentration.","What is the author’s attitude toward the app?",["Enthusiastic","Critical","Neutral"],1,"Ostensibly (bề ngoài) và counterproductive cho thấy thái độ phê phán."],
+["C2","A paradigm shift","Far from being a mere technical upgrade, the new framework signals a paradigm shift: teams must abandon the assumption that scale is inherently desirable.","What does ‘Far from being a mere upgrade’ imply?",["It is only a small upgrade","It is much more than an upgrade","It is not related to technology"],1,"Far from being a mere X nghĩa là nó vượt xa X."]];
+const VI=[["A1","Giới thiệu bản thân","My name is … I am … years old. I live in … I like …",30],["A2","Kể về cuối tuần vừa qua","Last weekend I … Then I … It was …",50],["B1","Email hẹn lịch hoặc xin nghỉ","Dear …, I am writing to … Could you please …? Thank you for your help. Best regards,",80],["B2","Đoạn văn nêu ý kiến: Remote work có tốt không?","In my opinion … First, … Moreover, … However, … In conclusion, …",120],["C1","Bài luận đối chiếu hai quan điểm","While some argue that …, others contend that … This suggests that …",200],["C2","Tóm tắt kết quả nghiên cứu có hedging","The evidence suggests that … It appears that … may … Nevertheless, …",150]];
+const GT=[["A1","Nhờ người khác","Give me the pen.","Could you pass me the pen, please?","Could + please là mẫu nhờ vả lịch sự cơ bản nhất."],["A1","Không nghe rõ","What?","Sorry, could you say that again?","Chỉ nói What? nghe khá cộc."],
+["A2","Từ chối lời mời","No, I don’t want to.","Thanks for inviting me, but I’m afraid I can’t make it.","Cảm ơn trước, từ chối sau, kèm lý do ngắn."],["A2","Hỏi đường","Where is the station?","Excuse me, could you tell me how to get to the station?","Mở đầu bằng Excuse me."],
+["B1","Phàn nàn","Your service is terrible!","I’m afraid there’s a problem with my order. Could you look into it?","Nêu vấn đề, không công kích người."],["B1","Không đồng ý","You’re wrong.","I see your point, but I see it a bit differently.","Công nhận trước, phản biện sau."],
+["B2","Nhờ gián tiếp","Close the window.","Would you mind closing the window? It’s a bit chilly in here.","Người bản xứ hay nói gián tiếp."],["B2","Góp ý đồng nghiệp","Your code is bad.","This part could be cleaner. Have you considered splitting it into smaller functions?","Phê bình việc làm, đưa gợi ý cụ thể."],
+["C1","Từ chối sếp khéo léo","I can’t do it.","I’d love to help, but my plate is full. Could we look at the deadline?","Thể hiện thiện chí và đề xuất giải pháp."],["C1","Email trang trọng","Hey, send me the file.","I would be grateful if you could send me the file at your earliest convenience.","Văn phong trang trọng dùng cấu trúc dài hơn."],
+["C2","Giảm nhẹ bất đồng","That’s nonsense.","With respect, I’m not entirely convinced. Might there be another way to read the data?","Dùng câu hỏi mở thay cho phán xét."],["C2","Đọc hàm ý","Hiểu Interesting idea… là lời khen","Thường là lịch sự không đồng ý. Hãy hỏi: What concerns do you have?","Người Anh, Mỹ hay nói giảm; đừng chỉ hiểu nghĩa đen.","What concerns do you have?"]];
+const TN=[["A2","Break a leg!","Chúc may mắn (khi biểu diễn, thuyết trình)","Break a leg at your presentation!","thân mật"],["A2","No worries","Không sao đâu, đừng lo","— Sorry I’m late. — No worries.","thân mật"],
+["B1","It’s raining cats and dogs","Mưa như trút nước","We can’t go out. It’s raining cats and dogs.","trung tính"],["B1","Spill the beans","Lỡ tiết lộ bí mật","Who spilled the beans about the surprise party?","thân mật"],
+["B2","Under the weather","Hơi mệt, không khỏe","I’m feeling a bit under the weather today.","trung tính"],["B2","I’m swamped","Mình ngập đầu việc","Sorry, I’m swamped this week.","thân mật, công sở"],["B2","No cap","Thật đấy, không nói điêu","That movie was amazing, no cap.","từ lóng, giới trẻ"],
+["C1","Bite the bullet","Cắn răng chịu đựng, làm điều khó","We just have to bite the bullet and rewrite it.","trung tính"],["C1","The ball is in your court","Đến lượt bạn quyết định","I’ve sent the offer, so the ball is in your court.","trung tính"],
+["C2","Burn the midnight oil","Thức khuya làm việc, học bài","The team burned the midnight oil before the release.","trang trọng nhẹ"],["C2","Cross that bridge when we come to it","Đến lúc đó rồi tính","Will it scale? Let’s cross that bridge when we come to it.","trung tính"]];
+const TD=[["A1","Hôm nay nóng","Today hot.","It is hot today.","Tiếng Anh cần chủ ngữ (it) và động từ be."],["A1","Tôi 20 tuổi","I have 20 years old.","I am 20 years old.","Tuổi dùng be, không dùng have."],
+["A2","Bạn ăn cơm chưa?","You eat rice yet?","Have you eaten yet?","Dịch ý, không dịch từng chữ."],["A2","Tôi rất thích nó","I very like it.","I like it very much.","very much đứng cuối câu, không đứng trước động từ."],
+["B1","Tôi có hai con mèo","I have two cat.","I have two cats.","Tiếng Việt không đổi số nhiều, tiếng Anh bắt buộc thêm -s."],["B1","Tôi ở đây từ năm 2022","I live here since 2022.","I’ve lived here since 2022.","since đi với hiện tại hoàn thành."],
+["B2","Kể dài rồi mới nêu ý chính","(…many details…) so the problem is cost.","The main problem is cost. We can’t afford …","Người Anh nêu ý chính trước, chi tiết sau."],["B2","Cái bug được sửa rồi","The bug fixed.","The bug has been fixed.","Khi người làm không quan trọng, dùng bị động."],
+["C1","Vì hệ thống chạy chậm nên người dùng bỏ đi","Because the system ran slowly, users left.","The system’s slow performance drove users away.","Văn viết cao cấp dùng danh từ thay cho cả mệnh đề."],["C1","Tôi nghĩ cách này tệ","I think this way is bad.","I’m not convinced this is the best approach.","Nói giảm cho lịch sự và chuyên nghiệp."],
+["C2","Cái này sai","This is wrong.","This appears to be inaccurate.","Hedging: tránh khẳng định tuyệt đối trong văn học thuật."],["C2","Người dùng ghét độ trễ","Users hate the latency.","Latency is a major source of frustration for users.","Cho vật làm chủ ngữ để câu khách quan hơn."]];
+const LK=[["A1","Thêm ý","and, also","I like tea, and I also like coffee."],["A1","Đối lập","but","I’m tired, but I’m happy."],["A2","Nguyên nhân và kết quả","because, so","I was late because the bus broke down."],["A2","Trình tự","first, then, after that","First, open the file. Then, save it."],
+["B1","Đối lập","however, although, in spite of","Although it was late, we kept working."],["B1","Kết quả","therefore, as a result","The server crashed. As a result, we lost data."],["B2","Bổ sung","moreover, in addition, besides","Moreover, the tool is free."],["B2","Đối chiếu","on the other hand, whereas, while","Python is easy to read, whereas C gives more control."],
+["C1","Nhượng bộ","nevertheless, nonetheless, even though","The plan was risky; nevertheless, we went ahead."],["C1","Kết luận","consequently, thus, in conclusion","Thus, the hypothesis was confirmed."],["C2","Hàm ý nâng cao","notwithstanding, insofar as, albeit","A solution, albeit an imperfect one."],["C2","Nhấn mạnh","not least, above all, what is more","Above all, the code must be maintainable."]];
+
+// ---- giao diện từng mảng ----
+const V2={};
+V2["phat-am"]=()=>gr(2,PA,p=>`<article class="card"><h3>${tg(p[0])}${p[1]}</h3><p>${p[2]}</p><p>`+p[3].map(w=>`<button class="b" data-sp="${w}">🔊 ${w}</button>`).join(" ")+`</p></article>`);
+const ND={i:0};
+V2["nghe"]=()=>{const a=NG.filter(F);if(ND.i>=a.length)ND.i=0;const q=a[ND.i];return intro(3)+`<p class="m">Chép chính tả: nghe rồi gõ lại đúng câu. Câu ${ND.i+1}/${a.length} (${q[0]})</p><div class="card"><p><button class="b p" data-sp="${q[1]}">▶ Nghe</button> <button class="b" data-sp="${q[1]}" data-rt=".6">🐢 Nghe chậm</button></p><textarea id="dk" rows="3" placeholder="Gõ những gì bạn nghe được…"></textarea><p><button class="b p" data-dk="1">Kiểm tra</button> <button class="b" data-dn="1">Câu khác</button></p><div id="dres"></div></div>`};
+const C={sc:0,m:[],d:[],busy:false};
+const chatH=()=>(C.d.length||C.busy?"":`<p class="m">Bấm “Bắt đầu hội thoại” để trợ lý mở lời, hoặc tự gõ câu đầu tiên.</p>`)+C.d.map(x=>{if(x.r=="u")return `<div class="bu u">${esc(x.t)}</div>`;if(x.r=="e")return `<div class="bu m">${esc(x.t)}</div>`;const p=x.t.split(/\n?Sửa:/);return `<div class="bu a">${esc(p[0].trim())}${p[1]?`<span class="fx">✏️ Sửa: ${esc(p[1].trim())}</span>`:""}</div>`}).join("")+(C.busy?`<div class="bu a m">Đang soạn câu trả lời…</div>`:"");
+const upd=()=>{const c=$("#chat");if(c){c.innerHTML=chatH();c.scrollTop=c.scrollHeight}};
+V2["noi"]=()=>intro(4)+`<div class="card"><h3>🤖 Trợ lý luyện nói</h3><p class="m">Cấp độ: ${lv()} (đổi bằng các bậc ở trên). Chọn tình huống, rồi nói hoặc gõ bằng tiếng Anh. Trợ lý đáp lại và sửa lỗi cho bạn bằng tiếng Việt.</p><p>`+SCN.map((s,i)=>`<button class="c${i==C.sc?" on":""}" data-sc="${i}">${s[0]}</button>`).join("")+`</p><div id="chat">${chatH()}</div><textarea id="mi" rows="2" placeholder="Type or speak in English…"></textarea><p><button class="b p" data-ms="1">Gửi</button> <button class="b" data-mm="1">🎤 Nói</button> <button class="b" data-mst="1">Bắt đầu hội thoại</button> <label class="m"><input type="checkbox" id="sy" checked> Đọc to câu trả lời</label></p></div>`;
+const RA={};
+V2["doc"]=()=>intro(5)+`<div class="g">`+DO.map((q,i)=>[q,i]).filter(([q])=>F(q)).map(([q,i])=>`<article class="card"><h3>${tg(q[0])}${q[1]}</h3><p class="ex">${q[2]}</p><p><b>${q[3]}</b></p>`+q[4].map((o,j)=>`<button class="b opt${RA[i]==null?"":j==q[5]?" ok":j==RA[i]?" no":""}" data-dr="${i}:${j}">${o}</button>`).join("")+(RA[i]==null?"":`<p class="m">${q[6]}</p>`)+`</article>`).join("")+`</div>`;
+V2["viet"]=()=>intro(6)+`<div class="g">`+VI.map((w,i)=>[w,i]).filter(([w])=>F(w)).map(([w,i])=>`<article class="card"><h3>${tg(w[0])}${w[1]}</h3><p class="ex">${w[2]}</p><textarea class="vw" id="vw${i}" data-w="${w[3]}" rows="6" placeholder="Viết khoảng ${w[3]} từ…"></textarea><span class="m">0 / ${w[3]} từ</span> <button class="b" data-fb="${i}">Nhờ Claude góp ý</button><div id="fb${i}" class="m" style="white-space:pre-wrap"></div></article>`).join("")+`</div>`;
+V2["giao-tiep"]=()=>gr(7,GT,p=>`<article class="card"><h3>${tg(p[0])}${p[1]}</h3><p class="bad">✗ ${p[2]}</p><p class="good">✓ ${p[3]} <button class="c" data-sp="${p[5]||p[3]}">🔊</button></p><p class="m">${p[4]}</p></article>`);
+V2["thanh-ngu"]=()=>gr(8,TN,p=>`<article class="card"><h3>${tg(p[0])}${p[1]}</h3><p><b>${p[2]}</b> <span class="m">[${p[4]}]</span></p><p class="ex">${p[3]}</p><button class="c" data-sp="${p[1]}. ${p[3]}">🔊 Nghe</button></article>`);
+V2["tu-duy"]=()=>gr(10,TD,p=>`<article class="card"><h3>${tg(p[0])}${p[1]}</h3><p class="bad">✗ ${p[2]}</p><p class="good">✓ ${p[3]}</p><p class="m">${p[4]}</p></article>`);
+Object.assign(views,V2);
+const og=views["ngu-phap"],ov=views["tu-vung"],oc=views["cum-tu"];
+views["ngu-phap"]=()=>intro(1)+og();
+views["tu-vung"]=()=>intro(0)+ov();
+views["cum-tu"]=()=>intro(9)+oc()+`<h3 class="sec">Từ nối theo chức năng</h3><div class="g">`+LK.filter(F).map(p=>`<article class="card"><h3>${tg(p[0])}${p[1]}</h3><p><b>${p[2]}</b></p><p class="ex">${p[3]}</p></article>`).join("")+`</div>`;
+views["lo-trinh"]=()=>`<div class="g">`+LV.filter(F).map(v=>`<article class="card"><h3>${v[0]} · ${v[1]}</h3><p>${v[2]}</p><p class="m">Thời gian gợi ý: ${v[3]}, khoảng 1 giờ mỗi ngày.<br>Tương đương: ${v[4]}.</p><p>`+T.slice(1,12).map(t=>`<button class="c" data-l="${v[0]}" data-t="${t[0]}">${t[1]}</button>`).join("")+`</p></article>`).join("")+`</div>`;
+delete views["mang"];
+T.length=0;[["lo-trinh","Lộ trình"],["ngu-phap","Ngữ pháp"],["tu-vung","Từ vựng"],["phat-am","Phát âm"],["nghe","Nghe hiểu"],["noi","Nói"],["doc","Đọc hiểu"],["viet","Viết"],["giao-tiep","Giao tiếp"],["thanh-ngu","Thành ngữ"],["cum-tu","Cụm từ"],["tu-duy","Tư duy"],["luyen-tap","Luyện tập"],["ky-thi","Kỳ thi"]].forEach(t=>T.push(t));
+
+// ---- trợ lý AI (dùng Claude khi mở trong claude.ai) ----
+const getSample=async()=>{const sm=window.claude?await claude.use("sample"):null;if(!sm)throw{message:"Trợ lý AI chỉ hoạt động khi mở trang này trong Claude."};return sm};
+async function turn(first){if(C.busy)return;let t="";if(first){C.m=[{role:"user",content:"Start the conversation: greet me and ask your first question."}];C.d=[]}else{const mi=$("#mi");t=mi.value.trim();if(!t)return;mi.value="";C.m.push({role:"user",content:t});C.d.push({r:"u",t})}
+C.busy=true;upd();
+try{const sm=await getSample();
+const ins=`You are a friendly English speaking partner for a Vietnamese learner at CEFR level ${lv()}. Scenario: ${SCN[C.sc][1]}. Rules: reply in natural English suited to that level, 1-3 short sentences, and end with one question to keep the conversation going. If the learner’s latest message has grammar, vocabulary or word-choice mistakes, add a new final line that starts exactly with "Sửa:" giving, in Vietnamese, the corrected sentence and a brief reason. If there are no mistakes, add no such line. Never write more than 60 words in English.`;
+const r=await sm(C.m.map((m,i)=>i?m:{role:"user",content:ins+"\n\n"+m.content}),{cache:false,modelTier:"quick"});
+C.m.push({role:"assistant",content:r.text});C.d.push({r:"a",t:r.text});
+const cb=$("#sy");if(cb&&cb.checked)say(r.text.split(/\n?Sửa:/)[0])}
+catch(e){if(C.m.length&&C.m[C.m.length-1].role=="user")C.m.pop();C.d.push({r:"e",t:"Chưa gọi được trợ lý: "+(e.message||e.code||"lỗi không rõ")})}
+C.busy=false;upd()}
+document.addEventListener("click",async e=>{const d=e.target.closest("[data-sp],[data-dk],[data-dn],[data-dr],[data-sc],[data-ms],[data-mm],[data-mst],[data-fb]");if(!d)return;const s=d.dataset;
+if(s.sp)say(s.sp,+s.rt||1);
+if(s.dk){const a=NG.filter(F)[ND.i],u=new Set(nm($("#dk").value)),w=a[1].split(/\s+/),h=w.filter(x=>u.has(nm(x)[0])).length;
+$("#dres").innerHTML=`<p>${w.map(x=>`<span class="${u.has(nm(x)[0])?"ok2":"no2"}">${x}</span>`).join(" ")}</p><p>Đúng ${h}/${w.length} từ. <i>${a[2]}</i></p>`}
+if(s.dn){ND.i++;R()}
+if(s.dr){const[i,j]=s.dr.split(":");if(RA[i]==null){RA[i]=+j;R()}}
+if(s.sc!=null){C.sc=+s.sc;C.m=[];C.d=[];R()}
+if(s.ms)turn(false);
+if(s.mst)turn(true);
+if(s.mm){const SR=window.SpeechRecognition||window.webkitSpeechRecognition;if(!SR){$("#mi").placeholder="Trình duyệt này chưa hỗ trợ nhận giọng nói, hãy gõ câu trả lời.";return}const r=new SR();r.lang="en-US";r.onresult=ev=>{$("#mi").value=ev.results[0][0].transcript};r.start()}
+if(s.fb!=null){const i=+s.fb,t=$("#vw"+i).value.trim(),o=$("#fb"+i);if(t.split(/\s+/).length<5){o.textContent="Hãy viết ít nhất vài câu trước.";return}o.textContent="Đang chấm…";
+try{const sm=await getSample();const r=await sm(`A Vietnamese learner at CEFR level ${VI[i][0]} wrote the text below for the task: ${VI[i][1]}. In Vietnamese, in under 120 words: list the main grammar or word-choice errors with corrections, then give one suggestion to improve. Text:\n${t}`,{cache:false,modelTier:"quick"});o.textContent=r.text}catch(x){o.textContent="Chưa gọi được Claude: "+(x.message||x.code||"lỗi")}}});
+document.addEventListener("input",e=>{const t=e.target;if(t.classList&&t.classList.contains("vw")){const n=t.value.trim().split(/\s+/).filter(Boolean).length;t.nextElementSibling.textContent=n+" / "+t.dataset.w+" từ"}});
+
+pool=function(){const o=[],P1=(a,f)=>a.filter(f);
+const sv=(l)=>V.filter(x=>x[0]==l||l=="IT"),pk=(a,n)=>sh(a).slice(0,n);
+Q.filter(F).forEach(q=>o.push(mk(q[0],q[1],q[2][q[3]],q[2].filter((_,i)=>i!=q[3]),q[4])));
+AQ.filter(F).forEach(q=>o.push(mk(q[0],q[1],q[2],q[3],q[4])));
+V.filter(F).forEach(w=>{const ex=`${w[1]} ${w[2]} = ${w[3]}. Ví dụ: ${w[4]}`,oth=V.filter(x=>x[1]!=w[1]);
+o.push(mk(w[0],`“${w[1]}” có nghĩa là gì?`,w[3],pk(oth.map(x=>x[3]).filter(m=>m!=w[3]),2),ex));
+o.push(mk(w[0],`“${w[3]}” trong tiếng Anh là gì?`,w[1],pk(oth.map(x=>x[1]),2),ex));
+o.push(mk(w[0],`Từ nào có phiên âm ${w[2]}?`,w[1],pk(oth.filter(x=>x[2]!=w[2]).map(x=>x[1]),2),ex));
+const re=new RegExp("\\b"+w[1].replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+"\\b","i");
+if(re.test(w[4])&&w[1].length>2){const same=V.filter(x=>x[0]==w[0]&&x[1]!=w[1]);o.push(mk(w[0],`Điền từ vào chỗ trống: ${w[4].replace(re,"___")}`,w[1],pk((same.length>=2?same:oth).map(x=>x[1]),2),ex))}});
+P.filter(F).forEach(p=>{const oth=P.filter(x=>x[1]!=p[1]),ex=`${p[1]} = ${p[2]}. Ví dụ: ${p[3]}`;
+o.push(mk(p[0],`Cụm “${p[1]}” nghĩa là gì?`,p[2],pk(oth.map(x=>x[2]),2),ex));
+o.push(mk(p[0],`“${p[2]}” tiếng Anh là cụm nào?`,p[1],pk(oth.map(x=>x[1]),2),ex))});
+G.filter(F).forEach(g=>{const ex=g[3].split("|").map(x=>x.split("=")).filter(p=>p[1]);ex.forEach(p=>{
+const oe=G.flatMap(r=>r[3].split("|").map(x=>x.split("="))).filter(x=>x[1]&&x[0]!=p[0]);
+o.push(mk(g[0],`“${p[0]}” nghĩa là gì?`,p[1],pk(oe.map(x=>x[1]),2),`${g[1]}: ${g[2]}`));
+o.push(mk(g[0],`Câu nào dịch đúng: “${p[1]}”`,p[0],pk(oe.map(x=>x[0]),2),`${g[1]}: ${g[2]}`))})});
+TD.filter(F).forEach(t=>o.push(mk(t[0],`Cách nói tự nhiên, đúng hơn cho “${t[1]}”?`,t[3],[t[2]],t[4])));
+GT.filter(F).filter(t=>t.length<6).forEach(t=>o.push(mk(t[0],`Tình huống “${t[1]}”: cách nói nào phù hợp, lịch sự hơn?`,t[3],[t[2]],t[4])));
+TN.filter(F).forEach(t=>o.push(mk(t[0],`Thành ngữ “${t[1]}” nghĩa là gì?`,t[2],pk(TN.filter(x=>x[1]!=t[1]).map(x=>x[2]),2),`${t[1]} = ${t[2]}. Ví dụ: ${t[3]}`)));
+return o};
+fetch("tu-vung.txt").then(r=>{if(!r.ok)throw 0;return r.text()}).then(t=>{t.split("\n").forEach(l=>{if(!l.trim()||l[0]=="#")return;const p=l.split("|");if(p.length>=5)V.push([p[0],p[1],p[2],p[3],p[4],p[5]||""])})}).catch(()=>{const f=document.querySelector("footer");if(f)f.insertAdjacentHTML("afterbegin","<p><b>Không tải được tu-vung.txt.</b> Hãy để file này cùng thư mục với index.html và mở qua máy chủ web (không mở trực tiếp bằng file://).</p>")}).finally(R);
+})();
+</script>
+</body></html>
