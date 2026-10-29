@@ -72,7 +72,48 @@ nav button{transition:.2s}nav button:hover{color:var(--ac);text-shadow:0 0 12px 
 summary{list-style:none}summary::-webkit-details-marker{display:none}summary::before{content:"▸ ";color:var(--ac);display:inline-block;transition:transform .2s}details[open] summary::before{transform:rotate(90deg)}
 .wd{text-shadow:0 0 18px rgba(34,211,238,.6)}
 @media(prefers-reduced-motion:reduce){*,::after{animation:none!important;transition:none!important}}
-.exs .ex{margin:8px 0;font-style:normal}.exs .ex b{font-weight:600}.exs .vi{color:var(--mut);font-size:.93rem}.ni{display:block;width:100%;max-width:240px;margin:8px 0 12px;font:inherit;font-size:1.1rem;padding:10px 12px;color:#14213d;background:#fcfcff;border:2px solid #22d3ee;border-radius:12px;box-shadow:0 0 0 4px rgba(34,211,238,.35);outline:0}.ni::-webkit-inner-spin-button,.ni::-webkit-outer-spin-button{opacity:1;height:28px}.fc .vi{color:var(--mut);font-size:.95rem;font-style:normal}</style></head><body><div class="w">
+.exs .ex{margin:8px 0;font-style:normal}.exs .ex b{font-weight:600}.exs .vi{color:var(--mut);font-size:.93rem}.ni{display:block;width:100%;max-width:240px;margin:8px 0 12px;font:inherit;font-size:1.1rem;padding:10px 12px;color:#14213d;background:#fcfcff;border:2px solid #22d3ee;border-radius:12px;box-shadow:0 0 0 4px rgba(34,211,238,.35);outline:0}.ni::-webkit-inner-spin-button,.ni::-webkit-outer-spin-button{opacity:1;height:28px}.fc .vi{color:var(--mut);font-size:.95rem;font-style:normal}</style>
+<style>
+/* ===== Chuyển giao diện Sáng / Tối ===== */
+:root[data-theme="dark"]:root[data-theme="dark"]{--bg:#070b17;--sf:#0e1630;--ink:#e6edff;--mut:#8b9acb;--ac:#22d3ee;--on:#03121a;--hi:#b794ff;--ln:#22305a;--gl:rgba(34,211,238,.06);color-scheme:dark}
+:root[data-theme="light"]:root[data-theme="light"]{--bg:#f2f5fa;--sf:#ffffff;--ink:#14213d;--mut:#5b6784;--ac:#2447f5;--on:#ffffff;--hi:#6d3fd8;--ln:#d6dcea;--gl:rgba(36,71,245,.06);color-scheme:light}
+[data-theme="light"] body{background:radial-gradient(900px 500px at 85% -10%,rgba(124,92,255,.12),transparent 60%),radial-gradient(700px 450px at 0% 10%,rgba(36,71,245,.08),transparent 60%),linear-gradient(var(--gl) 1px,transparent 1px) 0 0/100% 28px,linear-gradient(90deg,var(--gl) 1px,transparent 1px) 0 0/28px 100%,var(--bg);background-attachment:fixed}
+[data-theme="light"] body::after{background:radial-gradient(420px circle at var(--gx,50%) var(--gy,15%),rgba(36,71,245,.06),transparent 65%)}
+[data-theme="light"] .logo,[data-theme="light"] h1{background:linear-gradient(100deg,#14213d 10%,#2447f5 55%,#7c5cff);-webkit-background-clip:text;background-clip:text;color:transparent}
+[data-theme="light"] h1::after{-webkit-text-fill-color:var(--ac)}
+[data-theme="light"] nav button:hover{text-shadow:none}
+[data-theme="light"] .step{background:linear-gradient(180deg,rgba(36,71,245,.08),var(--sf))}
+[data-theme="light"] .step:hover{box-shadow:0 0 18px rgba(36,71,245,.3)}
+[data-theme="light"] .step.on{background:linear-gradient(180deg,#2447f5,#7c5cff);color:#fff;border-color:var(--ac);box-shadow:0 0 22px rgba(36,71,245,.35)}
+[data-theme="light"] .step.on small{color:#fff}
+[data-theme="light"] .card{background:radial-gradient(260px circle at var(--mx,-300px) var(--my,-300px),rgba(36,71,245,.09),transparent 65%),var(--sf)}
+[data-theme="light"] .card:hover{box-shadow:0 10px 26px rgba(20,33,61,.12),0 0 14px rgba(36,71,245,.15)}
+[data-theme="light"] .b:hover,[data-theme="light"] .c:hover{box-shadow:0 0 12px rgba(36,71,245,.3)}
+[data-theme="light"] .b.p,[data-theme="light"] .c.on{background:linear-gradient(90deg,#2447f5,#7c5cff);color:#fff}
+[data-theme="light"] .wd{text-shadow:none}
+[data-theme="light"] .bad,[data-theme="light"] .no2{color:#c53b3b}
+[data-theme="light"] .good,[data-theme="light"] .ok2{color:#1f8f4e}
+[data-theme="light"] .bu.u{background:rgba(36,71,245,.08)}
+[data-theme="light"] .ni{border-color:var(--ac);box-shadow:0 0 0 4px rgba(36,71,245,.15)}
+[data-theme="light"] input[type=range]{accent-color:#2447f5}
+
+.thm{position:fixed;top:calc(12px + env(safe-area-inset-top,0px));right:calc(12px + env(safe-area-inset-right,0px));z-index:100;display:inline-flex;gap:2px;padding:3px;background:var(--sf);border:1.5px solid var(--ln);border-radius:999px;box-shadow:0 4px 16px rgba(0,0,0,.18)}
+.thm button{font:inherit;font-size:.85rem;font-weight:600;display:inline-flex;align-items:center;gap:5px;border:0;background:transparent;color:var(--mut);padding:6px 11px;border-radius:999px;cursor:pointer;transition:background .2s,color .2s}
+.thm button:hover{color:var(--ink)}
+.thm button[aria-pressed="true"]{background:linear-gradient(90deg,#22d3ee,#7c5cff);color:#03121a}
+[data-theme="light"] .thm button[aria-pressed="true"]{background:linear-gradient(90deg,#2447f5,#7c5cff);color:#fff}
+@media(max-width:1100px){header{padding-right:150px}}
+@media(max-width:420px){.thm button .tx{display:none}.thm button{padding:7px 10px}header{padding-right:104px}}
+</style>
+<script>
+(function(){var d=document.documentElement,k="ep-theme",s=null;
+try{s=localStorage.getItem(k)}catch(e){}
+d.setAttribute("data-theme",s==="light"?"light":"dark");
+function sync(){var t=d.getAttribute("data-theme");document.querySelectorAll("[data-theme-set]").forEach(function(b){b.setAttribute("aria-pressed",String(b.getAttribute("data-theme-set")===t))})}
+document.addEventListener("click",function(e){var b=e.target.closest&&e.target.closest("[data-theme-set]");if(!b)return;var t=b.getAttribute("data-theme-set");d.setAttribute("data-theme",t);try{localStorage.setItem(k,t)}catch(x){}sync()});
+document.addEventListener("DOMContentLoaded",sync)})();
+</script></head><body><div class="thm" role="group" aria-label="Giao diện"><button type="button" data-theme-set="light" aria-pressed="false" title="Giao diện sáng"><span aria-hidden="true">☀️</span><span class="tx">Sáng</span></button><button type="button" data-theme-set="dark" aria-pressed="true" title="Giao diện tối"><span aria-hidden="true">🌙</span><span class="tx">Tối</span></button></div>
+<div class="w">
 <header><div class="logo">EnglishPath</div><nav aria-label="Mục chính"></nav></header>
 <h1>Tiếng Anh từ A1 đến C2 trong một trang</h1>
 <p class="m">Chọn một bậc để lọc ngữ pháp, từ vựng, 9 kỹ năng và bài tập. Bấm lại để bỏ lọc.</p>
