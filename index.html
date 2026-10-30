@@ -448,4 +448,10 @@ return o};
 fetch("tu-vung.txt").then(r=>{if(!r.ok)throw 0;return r.text()}).then(t=>{t.split("\n").forEach(l=>{if(!l.trim()||l[0]=="#")return;const p=l.split("|");if(p.length>=5)V.push([p[0],p[1],p[2],p[3],p[4],p[5]||"",(p[6]||"").trim()])})}).catch(()=>{const f=document.querySelector("footer");if(f)f.insertAdjacentHTML("afterbegin","<p><b>Không tải được tu-vung.txt.</b> Hãy để file này cùng thư mục với index.html và mở qua máy chủ web (không mở trực tiếp bằng file://).</p>")}).finally(R);
 })();
 </script>
+<script>
+// Chặn cuộn lan: cuộn trong danh sách từ/thẻ từ không kéo cả trang
+document.addEventListener("wheel",e=>{const el=e.target.closest&&e.target.closest(".vl,.vs .fc,.vs .tp,#chat");if(!el)return;const max=el.scrollHeight-el.clientHeight;if(max<=0){if(el.matches(".vl"))e.preventDefault();return}
+const up=e.deltaY<0&&el.scrollTop<=0,dn=e.deltaY>0&&el.scrollTop>=max-1;if(up||dn)e.preventDefault()},{passive:false});
+</script>
+<style>.vl,.vs .fc,.vs .tp,#chat{overscroll-behavior:contain;overflow-anchor:none}</style>
 </body></html>
