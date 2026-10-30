@@ -112,7 +112,23 @@ d.setAttribute("data-theme",s==="light"?"light":"dark");
 function sync(){var t=d.getAttribute("data-theme");document.querySelectorAll("[data-theme-set]").forEach(function(b){b.setAttribute("aria-pressed",String(b.getAttribute("data-theme-set")===t))})}
 document.addEventListener("click",function(e){var b=e.target.closest&&e.target.closest("[data-theme-set]");if(!b)return;var t=b.getAttribute("data-theme-set");d.setAttribute("data-theme",t);try{localStorage.setItem(k,t)}catch(x){}sync()});
 document.addEventListener("DOMContentLoaded",sync)})();
-</script></head><body><div class="thm" role="group" aria-label="Giao diện"><button type="button" data-theme-set="light" aria-pressed="false" title="Giao diện sáng"><span aria-hidden="true">☀️</span><span class="tx">Sáng</span></button><button type="button" data-theme-set="dark" aria-pressed="true" title="Giao diện tối"><span aria-hidden="true">🌙</span><span class="tx">Tối</span></button></div>
+</script><style id="ux2">
+/* Từ vựng: bảng thẻ ghim trên cùng, danh sách từ cuộn riêng */
+.vs{position:sticky;top:0;z-index:20;background:var(--bg);padding:8px 0 8px;margin-top:6px;border-bottom:1px solid var(--ln);box-shadow:0 10px 18px -12px rgba(0,0,0,.55)}
+.vs .chips{margin-bottom:6px}
+.vs .tp{max-height:84px;overflow-y:auto;overscroll-behavior:contain}
+.vs .m{margin:.2em 0}
+.vs .fc{min-height:140px;max-height:38vh;overflow-y:auto;margin:6px 0;padding:10px 16px}
+.vs .wd{font-size:2rem}
+.vs>p{margin:6px 0 0}
+.vl{max-height:min(42vh,360px);min-height:120px;overflow-y:auto;overscroll-behavior:contain;margin-top:12px;padding:10px 10px 4px;border:1px solid var(--ln);border-radius:12px;background:var(--sf);scrollbar-width:thin}
+@media(max-width:1290px){.vs>:first-child{margin-right:150px}}
+@media(max-width:420px){.vs>:first-child{margin-right:100px}}
+@media(max-height:640px){.vs .fc{min-height:100px;max-height:30vh}.vs .wd{font-size:1.6rem}}
+/* Phát âm */
+.ip{color:var(--mut);font-size:.85em;margin-left:4px;font-weight:400}
+.pw{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+</style></head><body><div class="thm" role="group" aria-label="Giao diện"><button type="button" data-theme-set="light" aria-pressed="false" title="Giao diện sáng"><span aria-hidden="true">☀️</span><span class="tx">Sáng</span></button><button type="button" data-theme-set="dark" aria-pressed="true" title="Giao diện tối"><span aria-hidden="true">🌙</span><span class="tx">Tối</span></button></div>
 <div class="w">
 <header><div class="logo">EnglishPath</div><nav aria-label="Mục chính"></nav></header>
 <h1>Tiếng Anh từ A1 đến C2 trong một trang</h1>
@@ -166,7 +182,7 @@ const views={
 "lo-trinh":()=>`<div class="g">`+LV.filter(F).map(v=>`<article class="card"><h3>${v[0]} · ${v[1]}</h3><p>${v[2]}</p><p class="m">Thời gian gợi ý: ${v[3]}, khoảng 1 giờ mỗi ngày.<br>Tương đương: ${v[4]}.</p><button class="b" data-l="${v[0]}" data-t="ngu-phap">Ngữ pháp</button> <button class="b" data-l="${v[0]}" data-t="tu-vung">Từ vựng</button> <button class="b" data-l="${v[0]}" data-t="luyen-tap">Luyện tập</button></article>`).join("")+`</div>`,
 "ngu-phap":()=>G.filter(F).map(g=>`<details class="card"><summary><span class="tag">${g[0]}</span>${g[1]}</summary><p>${g[2]}</p><div class="exs">${g[3].split("|").map(x=>{const p=x.split("=");return`<p class="ex"><b>${p[0]}</b><br><span class="vi">${p[1]||""}</span></p>`}).join("")}</div></details>`).join(""),
 "tu-vung":()=>{const all=V.filter(F),tps=[...new Set(all.map(x=>x[6]).filter(Boolean))];if(st.tp&&!tps.includes(st.tp))st.tp="";const a=V.filter(FT);if(!a.length)return"";if(st.i>=a.length)st.i=0;const w=a[st.i],n=a.filter(x=>K.known[x[1]]).length;
-return (tps.length?`<div class="chips tp"><button class="c${st.tp?"":" on"}" data-p="">Tất cả chủ đề</button>`+tps.map(t=>`<button class="c${st.tp==t?" on":""}" data-p="${t}">${t}</button>`).join("")+`</div>`:"")+`<p class="m">Thẻ ${st.i+1}/${a.length}, đã nhớ ${n}</p><div class="card fc" data-f="1" tabindex="0"><p class="wd">${w[1]}</p>`+(w[6]?`<p class="m"><span class="tag">${w[6]}</span></p>`:"")+(st.flip?`<p>${w[2]} (${w[0]})</p><p><b>${w[3]}</b></p><p class="ex">${w[4]}${w[5]?`<br><span class="vi">${w[5]}</span>`:""}</p>`:`<p class="m">Chạm vào thẻ để xem nghĩa</p>`)+`</div><p><button class="b" data-s="1">Nghe phát âm</button> <button class="b" data-k="0">Chưa nhớ</button> <button class="b p" data-k="1">Đã nhớ</button></p><div>`+a.map((x,j)=>`<button class="c${j==st.i?" on":""}" data-j="${j}">${K.known[x[1]]?"✓ ":""}${x[1]}</button>`).join("")+`</div>`},
+return `<div class="vs">`+(tps.length?`<div class="chips tp"><button class="c${st.tp?"":" on"}" data-p="">Tất cả chủ đề</button>`+tps.map(t=>`<button class="c${st.tp==t?" on":""}" data-p="${t}">${t}</button>`).join("")+`</div>`:"")+`<p class="m">Thẻ ${st.i+1}/${a.length}, đã nhớ ${n}</p><div class="card fc" data-f="1" tabindex="0"><p class="wd">${w[1]}</p>`+(w[6]?`<p class="m"><span class="tag">${w[6]}</span></p>`:"")+(st.flip?`<p>${w[2]} (${w[0]})</p><p><b>${w[3]}</b></p><p class="ex">${w[4]}${w[5]?`<br><span class="vi">${w[5]}</span>`:""}</p>`:`<p class="m">Chạm vào thẻ để xem nghĩa</p>`)+`</div><p><button class="b" data-s="1">Nghe phát âm</button> <button class="b" data-k="0">Chưa nhớ</button> <button class="b p" data-k="1">Đã nhớ</button></p></div><div class="vl">`+a.map((x,j)=>`<button class="c${j==st.i?" on":""}" data-j="${j}">${K.known[x[1]]?"✓ ":""}${x[1]}</button>`).join("")+`</div>`},
 "luyen-tap":()=>{const a=Q.filter(F);if(!a.length)return"";
 if(st.qi>=a.length)return `<div class="card"><h3>Kết quả: ${st.sc}/${a.length}</h3><p>${st.sc==a.length?"Hoàn hảo! Hãy thử bậc cao hơn.":"Xem lại các câu sai ở mục Ngữ pháp rồi làm lại."}</p><button class="b p" data-r="1">Làm lại</button></div>`;
 const q=a[st.qi];
@@ -175,7 +191,9 @@ return `<p class="m">Câu ${st.qi+1}/${a.length} (${q[0]})</p><div class="card">
 function R(){const h=location.hash.slice(1);if(views[h])st.tab=h;
 $("nav").innerHTML=T.map(t=>`<button class="${t[0]==st.tab?"on":""}" data-t="${t[0]}">${t[1]}</button>`).join("");
 $("#st").innerHTML=`<div class="stairs">`+LV.map((v,i)=>`<button class="step${st.l==v[0]?" on":""}" style="--h:${64+i*18}px" data-l="${v[0]}"><b>${v[0]}</b><small>${v[1]}</small></button>`).join("")+`</div><div class="chips"><button class="c${st.l=="all"?" on":""}" data-l="all">Tất cả cấp độ</button><button class="c${st.l=="IT"?" on":""}" data-l="IT" data-t="tu-vung">Từ vựng IT</button></div>`;
-$("#v").innerHTML=views[st.tab]()||`<p class="card">Mục này chưa có nội dung cho lựa chọn hiện tại.</p>`}
+const ol=$(".vl"),sv=ol?ol.scrollTop:0;
+$("#v").innerHTML=views[st.tab]()||`<p class="card">Mục này chưa có nội dung cho lựa chọn hiện tại.</p>`;
+const nl=$(".vl");if(nl){nl.scrollTop=sv;const ac=nl.querySelector(".c.on");if(ac){const nb=nl.getBoundingClientRect(),ab=ac.getBoundingClientRect();if(ab.top<nb.top)nl.scrollTop-=nb.top-ab.top+8;else if(ab.bottom>nb.bottom)nl.scrollTop+=ab.bottom-nb.bottom+8}}}
 document.addEventListener("click",e=>{const d=e.target.closest("[data-p],[data-l],[data-t],[data-f],[data-s],[data-k],[data-j],[data-a],[data-n],[data-r]");if(!d)return;const s=d.dataset;
 if(s.p!=null){st.tp=st.tp==s.p?"":s.p;st.i=0;st.flip=false}
 if(s.l!=null){st.tp="";st.l=d.classList.contains("step")&&st.l==s.l?"all":s.l;st.i=st.qi=st.sc=0;st.ans=null;st.flip=false}
@@ -269,24 +287,35 @@ R();
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const tg=l=>`<span class="tag">${l}</span>`;
 const lv=()=>LV.some(v=>v[0]==st.l)?st.l:"B1";
-const say=(t,r)=>{if(!window.speechSynthesis)return;const u=new SpeechSynthesisUtterance(t);u.lang="en-US";u.rate=r||1;speechSynthesis.cancel();speechSynthesis.speak(u)};
+let swTok=0;
+const say=(t,r)=>{swTok++;if(!window.speechSynthesis)return;const u=new SpeechSynthesisUtterance(t);u.lang="en-US";u.rate=r||1;speechSynthesis.cancel();speechSynthesis.speak(u)};
+const sayChunks=(t,r)=>{if(!window.speechSynthesis)return;speechSynthesis.cancel();const tok=++swTok,w=t.split(/\s+/).filter(Boolean),ch=[];for(let i=0;i<w.length;i+=3)ch.push(w.slice(i,i+3).join(" "));let k=0;const nx=()=>{if(tok!=swTok||k>=ch.length)return;const u=new SpeechSynthesisUtterance(ch[k++]);u.lang="en-US";u.rate=r||.5;u.onend=()=>setTimeout(nx,900);u.onerror=()=>{};speechSynthesis.speak(u)};nx()};
 const nm=s=>s.toLowerCase().replace(/[’]/g,"'").replace(/[^a-z0-9' ]/g," ").split(/\s+/).filter(Boolean);
 const intro=i=>{const s=S[i];return `<details class="card"><summary>${s[0]} ${s[1]}: tổng quan và mẹo luyện</summary><h4>English</h4><p>${s[4]}</p><h4>Bản dịch</h4><p>${s[5]}</p><h4>Mẹo luyện tập</h4><ul>${s[6].split("|").map(t=>`<li>${t}</li>`).join("")}</ul><h4>Ví dụ</h4><div class="tw"><table class="tb"><tbody>${s[7].split("|").map(x=>{const p=x.split("=");return `<tr><td><i>${p[0]}</i></td><td>${p[1]}</td></tr>`}).join("")}</tbody></table></div></details>`};
 const gr=(i,a,f)=>intro(i)+`<div class="g">`+a.map((x,k)=>[x,k]).filter(([x])=>F(x)).map(([x,k])=>f(x,k)).join("")+`</div>`;
 
 // ---- dữ liệu ----
-const PA=[["A1","Âm /θ/ và /ð/","Đặt đầu lưỡi giữa hai hàm răng rồi thổi hơi nhẹ. Đừng thay bằng /t/ hay /d/.",["think","this","three","that"]],
-["A1","Đuôi -s/-es: /s/, /z/, /ɪz/","cats /s/, dogs /z/, buses /ɪz/. Đừng bỏ âm cuối, vì nó báo số nhiều và ngôi thứ ba.",["cats","dogs","buses"]],
-["A2","Đuôi -ed: /t/, /d/, /ɪd/","worked /t/, played /d/, wanted /ɪd/. Chỉ thêm âm tiết khi gốc từ tận cùng bằng t hoặc d.",["worked","played","wanted"]],
-["A2","Nguyên âm ngắn và dài","ship /ɪ/ ngắn, sheep /iː/ dài. Hai từ khác nghĩa hoàn toàn.",["ship","sheep","live","leave"]],
-["B1","Trọng âm danh từ và động từ","Danh từ nhấn âm đầu (RE-cord), động từ nhấn âm sau (re-CORD).",["I want to record a record","Please present the present"]],
-["B1","Trọng âm câu","Nhấn từ mang nghĩa (danh từ, động từ, tính từ); đọc lướt từ chức năng (a, the, to, of).",["I want to go to the store","She can’t come today"]],
-["B2","Nối âm (linking)","Phụ âm cuối nối với nguyên âm đầu từ sau: pick it up đọc như /pɪ-kɪ-tʌp/.",["pick it up","turn it off","an apple a day"]],
-["B2","Âm câm","Nhiều chữ cái không đọc: debt (b), knife (k), answer (w), island (s), castle (t).",["debt","knife","answer","island","castle"]],
-["C1","Ngữ điệu","Câu hỏi Yes/No lên giọng cuối câu; câu hỏi Wh- thường xuống giọng; liệt kê lên, lên, rồi xuống.",["Are you coming?","Where do you live?","Apples, oranges, and bananas."]],
-["C1","Trọng âm đuôi -tion, -ic, -ity","Trọng âm rơi vào âm tiết ngay trước đuôi: eduCAtion, ecoNOmic, aBIlity.",["education","economic","ability","photograph","photography"]],
-["C2","Dạng yếu và âm schwa /ə/","Từ chức năng đọc yếu: to /tə/, of /əv/, and /ən/. Đây là bí quyết nghe tự nhiên.",["a cup of tea and a piece of cake","I have to go"]],
-["C2","Nhấn đối chiếu","Đổi từ được nhấn là đổi ý: I didn’t say HE stole it khác I didn’t say he STOLE it.",["I didn’t say he stole it"]]];
+const PA=[
+["A1","Âm /θ/ và /ð/","Đặt đầu lưỡi giữa hai hàm răng rồi thổi hơi nhẹ. /θ/ không rung cổ họng (think), /ð/ có rung (this). Đừng thay bằng /t/, /d/ hay /s/, /z/.",["think|θɪŋk","thank|θæŋk","three|θriː","thing|θɪŋ","mouth|maʊθ","month|mʌnθ","this|ðɪs","that|ðæt","they|ðeɪ","mother|ˈmʌðə","weather|ˈweðə","together|təˈɡeðə","Three thin thieves thought about it","This is the weather that they like"]],
+["A1","Đuôi -s/-es: /s/, /z/, /ɪz/","Sau âm vô thanh (p, t, k, f) đọc /s/; sau âm hữu thanh và nguyên âm đọc /z/; sau s, z, sh, ch, j thêm âm tiết /ɪz/. Đừng bỏ âm cuối, vì nó báo số nhiều và ngôi thứ ba.",["cats|kæts","books|bʊks","stops|stɒps","dogs|dɒɡz","bags|bæɡz","days|deɪz","buses|ˈbʌsɪz","watches|ˈwɒtʃɪz","boxes|ˈbɒksɪz","changes|ˈtʃeɪndʒɪz","washes|ˈwɒʃɪz","He works and she studies"]],
+["A1","Số đếm -teen và -ty","-teen nhấn âm cuối và kéo dài (thirTEEN), -ty nhấn âm đầu và đọc ngắn (THIRty). Rất dễ nhầm khi nghe số điện thoại, giá tiền.",["thirteen|ˌθɜːˈtiːn","thirty|ˈθɜːti","fourteen|ˌfɔːˈtiːn","forty|ˈfɔːti","fifteen|ˌfɪfˈtiːn","fifty|ˈfɪfti","sixteen|ˌsɪkˈstiːn","sixty|ˈsɪksti","nineteen|ˌnaɪnˈtiːn","ninety|ˈnaɪnti"]],
+["A2","Đuôi -ed: /t/, /d/, /ɪd/","Sau âm vô thanh đọc /t/ (worked); sau âm hữu thanh và nguyên âm đọc /d/ (played); chỉ thêm âm tiết /ɪd/ khi gốc từ tận cùng bằng t hoặc d (wanted).",["worked|wɜːkt","helped|helpt","watched|wɒtʃt","stopped|stɒpt","played|pleɪd","called|kɔːld","cleaned|kliːnd","loved|lʌvd","wanted|ˈwɒntɪd","needed|ˈniːdɪd","started|ˈstɑːtɪd","decided|dɪˈsaɪdɪd"]],
+["A2","Nguyên âm ngắn và dài","ship /ɪ/ ngắn, sheep /iː/ dài. Các cặp này khác nghĩa hoàn toàn, hãy kéo dài âm /iː/, /uː/ và giữ âm /ɪ/, /ʊ/ thật ngắn.",["ship|ʃɪp","sheep|ʃiːp","sit|sɪt","seat|siːt","live|lɪv","leave|liːv","full|fʊl","fool|fuːl","pull|pʊl","pool|puːl","bit|bɪt","beat|biːt"]],
+["A2","Âm /r/ và /l/","/r/: cuộn lưỡi lên, đầu lưỡi không chạm vòm miệng. /l/: đầu lưỡi chạm vào lợi trên. Đừng đọc /r/ thành /z/ hay /l/.",["right|raɪt","light|laɪt","red|red","led|led","rice|raɪs","lice|laɪs","road|rəʊd","load|ləʊd","read|riːd","lead|liːd","correct|kəˈrekt","collect|kəˈlekt"]],
+["A2","Âm cuối /t/, /d/, /k/, /p/","Người Việt hay nuốt hoặc bỏ âm cuối. Hãy khép miệng đúng vị trí và bật hơi nhẹ ở cuối từ để người nghe phân biệt được cat / cap / back / bad.",["cat|kæt","cap|kæp","back|bæk","bad|bæd","bed|bed","bag|bæɡ","map|mæp","coat|kəʊt","cut|kʌt","hard|hɑːd","good|ɡʊd","stop|stɒp"]],
+["B1","Trọng âm danh từ và động từ","Với nhiều từ hai âm tiết, danh từ nhấn âm đầu (RE-cord), động từ nhấn âm sau (re-CORD).",["record","present","object","permit","increase","import","export","produce","contract","I want to record a record","Please present the present","There was an increase in sales, and it will increase again","They export more than they import"]],
+["B1","Trọng âm câu","Nhấn các từ mang nghĩa (danh từ, động từ, tính từ, phủ định); đọc lướt từ chức năng (a, the, to, of). Câu có nhịp như nhạc.",["I want to go to the store","She can’t come today","What do you want for dinner","I’m going to call him tomorrow","Can you help me with this","He didn’t tell me about it"]],
+["B1","Âm /ʃ/, /tʃ/, /dʒ/","/ʃ/ (sh): môi chu tròn, xì hơi. /tʃ/ (ch): bật rồi xì. /dʒ/ (j): như /tʃ/ nhưng có rung cổ họng.",["she|ʃiː","sheep|ʃiːp","chair|tʃeə","cheap|tʃiːp","jam|dʒæm","judge|dʒʌdʒ","watch|wɒtʃ","wash|wɒʃ","church|tʃɜːtʃ","fish|fɪʃ","job|dʒɒb","choose|tʃuːz"]],
+["B1","Từ IT hay đọc sai","Nhiều thuật ngữ IT bị đọc sai theo mặt chữ: cache đọc như cash, queue đọc như Q, Linux nhấn âm đầu.",["cache|kæʃ","queue|kjuː","Linux|ˈlɪnʊks","data|ˈdeɪtə","router|ˈruːtə","array|əˈreɪ","integer|ˈɪntɪdʒə","boolean|ˈbuːliən","parameter|pəˈræmɪtə","algorithm|ˈælɡərɪðəm","Java|ˈdʒɑːvə","SQL|ˌes kjuː ˈel"]],
+["B2","Nối âm (linking)","Phụ âm cuối nối với nguyên âm đầu từ sau: pick it up đọc như /pɪ-kɪ-tʌp/. Giữa hai nguyên âm có thể chèn nhẹ /j/ hoặc /w/ (see it, go on).",["pick it up","turn it off","an apple a day","look at it","check it out","not at all","put it on","what are you doing","I’ll call you back","Could I have a cup of tea"]],
+["B2","Âm câm","Nhiều chữ cái không được đọc: debt (b), knife (k), answer (w), island (s), castle (t), listen (t).",["debt|det","knife|naɪf","answer|ˈɑːnsə","island|ˈaɪlənd","castle|ˈkɑːsl","listen|ˈlɪsn","hour|ˈaʊə","honest|ˈɒnɪst","climb|klaɪm","receipt|rɪˈsiːt","psychology|saɪˈkɒlədʒi","Wednesday|ˈwenzdeɪ"]],
+["B2","Từ hay đọc sai","Những từ này thường bị đọc đủ âm tiết trong khi người bản xứ rút gọn: vegetable chỉ có 3 âm tiết, comfortable chỉ có 3.",["comfortable|ˈkʌmftəbl","vegetable|ˈvedʒtəbl","February|ˈfebruəri","library|ˈlaɪbrəri","clothes|kləʊðz","mischievous|ˈmɪstʃɪvəs","subtle|ˈsʌtl","height|haɪt","development|dɪˈveləpmənt","schedule|ˈʃedjuːl","particularly|pəˈtɪkjələli"]],
+["C1","Ngữ điệu","Câu hỏi Yes/No lên giọng cuối câu; câu hỏi Wh- thường xuống giọng; liệt kê lên, lên, rồi xuống; câu hỏi đuôi xuống nếu chắc chắn, lên nếu thật sự hỏi.",["Are you coming?","Where do you live?","Apples, oranges, and bananas.","You’re coming, aren’t you?","Really? That’s amazing!","Could you open the window, please?","I’m not sure, but I think so."]],
+["C1","Trọng âm đuôi -tion, -ic, -ity","Trọng âm rơi vào âm tiết ngay trước đuôi: eduCAtion, ecoNOmic, aBIlity. Khi đổi đuôi, trọng âm dịch chuyển: PHOtograph, phoTOgraphy.",["education|ˌedʒuˈkeɪʃn","economic|ˌiːkəˈnɒmɪk","ability|əˈbɪləti","photograph|ˈfəʊtəɡrɑːf","photography|fəˈtɒɡrəfi","politics|ˈpɒlətɪks","political|pəˈlɪtɪkl","politician|ˌpɒləˈtɪʃn","technology|tekˈnɒlədʒi","university|ˌjuːnɪˈvɜːsəti","communication|kəˌmjuːnɪˈkeɪʃn","responsibility|rɪˌspɒnsəˈbɪləti"]],
+["C1","Ngắt nhóm ý (thought groups)","Chia câu dài thành các cụm ý, ngắt nhẹ ở dấu phẩy và trước mệnh đề quan hệ. Mỗi cụm có một từ nhấn chính.",["When I got home, I made some tea","The manager, who was late, apologised to everyone","If you need help, just let me know","In my opinion, the plan is too risky"]],
+["C2","Dạng yếu và âm schwa /ə/","Từ chức năng đọc yếu: to /tə/, of /əv/, and /ən/, can /kən/. Khi đứng cuối câu hoặc để nhấn mạnh thì đọc dạng mạnh (Yes, I can /kæn/). Đây là bí quyết nghe tự nhiên.",["a cup of tea and a piece of cake","I have to go","What do you want to do","I’m going to be late","He was at the station","Can you pass the salt","I can swim","Yes, I can"]],
+["C2","Nhấn đối chiếu","Đổi từ được nhấn là đổi ý: I didn’t say HE stole it khác I didn’t say he STOLE it. Hãy đọc từng câu và nhấn một từ khác nhau mỗi lần.",["I didn’t say he stole it","She didn’t buy the red car","I never said you were late","Did you want tea or coffee"]],
+["C2","Rút gọn khi nói nhanh","Người bản xứ nối và rút gọn: going to → gonna, want to → wanna, got to → gotta. Chỉ dùng khi nói thân mật, không dùng trong văn viết trang trọng.",["I’m gonna call you later","I wanna go home","I gotta finish this report","Whatcha doing","I dunno"]]];
 const NG=[["A1","My name is Lan and I live in Hanoi.","Tên mình là Lan và mình sống ở Hà Nội."],["A1","What time does the class start?","Lớp bắt đầu lúc mấy giờ?"],
 ["A2","I usually get up at six and have breakfast at home.","Mình thường dậy lúc sáu giờ và ăn sáng ở nhà."],["A2","Could you tell me where the station is?","Bạn chỉ giúp mình ga ở đâu được không?"],
 ["B1","I’ve been learning English for two years, and I want to improve my speaking.","Mình học tiếng Anh hai năm rồi và muốn cải thiện kỹ năng nói."],["B1","If it rains tomorrow, we will stay at home.","Nếu ngày mai mưa, chúng mình sẽ ở nhà."],
@@ -324,9 +353,9 @@ const LK=[["A1","Thêm ý","and, also","I like tea, and I also like coffee."],["
 
 // ---- giao diện từng mảng ----
 const V2={};
-V2["phat-am"]=()=>gr(2,PA,p=>`<article class="card"><h3>${tg(p[0])}${p[1]}</h3><p>${p[2]}</p><p>`+p[3].map(w=>`<button class="b" data-sp="${w}">🔊 ${w}</button>`).join(" ")+`</p></article>`);
+V2["phat-am"]=()=>gr(2,PA,p=>{const it=p[3].map(w=>{const q=w.split("|");return{t:q[0],i:q[1]}});return `<article class="card"><h3>${tg(p[0])}${p[1]}</h3><p>${p[2]}</p><div class="pw">`+it.map(w=>`<button class="b" data-sp="${w.t}">🔊 ${w.t}${w.i?` <span class="ip">/${w.i}/</span>`:""}</button>`).join("")+`</div><p><button class="c" data-sp="${it.map(w=>w.t).join(". ")}">🔊 Nghe tất cả</button> <button class="c" data-sp="${it.map(w=>w.t).join(". ")}" data-rt=".6">🐢 Nghe tất cả (chậm)</button></p></article>`});
 const ND={i:0};
-V2["nghe"]=()=>{const a=NG.filter(F);if(ND.i>=a.length)ND.i=0;const q=a[ND.i];return intro(3)+`<p class="m">Chép chính tả: nghe rồi gõ lại đúng câu. Câu ${ND.i+1}/${a.length} (${q[0]})</p><div class="card"><p><button class="b p" data-sp="${q[1]}">▶ Nghe</button> <button class="b" data-sp="${q[1]}" data-rt=".6">🐢 Nghe chậm</button></p><textarea id="dk" rows="3" placeholder="Gõ những gì bạn nghe được…"></textarea><p><button class="b p" data-dk="1">Kiểm tra</button> <button class="b" data-dn="1">Câu khác</button></p><div id="dres"></div></div>`};
+V2["nghe"]=()=>{const a=NG.filter(F);if(ND.i>=a.length)ND.i=0;const q=a[ND.i];return intro(3)+`<p class="m">Chép chính tả: nghe rồi gõ lại đúng câu. Câu ${ND.i+1}/${a.length} (${q[0]})</p><div class="card"><p><button class="b p" data-sp="${q[1]}">▶ Nghe</button> <button class="b" data-sp="${q[1]}" data-rt=".45">🐢 Nghe chậm</button> <button class="b" data-sp="${q[1]}" data-rt=".3">🐌 Rất chậm</button> <button class="b" data-sw="${q[1]}">✂ Từng cụm</button></p><textarea id="dk" rows="3" placeholder="Gõ những gì bạn nghe được…"></textarea><p><button class="b p" data-dk="1">Kiểm tra</button> <button class="b" data-dn="1">Câu khác</button></p><div id="dres"></div></div>`};
 const C={sc:0,m:[],d:[],busy:false};
 const chatH=()=>(C.d.length||C.busy?"":`<p class="m">Bấm “Bắt đầu hội thoại” để trợ lý mở lời, hoặc tự gõ câu đầu tiên.</p>`)+C.d.map(x=>{if(x.r=="u")return `<div class="bu u">${esc(x.t)}</div>`;if(x.r=="e")return `<div class="bu m">${esc(x.t)}</div>`;const p=x.t.split(/\n?Sửa:/);return `<div class="bu a">${esc(p[0].trim())}${p[1]?`<span class="fx">✏️ Sửa: ${esc(p[1].trim())}</span>`:""}</div>`}).join("")+(C.busy?`<div class="bu a m">Đang soạn câu trả lời…</div>`:"");
 const upd=()=>{const c=$("#chat");if(c){c.innerHTML=chatH();c.scrollTop=c.scrollHeight}};
@@ -357,8 +386,9 @@ C.m.push({role:"assistant",content:r.text});C.d.push({r:"a",t:r.text});
 const cb=$("#sy");if(cb&&cb.checked)say(r.text.split(/\n?Sửa:/)[0])}
 catch(e){if(C.m.length&&C.m[C.m.length-1].role=="user")C.m.pop();C.d.push({r:"e",t:"Chưa gọi được trợ lý: "+(e.message||e.code||"lỗi không rõ")})}
 C.busy=false;upd()}
-document.addEventListener("click",async e=>{const d=e.target.closest("[data-sp],[data-dk],[data-dn],[data-dr],[data-sc],[data-ms],[data-mm],[data-mst],[data-fb]");if(!d)return;const s=d.dataset;
+document.addEventListener("click",async e=>{const d=e.target.closest("[data-sp],[data-sw],[data-dk],[data-dn],[data-dr],[data-sc],[data-ms],[data-mm],[data-mst],[data-fb]");if(!d)return;const s=d.dataset;
 if(s.sp)say(s.sp,+s.rt||1);
+if(s.sw)sayChunks(s.sw,.5);
 if(s.dk){const a=NG.filter(F)[ND.i],u=new Set(nm($("#dk").value)),w=a[1].split(/\s+/),h=w.filter(x=>u.has(nm(x)[0])).length;
 $("#dres").innerHTML=`<p>${w.map(x=>`<span class="${u.has(nm(x)[0])?"ok2":"no2"}">${x}</span>`).join(" ")}</p><p>Đúng ${h}/${w.length} từ. <i>${a[2]}</i></p>`}
 if(s.dn){ND.i++;R()}
